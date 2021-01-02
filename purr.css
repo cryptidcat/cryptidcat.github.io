@@ -20,5 +20,5 @@ body { background: #000 }
 
 
 .pt-1.pb1 { font-size: 0 }
-.pt-1.pb-1::before { content: "Boo!"; font-size: 18px!important }
+.pt-1.pb-1::before { content: "Priestess"; font-size: 18px!important }
 .pt-1.pb-1 a { font-size: 18px!important }
