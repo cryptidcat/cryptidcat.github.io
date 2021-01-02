@@ -2,3 +2,5 @@ i { color: orange }
 
 
 body { background: #000 }
+
+.navbar-brand { filter: grayscale(1) }
