@@ -1,6 +1,17 @@
+
+/*
+
+    code by ᓚᘏᗢ #35127
+    please don't steal
+    dm me if you want code help! <3
+
+*/
+
 i { color: orange }
 
 
 body { background: #000 }
 
 .navbar-brand { filter: grayscale(1) }
+
+#header .navbar-main { background: none }
