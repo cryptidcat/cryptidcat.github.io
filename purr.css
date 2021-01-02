@@ -18,8 +18,7 @@ body { background: #000 }
 #header .navbar-main { background: none }
 
 
-.pt-1.pb-1, .featured-wolf b { font-size: 0!important }
-.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
-.pt-1.pb-1 a { font-size: 18px!important }
 
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
+th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 .featured-wolf b::before { content: "Sacrifice"; font-size: .875rem }
