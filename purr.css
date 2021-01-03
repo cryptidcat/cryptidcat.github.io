@@ -16,6 +16,7 @@ body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; 
 .navbar-brand { filter: grayscale(1) }
 
 #header .navbar-main,
+#header .breadcrumb-nav,
 #sidebar { background: none }
 
 
