@@ -12,9 +12,9 @@ background-attachment: fixed; background-position: 50% 50%; background-size: cov
 
 .navbar-brand { filter: grayscale(1) }
 
-#header, #footer { background: none }
+#footer { background: none }
 
-#sidebar, .nav-tabs { display: none }
+#header, #sidebar, .nav-tabs { display: none }
 
 
 
