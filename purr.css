@@ -6,24 +6,16 @@
 
 */
 
-body { font-family: cambria, time, sans-serif; font-size: .71rem }
-
-
-
-body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; background-attachment: fixed; background-position: 50% 50%; background-size: cover }
+body {
+font-family: cambria, time, sans-serif; font-size: .71rem; background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000;
+background-attachment: fixed; background-position: 50% 50%; background-size: cover }
 
 .navbar-brand { filter: grayscale(1) }
 
-#header .navbar-main,
-#header .breadcrumb-nav,
-#footer,
-#sidebar { background: none }
 
-#sidebar { display: none }
+#footer { background: none }
 
-
-
-.nav-tabs { display: none }
+#sidebar, .nav-tabs { display: none }
 
 
 
@@ -54,13 +46,14 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 }
 }
 
-
+/*
 .table th.top::before { content: "Allies"; font-size: 1rem }
 .table.mt-3 th { display: none }
 
 th.top { font-size: 0 }
+*/
 
-.devilry {
+h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text!important;
     background: url(https://i.giphy.com/media/pQyBc7MwzjW00/giphy.gif);
