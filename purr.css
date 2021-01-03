@@ -19,13 +19,13 @@ body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; 
 #footer,
 #sidebar { background: none }
 
-#sidebar .card { border: 0 }
+#sidebar { display: none }
+
 
 
 .nav-tabs { display: none }
 
 
-#header .breadcrumb-nav { opacity: 0; user-select: none; pointer-events: none }
 
 
 
@@ -35,19 +35,17 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 
 
 
-#header .navbar-status {
-    background-color: #0000001a;
-    border: 1px solid #ffffff14;
-}
+
+#main { flex: 1;
+    max-width: 100%;
+    background: none }
+
+.container>.row { display: block!important }
 
 
-#main { background: none } 
-
-.card-body { background: #ddd; box-shadow: 5px 5px rgba(255,255,255,.2)  }
 
 
-.nav-link i { float: left }
-
+/* small nav */
 @media (min-width: 1200px) {
 #header .navbar-main .nav-link {
     font-size: .7rem;
@@ -55,9 +53,6 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
     margin-right: 15px;
 }
 }
-
-
-.boo { text-align: center; padding: 100px 0 }
 
 
 .table th.top::before { content: "Allies"; font-size: 1rem }
