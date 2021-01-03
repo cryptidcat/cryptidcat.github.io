@@ -22,3 +22,14 @@ body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
 th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 .featured-wolf b::before { content: "Sacrifice"; font-size: .875rem }
+
+
+
+#header .navbar-status {
+    background-color: #0000001a;
+    border: 1px solid #ffffff14;
+}
+
+
+
+#main, #card-user { background: #ddd; box-shadow: 5px 5px rgba(255,255,255,.2)  }
