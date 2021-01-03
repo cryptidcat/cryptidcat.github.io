@@ -2,7 +2,7 @@
 /*
 
     code by ᓚᘏᗢ #35127
-    please do not take without asking! 
+    please do not take without asking!
 
 */
 
@@ -19,6 +19,7 @@ body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; 
 #footer,
 #sidebar { background: none }
 
+#sidebar .card { border: 0 }
 
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
