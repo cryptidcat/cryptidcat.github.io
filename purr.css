@@ -15,7 +15,8 @@ body { background: url('https://images2.imgbox.com/70/98/n8dcjJoa_o.jpg') #000; 
 
 .navbar-brand { filter: grayscale(1) }
 
-#header .navbar-main { background: none }
+#header .navbar-main,
+#sidebar { background: none }
 
 
 
@@ -29,7 +30,6 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
     background-color: #0000001a;
     border: 1px solid #ffffff14;
 }
-
 
 
 #main, #card-user { background: #ddd; box-shadow: 5px 5px rgba(255,255,255,.2)  }
