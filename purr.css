@@ -56,3 +56,14 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 
 
 .boo { text-align: center; padding: 100px 0 }
+
+
+.table th.top::before { content: "Allies"; font-size: 1rem }
+.table.mt-3 th { display: none }
+
+th.top { font-size: 0 }
+
+.devilry { -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background: url('https://i.giphy.com/media/pQyBc7MwzjW00/giphy.gif');
+  color: red; } 
