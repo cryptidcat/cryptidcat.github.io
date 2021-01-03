@@ -41,7 +41,9 @@ th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 }
 
 
-#main, .card-body { background: #ddd; box-shadow: 5px 5px rgba(255,255,255,.2)  }
+#main { background: none } 
+
+.card-body { background: #ddd; box-shadow: 5px 5px rgba(255,255,255,.2)  }
 
 
 .nav-link i { float: left }
