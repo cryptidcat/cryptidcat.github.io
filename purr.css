@@ -35,12 +35,12 @@ h1 {
     position: relative
 }
 
-.card-header { background: url('https://images2.imgbox.com/0f/07/6wrii1L3_o.gif') }
+.card-header { background: #000 }
 
 
 
 .table th, #main .card { background: #161616 }
-table { background: #000 }
+table { background-color: #000 }
 .table-striped tbody tr:nth-of-type(odd) { background-color: #3d242454 }
 
 #main .card { background: #3d2424 }
