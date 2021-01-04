@@ -47,6 +47,11 @@ table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
 
 #main .card, .table .subheader { background-color: #3d2424 }
+#main .card:hover { background-color: #3d2424 }
+
+
+.table .subheader { background: #000 }
+
 .form-row .card-img-top { mix-blend-mode: luminosity }
 
 #summernote-form { padding: 20px; background: #000; border: 1px solid #252525 }
@@ -54,7 +59,7 @@ table { background-color: #000!important }
 a, .table th a { color: #fff; transition: .5s }
 a:hover { text-decoration: line-through; color: #fff }
 
-.form-row .card { border: 1px solid #252525 }
+.form-row .card { border: 1px solid #252525!important }
 
 .text-danger { color: inherit!important }
 
