@@ -54,6 +54,9 @@ table { background-color: #000!important }
 a { color: #fff; transition: .5s }
 a:hover { text-decoration: line-through }
 
+
+.form-row .card { border: 1px solid #252525 }
+
 /*
 .table th.top::before { content: "Allies"; font-size: 1rem }
 .table.mt-3 th { display: none }
