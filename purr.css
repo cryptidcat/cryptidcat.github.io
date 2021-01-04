@@ -10,7 +10,7 @@
 
 body {
 font-family: cambria, times, serif; font-size: .71rem; background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000;
-background-attachment: fixed }
+background-attachment: fixed; color: #999 }
 
 #footer { background: none }
 #header, #sidebar, .nav-tabs { display: none }
@@ -49,7 +49,10 @@ table { background-color: #000!important }
 #main .card { background: #3d2424 }
 .form-row .card-img-top { mix-blend-mode: luminosity }
 
+.summernote-form { padding: 20px; background: #000 }
 
+a { color: #fff; transition: .5s }
+a:hover { text-decoration: line-through }
 
 /*
 .table th.top::before { content: "Allies"; font-size: 1rem }
