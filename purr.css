@@ -94,5 +94,5 @@ th.top { font-size: 0 }
   letter-spacing: 1px;
   margin-right: 15px }
 #header .navbar-main {
-  min-height: 115px }
+  min-height: 115px; background: none }
 }
