@@ -61,7 +61,7 @@ table { background-color: #000!important }
 a, .table th a { color: #fff; transition: .5s }
 a:hover { text-decoration: line-through; color: #fff }
 
-.form-row .card, .card.mb-3 { border: 1px solid #252525!important }
+.form-row .card, .card.mb-3, .form-control { border: 1px solid #252525!important }
 
 .text-danger { color: inherit!important }
 
