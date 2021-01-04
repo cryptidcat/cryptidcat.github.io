@@ -47,9 +47,9 @@ table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
 
 
-/* WIP link hovers */ 
+/* WIP link hovers */
 #main .card { background: #000 }
-.table .subheader, #main .card:hover { background-color: #3d2424 }
+.table .subheader, .form-row .card:hover { background-color: #3d2424 }
 
 
 .table .subheader { background: #000 }
