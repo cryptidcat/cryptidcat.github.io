@@ -59,7 +59,7 @@ table { background-color: #000!important }
 #summernote-form { padding: 20px; background: #000; border: 1px solid #252525 }
 
 a, .table th a { color: #fff; transition: .5s }
-a:hover { text-decoration: line-through; color: #fff }
+a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff }
 
 .form-row .card, .card.mb-3, .form-control, .card.text-center { border: 1px solid #252525!important }
 
