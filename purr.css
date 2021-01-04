@@ -58,9 +58,9 @@ a:hover { text-decoration: line-through; color: #fff }
 
 .text-danger { color: inherit!important }
 
-.form-control { border: 0; color: inherit!important }
-.btn-success { border-bottom-color: #482f2f }
-.btn-success { color: #fff; background-color: #3d2424; border-color: #482f2f }
+.form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff; background-color: #3d2424 }
+.btn-success:hover, .btn-warning:hover { background: #856c6c }
 
 .progress { background: #ddd0!important; outline: 1px solid #999; margin: 2px; outline-offset: -1px }
 
