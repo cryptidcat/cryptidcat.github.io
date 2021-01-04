@@ -19,6 +19,9 @@ background-attachment: fixed }
 th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
 .featured-wolf b::before { content: "Sacrifice"; font-size: .875rem }
 
+.card a img, .featured-wolf a img { filter:grayscale(1); transition: 1s }
+.card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
+
 #main { flex: 1; max-width: 100%; background: none }
 .container>.row { display: block!important }
 
@@ -40,11 +43,12 @@ h1 {
 
 
 .table th, #main .card { background: #161616 }
-table { background-color: #000 }
+table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd) { background-color: #3d242454 }
 
 #main .card { background: #3d2424 }
 .form-row .card-img-top { mix-blend-mode: luminosity }
+
 
 
 /*
