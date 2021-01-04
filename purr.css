@@ -42,12 +42,14 @@ h1 {
 
 .card-header, .table .bottom, .table tfoot td { background: #000 }
 
-.table th, #main .card { background: #161616 }
+.table th, #main .card, .card.text-center { background: #161616 }
 table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
 
-#main .card, .table .subheader { background-color: #3d2424 }
-#main .card:hover { background-color: #3d2424 }
+
+/* WIP link hovers */ 
+#main .card { background: #000 }
+.table .subheader, #main .card:hover { background-color: #3d2424 }
 
 
 .table .subheader { background: #000 }
@@ -65,7 +67,7 @@ a:hover { text-decoration: line-through; color: #fff }
 
 .form-control { border: 0; color: #fff!important }
 .btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff; background-color: #3d2424; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #856c6c }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #482f2f; }
 
 .progress { background: #ddd0!important; outline: 1px solid #999; margin: 2px; outline-offset: -1px }
 
