@@ -12,7 +12,7 @@ body {
 cursor: default;
 color: #999;
 font-family: cambria, times, serif; font-size: .71rem;
-background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed  }
+background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed }
 
 #footer { background: none }
 #header, #sidebar, .nav-tabs { display: none }
@@ -48,7 +48,7 @@ h1 {
 table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd) { background-color: #3d242454 }
 
-#main .card { background: #3d2424 }
+#main .card, .table .subheader { background-color: #3d2424 }
 .form-row .card-img-top { mix-blend-mode: luminosity }
 
 .summernote-form { padding: 20px; background: #000 }
