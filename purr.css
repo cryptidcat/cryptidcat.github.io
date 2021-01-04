@@ -15,7 +15,7 @@ font-family: cambria, times, serif; font-size: .71rem;
 background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed }
 
 #footer { background: none }
-#header, #sidebar, .nav-tabs { display: none }
+#sidebar, .nav-tabs { display: none }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
 th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
