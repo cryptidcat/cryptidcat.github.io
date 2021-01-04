@@ -61,12 +61,12 @@ table { background-color: #000!important }
 a, .table th a { color: #fff; transition: .5s }
 a:hover { text-decoration: line-through; color: #fff }
 
-.form-row .card { border: 1px solid #252525!important }
+.form-row .card, .card.mb-3 { border: 1px solid #252525!important }
 
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff; background-color: #3d2424; color: #fff }
+.btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff!important; background-color: #3d2424; color: #fff }
 .btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #482f2f; }
 
 .progress { background: #ddd0!important; outline: 1px solid #999; margin: 2px; outline-offset: -1px }
