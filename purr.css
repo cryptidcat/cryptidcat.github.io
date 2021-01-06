@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 
 /*
 
@@ -5,13 +7,21 @@
     please do not copy!
     ask if you'd like code help! I'm happy to help!
 
+
+⟔ codes by a cat | OPEN ⟓
+
+    ugh can I even talk to people???
+    <p>Hello! I'm curious to see if my coding efforts are worth anything~! This game has to many wonderful coders, so I'm not sure how to price things... so please don't hesitate to DM me with suggestions!</p>
+
+Profile/Den - 1500 SC
+
 */
 
 
 body {
 cursor: default;
 color: #999;
-font-family: cambria, times, serif; font-size: .71rem;
+font-family: "PT Mono", monospace; font-size: .71rem;
 background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed }
 
 #footer { background: none }
