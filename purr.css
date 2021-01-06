@@ -116,13 +116,13 @@ th.top { font-size: 0 }
 
 td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
 
-.small, small { font-size: 90%; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
+.small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
 
 
 .alert-info { color: inherit }
 .alert h3 { font-size: inherit }
 
-.top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2); border-bottom: 1px solid #222 }
+.top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2)!important; border-bottom: 1px solid #252525!important }
 
 .featured-wolf img,
 .user-tag, .float-left.mr-2 { border: 1px solid #222 }
