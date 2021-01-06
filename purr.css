@@ -56,7 +56,7 @@ table { background-color: #000!important }
 
 .form-row .card-img-top { mix-blend-mode: luminosity }
 
-#summernote-form { padding: 20px; background: #000; border: 1px solid #252525 }
+#summernote-form, .alert { padding: 20px; background: #000; border: 1px solid #252525 }
 
 a, .table th a { color: #fff; transition: .5s }
 a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff }
