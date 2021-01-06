@@ -58,7 +58,7 @@ table { background-color: #000!important }
 
 #summernote-form, .alert { padding: 20px; background: #000; border: 1px solid #252525 }
 
-a, .table th a, a.alert-link { color: #fff; transition: .5s }
+a, .table th a, .alert-info .alert-link { color: #fff; transition: .5s }
 a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff }
 
 .form-row .card, .card.mb-3, .form-control, .card.text-center { border: 1px solid #252525!important }
@@ -98,7 +98,7 @@ th.top { font-size: 0 }
 }
 
 
-
+.alert-success { color: inherit!important }
 
 
 td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
@@ -106,7 +106,7 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 .small, small { font-size: 90%; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
 
 
-.alert-info { color: inherit } 
+.alert-info { color: inherit }
 .alert h3 { font-size: inherit }
 
 .top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2); border-bottom: 1px solid #222 }
@@ -116,7 +116,6 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 
 .pt-1.pb-1 { font-style: italic; font-weight: 100; letter-spacing: .5px }
 
-
-td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
+.table-straiped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
 
 table.table.table-striped td { vertical-align: middle; }
