@@ -129,6 +129,6 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 
 .pt-1.pb-1 { font-style: italic; font-weight: 100; letter-spacing: .5px }
 
-.table-straiped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
+.table-striped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
 
 table.table.table-striped td { vertical-align: middle; }
