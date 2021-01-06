@@ -96,3 +96,22 @@ th.top { font-size: 0 }
 #header .navbar-main {
   min-height: 115px; background: none }
 }
+
+
+
+
+
+td.left { background: none; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
+
+.small, small { font-size: 90%; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
+
+
+
+.alert-info { color: inherit; background: none; border: 0;  }
+
+.alert h3 { font-size: inherit }
+
+.top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2); border-bottom: 1px solid #222 }
+
+
+.user-tag, .float-left.mr-2 { border: 1px solid #222 }
