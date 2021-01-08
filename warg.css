@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
+#footer { background: none }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
 color: #999; font-family: "PT Mono", monospace; font-size: .71rem;
@@ -9,5 +11,5 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 @media (min-width: 1200px) {
 #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
-.nav-item i { font-size: 125%; vertical-align: middle; display: inline }
+.nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
