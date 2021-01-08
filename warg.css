@@ -3,6 +3,5 @@
 
 body {
 cursor: default;
-color: #999;
-font-family: "PT Mono", monospace; font-size: .71rem;
-background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed }
+color: #999; font-family: "PT Mono", monospace; font-size: .71rem;
+background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
