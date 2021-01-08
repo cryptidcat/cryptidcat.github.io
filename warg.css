@@ -5,3 +5,15 @@ body {
 cursor: default;
 color: #999; font-family: "PT Mono", monospace; font-size: .71rem;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
+
+
+
+
+@media (min-width: 1200px) {
+#header .navbar-main .nav-link {
+  font-size: .7rem;
+  letter-spacing: 1px;
+  margin-right: 15px }
+#header .navbar-main {
+  min-height: 115px; background: none }
+}
