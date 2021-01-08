@@ -10,3 +10,4 @@ background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); backgr
 #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { font-size: 125%; vertical-align: middle; display: inline }
+#header .navbar-main .nav-link .fa { color: inherit }
