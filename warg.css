@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+body {
+cursor: default;
+color: #999;
+font-family: "PT Mono", monospace; font-size: .71rem;
+background: url('https://images2.imgbox.com/bd/53/R0kBMmfg_o.png') #000; background-attachment: fixed }
