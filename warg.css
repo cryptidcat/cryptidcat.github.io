@@ -15,3 +15,6 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
+
+#main { flex: 1; max-width: 100%; background: none }
+.container>.row { display: block!important }
