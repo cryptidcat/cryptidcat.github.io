@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+
+
+
+#footer { background: none }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
+th.pt-1.pb-1::before { content: "High Priestess "; font-size: 18px!important }
+.featured-wolf b::before { content: "Sacrifice"; font-size: .875rem }
+
+.form-row .card a img { filter:grayscale(1); transition: 1s }
+.card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
+
+#main { flex: 1; max-width: 100%; background: none }
+.container>.row { display: block!important }
+
+
+h1 {
+    -webkit-text-fill-color: #5d3636a8;
+    -webkit-background-clip: text!important;
+    background: url('https://images2.imgbox.com/0f/07/6wrii1L3_o.gif');
+    color: #000;
+    font-size: 280px;
+    font-weight: 100; text-align: center;
+    text-shadow: 8px 0px #00000040;
+    position: relative; font-family: 'East Sea Dokdo', cursive;
+        letter-spacing: -20px;
+
+}
+
+.card-header, .table .bottom, .table tfoot td { background: #000 }
+
+.table th, #main .card, .card.text-center { background: #161616 }
+table { background-color: #000!important }
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
+
+
+#main .card { background: #000 }
+.table .subheader, .form-row .card:hover { background-color: #3d2424!important }
+
+.card { transition: .5s }
+
+.table .subheader { background: #000 }
+
+.form-row .card-img-top { mix-blend-mode: luminosity }
+
+#summernote-form, .alert { padding: 20px; background: #000; border: 1px solid #252525 }
+
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
+a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-decoration: line-through; color: #fff }
+
+.form-row .card, .card.mb-3, .form-control, .card.text-center { border: 1px solid #252525!important }
+
+.text-danger { color: inherit!important }
+
+.form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff!important; background-color: #3d2424; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #482f2f; }
+
+.progress { background: #ddd0!important; outline: 1px solid #999; margin: 2px; outline-offset: -1px }
+
+.bg-warning { background-color: #856c6c!important }
+.bg-primary { background-color: #5e4545!important }
+.bg-danger { background-color: #482f2f!important }
+.bg-info { background-color: #2c1313!important }
+
+select { background: #000 }
+
+/*
+.table th.top::before { content: "Allies"; font-size: 1rem }
+.table.mt-3 th { display: none }
+
+th.top { font-size: 0 }
+
+.navbar-brand { filter: grayscale(1) }
+*/
+
+
+
+.alert-success { color: inherit!important }
+
+
+td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
+
+.small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
+
+
+.alert-info { color: inherit }
+.alert h3 { font-size: inherit }
+
+.top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2)!important; border-bottom: 1px solid #252525!important }
+
+.featured-wolf img,
+.user-tag, .float-left.mr-2 { border: 1px solid #222 }
+
+.pt-1.pb-1 { font-style: italic; font-weight: 100; letter-spacing: .5px }
+
+.table-striped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
+
+table.table.table-striped td { vertical-align: middle; }
