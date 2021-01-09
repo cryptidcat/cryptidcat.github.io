@@ -82,6 +82,8 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .form-row .card-img-top { display: none }
 .card-header { padding: 30px }
 
+.card-header { border: 0!important; background: none!important }
+
 .subheader { display: none }
 
 
@@ -123,5 +125,6 @@ td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
 
+td { background: #000 }
 
 .note-editor { filter: invert(1) }
