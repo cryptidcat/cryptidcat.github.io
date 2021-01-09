@@ -22,7 +22,8 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 .form-row .card a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
 
-
+#footer {     font-size: 80%;
+    padding-top: 20px; }
 
 #main {     background: #00000085;
     padding: 60px;
