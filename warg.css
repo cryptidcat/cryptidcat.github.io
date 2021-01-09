@@ -36,8 +36,7 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
 
 
 .card.mb-3, .featured-wolf img {
-    outline: 1px solid #eee3;
-    outline-offset: -1px;
+    border: 1px solid #eee3;
  }
 
 .table th, #main .card, .card.text-center { background: #161616 }
