@@ -69,7 +69,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .form-row .card, td.right.text-right, .pb-1, .py-1 {
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
-    background-size: cover!important; background-position: 50% 50%!important; 
+    background-size: cover!important; background-position: 50% 50%!important;
     background-color: #b32b2b;
     background-blend-mode: darken;
 }
@@ -132,4 +132,4 @@ td { background: #000 }
 
 
 
-div.col-xl-6.col-sm-12.order-xl-9.order-12 { align-self: center }
+div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
