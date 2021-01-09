@@ -61,7 +61,7 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 
 
 
-tr { border-top: 1px solid #eee3 }
+tr { border-top: 1px solid #222 }
 
 td.right.text-right { text-align: center; vertical-align: middle; border-left: 1px solid #222 }
 .form-row .card, td.right.text-right { background-image: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg')!important; background-size: cover }
