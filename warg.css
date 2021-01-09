@@ -35,7 +35,7 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
     border: 1px solid #eee3; }
 
 
-.card.mb-3, .featured-wolf img { 
+.card.mb-3, .featured-wolf img {
     outline: 1px solid #eee3;
     outline-offset: -1px;
  }
@@ -43,7 +43,7 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
 .table th, #main .card, .card.text-center { background: #161616 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
-
+td.left.b { vertical-align: middle }
 
 
 .table .subheader { background: #000 }
