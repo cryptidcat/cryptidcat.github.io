@@ -66,5 +66,5 @@ tr { border-top: 1px solid #eee3 }
 
 .form-row .card { background: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg')!important; background-size: cover; background-attachment: fixed; border: 1px solid #eee3!important }
 
-.form-row .card a { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80% }
+.form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px }
 .form-row .card-img-top { display: none }
