@@ -58,7 +58,9 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
 
 td.left { background: none!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
+#header .navbar-main { background: none!important }
 
+td.row { margin: 0!important }
 
 
 tr { border-top: 1px solid #222 }
@@ -90,7 +92,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 
 
 
-.form-row .card, .card.mb-3, .form-control { border: 1px solid #eee3!important }
+.form-control { border: 1px solid #eee3!important }
 
 .text-danger { color: inherit!important }
 
@@ -127,3 +129,7 @@ td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size
 td { background: #000 }
 
 .note-editor { filter: invert(1) }
+
+
+
+div.col-xl-6.col-sm-12.order-xl-9.order-12 { align-self: center }
