@@ -56,7 +56,7 @@ table { background-color: #000!important }
 .featured-wolf img,
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
+td.left { background: none!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 
 
