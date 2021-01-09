@@ -112,3 +112,7 @@ h1, h2, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 th, .table a { font-weight: 100 }
 
 th.b { text-align: right }
+
+
+.form-control, .btn { font-size: inherit!important }
+.table .bottom, .table tfoot td { color: inherit; background: #111!important }
