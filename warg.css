@@ -64,7 +64,7 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 tr { border-top: 1px solid #eee3 }
 
 td.right.text-right { text-align: center; vertical-align: middle; border-left: 1px solid #222 }
-.form-row .card, td.right.text-right { background-image: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg')!important; background-size: cover; background-attachment: fixed!important }
+.form-row .card, td.right.text-right { background-image: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg')!important; background-size: cover }
 .form-row .card { border: 1px solid #eee3!important }
 
 .form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px }
