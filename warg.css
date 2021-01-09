@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
+
+/* 🦇 */ 
+
 #footer { background: none }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
