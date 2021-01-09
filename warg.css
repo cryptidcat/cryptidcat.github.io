@@ -35,7 +35,7 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 
 .table th, #main .card, .card.text-center { background: #161616 }
 table { background-color: #000!important }
-.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 
 #main .card { background: #000 }
@@ -54,3 +54,8 @@ table { background-color: #000!important }
 .user-tag, .float-left.mr-2 { border: 1px solid #222 }
 
 td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
+
+
+
+
+tr { border-top: 1px solid #eee3 }
