@@ -16,6 +16,10 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 18px!important }
+th.pt-1.pb-1::before { content: "Lich "; font-size: 18px!important }
+.featured-wolf b::before { content: "Thrall"; font-size: .875rem }
+
 #main { flex: 1; max-width: 100%; background: none }
 .container>.row { display: block!important }
 
