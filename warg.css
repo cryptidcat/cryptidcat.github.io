@@ -35,7 +35,10 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
     border: 1px solid #eee3; }
 
 
-
+.card.mb-3, .featured-wolf img { 
+    outline: 1px solid #eee3;
+    outline-offset: -1px;
+ }
 
 .table th, #main .card, .card.text-center { background: #161616 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
@@ -53,7 +56,7 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
     color: inherit;
     padding: 0 5px 5px;
 }
-.featured-wolf img,
+
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
 td.left { background: none!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
