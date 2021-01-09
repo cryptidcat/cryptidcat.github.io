@@ -70,7 +70,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .form-row .card, th.top { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #eee3!important }
 
-.form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
 .card-header { padding: 30px }
 
@@ -96,6 +96,9 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 select { background: #000 }
 
 table.table.table-striped td { vertical-align: middle; }
+
+
+form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 
 
