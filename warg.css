@@ -100,3 +100,5 @@ table.table.table-striped td { vertical-align: middle; }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2 { font-family: 'East Sea Dokdo', cursive; }
+
+.small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
