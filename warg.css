@@ -68,3 +68,4 @@ tr { border-top: 1px solid #eee3 }
 
 .form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px }
 .form-row .card-img-top { display: none }
+.card-header { padding: 30px }
