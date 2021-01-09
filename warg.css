@@ -43,4 +43,10 @@ table { background-color: #000!important }
 .table .subheader { background: #000 }
 .table-striped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
 
-#summernote-form, .alert { padding: 20px; background: #000; border: 1px solid #252525 }
+#summernote-form, .alert {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid;
+    color: inherit;
+    padding: 0 5px 5px;
+}
