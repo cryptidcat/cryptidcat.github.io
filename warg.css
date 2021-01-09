@@ -43,7 +43,9 @@ table { background-color: #000!important }
 
 
 #main .card { background: #000 }
-.table .subheader, .form-row .card:hover { background-color: #3d2424!important }
+.table .subheader, .form-row .card:hover { background-color: #b32b2b!important }
+
+
 .table .subheader { background: #000 }
 .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px }
 
@@ -65,7 +67,13 @@ td.left { background: none!important; font-size: 80%; font-weight: 100; text-ali
 tr { border-top: 1px solid #222 }
 
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
-.form-row .card, td.right.text-right, th.top, .pb-1, .py-1 { background-image: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg')!important; background-size: cover }
+
+.form-row .card, td.right.text-right, th.top, .pb-1, .py-1 {
+    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+    background-size: cover;
+    background-color: #b32b2b;
+    background-blend-mode: darken;
+}
 
 .form-row .card, th.top, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #eee3!important }
