@@ -69,3 +69,27 @@ tr { border-top: 1px solid #eee3 }
 .form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px }
 .form-row .card-img-top { display: none }
 .card-header { padding: 30px }
+
+
+
+
+
+
+.form-row .card, .card.mb-3, .form-control, .card.text-center { border: 1px solid #111!important }
+
+.text-danger { color: inherit!important }
+
+.form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
+
+.progress { background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
+
+.bg-warning { background-color: #856c6c!important }
+.bg-primary { background-color: #5e4545!important }
+.bg-danger { background-color: #482f2f!important }
+.bg-info { background-color: #2c1313!important }
+
+select { background: #000 }
+
+table.table.table-striped td { vertical-align: middle; }
