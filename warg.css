@@ -70,7 +70,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .form-row .card, th.top { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #eee3!important }
 
-.form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px }
+.form-row .card-header b { padding: 20px; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
 .card-header { padding: 30px }
 
@@ -103,3 +103,5 @@ table.table.table-striped td { vertical-align: middle; }
 h1, h2 { font-family: 'East Sea Dokdo', cursive; }
 
 .small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
+
+th { font-weight: 100 }
