@@ -31,7 +31,6 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 
 
 
-.card-header, .table .bottom, .table tfoot td { background: #000 }
 
 .table th, #main .card, .card.text-center { background: #161616 }
 table { background-color: #000!important }
@@ -59,3 +58,9 @@ td.left { background: none!important; font-size: 14px; font-style: italic; font-
 
 
 tr { border-top: 1px solid #eee3 }
+
+
+.form-row .card { background: url('https://images2.imgbox.com/9c/cb/j7xthjOZ_o.jpg'); background-size: cover; background-attachment: fixed; border: 1px solid #eee3 }
+
+
+.card-img-top { opacity: 0 }
