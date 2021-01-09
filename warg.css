@@ -41,7 +41,6 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 25px!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 
-.table .subheader, .form-row .card:hover { background-color: #b32b2b!important }
 
 
 .table .subheader { background: #000 }
