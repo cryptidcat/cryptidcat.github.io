@@ -21,3 +21,17 @@ a:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .n
 
 .form-row .card a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
+
+
+
+
+
+.card-header, .table .bottom, .table tfoot td { background: #000 }
+
+.table th, #main .card, .card.text-center { background: #161616 }
+table { background-color: #000!important }
+.table-striped tbody tr:nth-of-type(odd), .form-control { background-color: #3d242454 }
+
+
+#main .card { background: #000 }
+.table .subheader, .form-row .card:hover { background-color: #3d2424!important }
