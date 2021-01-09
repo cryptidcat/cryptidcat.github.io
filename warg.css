@@ -42,7 +42,6 @@ table { background-color: #000!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 
-#main .card { background: #000 }
 .table .subheader, .form-row .card:hover { background-color: #b32b2b!important }
 
 
