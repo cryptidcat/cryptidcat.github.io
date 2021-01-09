@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 
 .small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
 
-th, .table a { font-weight: 100 }
+th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
 td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 80%; latter-spacing: 1px }
 
@@ -131,5 +131,6 @@ td { background: #000 }
 .note-editor { filter: invert(1) }
 
 
+#footer nav { background: none!important }
 
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
