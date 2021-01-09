@@ -98,5 +98,5 @@ table.table.table-striped td { vertical-align: middle; }
 
 
 
-.note-toolbar .card-header { padding: 0 0 5px }
+.note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2 { font-family: 'East Sea Dokdo', cursive; }
