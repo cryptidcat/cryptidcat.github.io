@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
 #footer { background: none }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
@@ -72,7 +73,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .card-header { padding: 30px }
 
 
-
+h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1 }
 
 
 
@@ -94,3 +95,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 select { background: #000 }
 
 table.table.table-striped td { vertical-align: middle; }
+
+
+
+h2 { font-family: 'East Sea Dokdo', cursive; }
