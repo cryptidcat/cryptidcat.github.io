@@ -116,3 +116,6 @@ th.b { text-align: right }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
+
+
+.note-editor { filter: invert(1) }
