@@ -41,7 +41,7 @@ table { background-color: #000!important }
 #main .card { background: #000 }
 .table .subheader, .form-row .card:hover { background-color: #3d2424!important }
 .table .subheader { background: #000 }
-.table-striped td.text-right img { background: #252525; padding: 5px; border-radius: 20px }
+.table-striped td.text-right img, .mr-2, .mx-2 { background: #252525; padding: 5px; border-radius: 20px }
 
 #summernote-form, .alert {
     background: none;
