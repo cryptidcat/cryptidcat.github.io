@@ -131,6 +131,6 @@ td { background: #000 }
 .note-editor { filter: invert(1) }
 
 
-#footer nav { background: none!important }
+#footer ul { background: none!important }
 
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
