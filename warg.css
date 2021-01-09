@@ -50,3 +50,5 @@ table { background-color: #000!important }
     color: inherit;
     padding: 0 5px 5px;
 }
+
+td.left { background: none!important; font-size: 14px; font-style: italic; font-weight: 100; text-align: right; text-transform: lowercase }
