@@ -18,8 +18,6 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 
-
-
 .h1, h1 {
     font-size: 1.75rem;
     font-family: Berkshire Swash;
@@ -30,4 +28,9 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     color: #3e52916e;
     background-image: url(https://i.giphy.com/media/heOKY8nrJUMfK/giphy.gif);
     mix-blend-mode: hard-light;
+}
+
+#header .navbar-status, #header .breadcrumb-nav {
+    background: linear-gradient(45deg, #5b649bcc, #444f85cf);
+    border-top: 1px solid #a9b0d4a3;
 }
