@@ -14,6 +14,20 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 @media (min-width: 1200px) {
 #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
-#header .navbar-main { min-height: 115px; background: none } }
+#header .navbar-main { background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
+
+
+
+.h1, h1 {
+    font-size: 1.75rem;
+    font-family: Berkshire Swash;
+    font-size: 5rem;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #3e52916e;
+    background-image: url(https://i.giphy.com/media/heOKY8nrJUMfK/giphy.gif);
+    mix-blend-mode: hard-light;
+}
