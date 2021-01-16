@@ -41,6 +41,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 #main {
   background: linear-gradient(130deg, rgb(56 50 80 / 0.9), rgb(148 120 171 / .9));
+  box-shadow: 1px 1px 0px #ffffff2e, -1px -1px #9980b03b;
 }
 
 
