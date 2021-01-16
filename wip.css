@@ -36,5 +36,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     border-bottom: 1px solid #a9b0d4a3;
 }
 #header .navbar-status { border-radius: 0 0 10px 10px }
-#sidebar { padding-left: 0!important }
+#sidebar { background: none; padding-left: 0!important }
 #header .breadcrumb-nav { background: none!important }
+
+#main { background: rgb(148 120 171 / .9) }
