@@ -52,7 +52,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #sidebar .card {
   background: linear-gradient(90deg, #8177d4e6, #273e83e6);
     border-radius: 15px 0;
-    box-shadow: 2px 2px 10px #000f1e9e;
+    box-shadow: 2px 2px 10px #000f1e9e; border: 0!important
 }
 
 .table th {
