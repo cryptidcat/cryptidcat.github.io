@@ -32,7 +32,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 }
 
 #header .navbar-status, #header .navbar-main {
-    background: linear-gradient(130deg, rgb(15 41 73 / 0.9), rgb(56 50 80 / 0.9), rgb(148 120 171 / .9));
+    background: linear-gradient(130deg, #273e83e6, #8177d4e6, #8177d4e6);
     border-bottom: 1px solid #8a80ce;
 }
 #header .navbar-status { border-radius: 0 0 10px 10px }
@@ -40,14 +40,14 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .breadcrumb-nav { background: none!important }
 
 #main {
-  background: linear-gradient(130deg, rgb(56 50 80 / 0.9), rgb(148 120 171 / .9));
+  background: linear-gradient(130deg, #273e83e6, #8177d4e6);
   border: 1px solid #8a80ce;
   box-shadow: 2px 2px 10px #000f1e9e;
 }
 
 
 #sidebar .card {
-    background: linear-gradient(130deg, rgb(15 41 73 / 0.9), rgb(56 50 80 / 0.9));
+  background: linear-gradient(130deg, #8177d4e6, #8177d4e6);
     border-radius: 15px 0;
     border: 1px solid #8a80ce;
     box-shadow: 2px 2px 10px #000f1e9e;
