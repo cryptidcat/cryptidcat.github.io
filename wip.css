@@ -31,10 +31,9 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     mix-blend-mode: hard-light;
 }
 
-#header .navbar-status {
-    background: linear-gradient(45deg, #5b649bcc, #444f85cf);
-    border-top: 1px solid #a9b0d4a3;
+#header .navbar-status, #header .navbar-main {
+    background: linear-gradient(130deg, rgb(15 41 73 / 0.9), rgb(56 50 80 / 0.9), rgb(148 120 171 / .9));
+    border-bottom: 1px solid #a9b0d4a3;
 }
 #sidebar { padding-left: 0!important }
-#header .navbar-main { background: #fff }
 #header .breadcrumb-nav { background: none!important }
