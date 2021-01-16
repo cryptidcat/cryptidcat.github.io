@@ -62,7 +62,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     background-position: 50% 50%;
     background-color: #726abe;
     background-blend-mode: screen;
-    border-bottom: 2px solid #ffffff24;
+    border-bottom: 2px solid #716faf;
 }
 
 #main .card, .card.text-center { background: #161616 }
@@ -147,7 +147,7 @@ table.table.table-striped td { vertical-align: middle; }
 
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
-th.top { padding: 50px; background: none!important }
+th.top { padding: 20px; background: none!important }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; }
