@@ -10,7 +10,7 @@ background-image: url('https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg'); backgr
 background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 2px; color: #fff }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 3px; color: #fff; text-decoration: none }
 
 @media (min-width: 1200px) {
   #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
@@ -18,6 +18,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
+.breadcrumb-item.active { display: none }
 
 .h1, h1 {
     font-size: 1.75rem;
