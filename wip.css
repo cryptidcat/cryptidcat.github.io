@@ -35,6 +35,6 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     background: linear-gradient(45deg, #5b649bcc, #444f85cf);
     border-top: 1px solid #a9b0d4a3;
 }
-
-#header .navbar-main { background: #fff } 
+#sidebar { padding-left: 0!important }
+#header .navbar-main { background: #fff }
 #header .breadcrumb-nav { background: none!important }
