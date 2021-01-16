@@ -9,6 +9,10 @@ color: #b4a7de; font-family: calibri, arial, sans-serif; font-size: .71rem;
 background-image: url('https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg'); background-color: #000;
 background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
+
+.table th { background-image: url('https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg');
+background-attachment: fixed; background-size: cover; background-position: 50% 50% }
+
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 3px; color: #fff; text-decoration: none }
 
@@ -27,7 +31,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     text-align: center;
     background-clip: text;
     -webkit-background-clip: text;
-    color: #3e52916e;
+    color: #ffffff47;
     background-image: url(https://i.giphy.com/media/heOKY8nrJUMfK/giphy.gif);
     mix-blend-mode: hard-light;
 }
