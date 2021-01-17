@@ -128,19 +128,22 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 .form-control { border: 0; color: #fff!important }
 
 
-.btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover {
+.btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-danger, .btn-primary:hover, .btn-primary {
     border-bottom-color: #706cbd;
     color: #fff!important;
     background-color: #a39ff5;
+    transition: .5s;
 }
 
 
 
-.btn-success:hover, .btn-warning:hover {
+.btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-primary:hover {
   text-shadow: 0 0 3px
 }
 
 
+
+.card-body.pt-1.pb-1 {  }
 
 .progress { background: none!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
 
