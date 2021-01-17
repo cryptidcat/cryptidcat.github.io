@@ -38,7 +38,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     -webkit-background-clip: text;
     color: #ffffff47;
     background-image: url(https://i.giphy.com/media/heOKY8nrJUMfK/giphy.gif);
-    mix-blend-mode: hard-light;
+    mix-blend-mode: hard-light
 }
 
 #header .navbar-status, #header .navbar-main {
@@ -68,7 +68,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     background-position: 50% 0%;
     background-color: #726abe;
     background-blend-mode: screen;
-    border-bottom: 2px solid #716faf;
+    border-bottom: 2px solid #716faf
 }
 
 #main .card, .card.text-center { background: #5657a1 }
@@ -102,7 +102,7 @@ tr td { border-top: 1px solid #8a80ce }
     border: 0;
     border-bottom: 1px solid #eee3;
     color: inherit;
-    padding: 0 5px 5px;
+    padding: 0 5px 5px
 }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
@@ -139,7 +139,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
     border-bottom-color: #706cbd;
     color: #fff!important;
     background-color: #a39ff5;
-    transition: .5s;
+    transition: .5s
 }
 
 .card-title small { font-family: calibri, arial, sans-serif }
@@ -151,19 +151,17 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 
 
 
-.card-body.pt-1.pb-1 {  }
-
 .progress { background: none!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
 
 .bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #6f68bb!important }
 
 select { background: #000 }
 
-table.table.table-striped td { vertical-align: middle; }
+table.table.table-striped td { vertical-align: middle }
 
 form#summernote-form {
     background: #5657a1;
-    padding: 20px;
+    padding: 20px
 }
 
 .note-toolbar { color: #000!important }
