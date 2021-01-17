@@ -21,7 +21,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .navbar-main .nav-link .fa { color: inherit }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-th.pt-1.pb-1::before { content: ""; font-size: 25px!important }
+th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
 .featured-wolf b::before { content: "dead doesn't mean gone"; font-size: .875rem; font-style: italic }
 
 #main { flex: 1; max-width: 100%; background: none }
