@@ -137,8 +137,10 @@ select { background: #000 }
 
 table.table.table-striped td { vertical-align: middle; }
 
-
-form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
+form#summernote-form {
+    background: #5657a1;
+    padding: 20px;
+}
 
 th.top { padding: 20px }
 
