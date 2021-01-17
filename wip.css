@@ -58,7 +58,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .table th {
     background-image: url(https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg);
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50% 0%;
     background-color: #726abe;
     background-blend-mode: screen;
     border-bottom: 2px solid #716faf;
