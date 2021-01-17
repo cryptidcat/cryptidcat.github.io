@@ -170,5 +170,6 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 hr.flowers { filter: invert(1) }
 
-
-.form-control { background: pink }
+.form-control {
+    background: #6e67b9!important;
+}
