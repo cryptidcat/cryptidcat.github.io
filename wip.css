@@ -14,7 +14,7 @@ background-attachment: fixed; background-size: cover; background-position: 50% 5
 
 #footer { font-size: 80%; padding-top: 20px }
 
-.text-dark, .dropdown-menu { color: inherit }
+.text-dark, .dropdown-menu { color: inherit!important }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link, a.text-dark:focus { color: #fff; transition: .5s }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa, a.text-dark:hover { text-shadow: 0 0 3px; color: #fff!important; text-decoration: none }
@@ -28,6 +28,8 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 .breadcrumb-item.active { display: none }
+
+.dropdown-divider { border-top: 1px solid #8a80ce }
 
 .h1, h1 {
     font-size: 1.75rem;
