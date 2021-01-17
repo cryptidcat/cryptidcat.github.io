@@ -24,7 +24,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .h1, h1 {
     font-size: 1.75rem;
-    font-family: Berkshire Swash;
+    font-family: 'Berkshire Swash';
     font-size: 5rem;
     text-align: center;
     background-clip: text;
@@ -147,7 +147,7 @@ form#summernote-form {
 th.top { padding: 20px }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; }
+h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; text-shadow: 2px 2px #26428a; }
 
 .small, small, td.b { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
 
