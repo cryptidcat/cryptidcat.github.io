@@ -64,15 +64,12 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     border-bottom: 2px solid #716faf;
 }
 
-#main .card, .card.text-center { background: #161616 }
+#main .card, .card.text-center { background: #5657a1 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
 
-.table, table {
-    border: 0;
-    box-shadow: 0 0 10px #1714246e;
-}
+.table, table { border: 0 }
 tr td { border-top: 1px solid #8a80ce }
 
 .btn { color: inherit }
@@ -125,8 +122,6 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
-h1 { font-size: 400% }
-
 
 .text-danger { color: inherit!important }
 
@@ -163,13 +158,10 @@ td { background: #5657a1 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-
-
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
-
 .small, small { font-family: calibri; font-size: 8px }
-
-
 .card-header { background: none; border: 0 }
+
+hr.flowers { filter: invert(1) }
