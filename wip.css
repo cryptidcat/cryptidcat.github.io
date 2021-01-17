@@ -164,7 +164,7 @@ th.top { padding: 20px }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; text-shadow: 2px 2px #26428a; }
 
-.small, small, td.b { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
+.small, small, td.b, #sidebar .small { font-size: 10px; text-transform: uppercase; letter-spacing: 1px }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
@@ -180,7 +180,7 @@ select option { background: #000!important; color: inherit!important }
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
-.small, small { font-family: calibri; font-size: 8px }
+#sidebar .small { font-family: 'calibri' }
 .card-header { background: none; border: 0 }
 
 hr.flowers { filter: invert(1) }
