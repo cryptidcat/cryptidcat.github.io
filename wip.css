@@ -271,3 +271,20 @@ hr.flowers { filter: invert(1) }
 .table .left {
     background-color: #5657a1;
 }
+
+
+#footer .copyright::after { content: "CSS by ᓚᘏᗢ #35127."; display: block }
+
+.pb-1, .py-1 { padding: 0 }
+
+#footer { padding: 0; text-align: right }
+
+
+#footer {
+    justify-content: flex-end!important;
+ }
+
+ #footer .navbar { padding: 0; }
+
+
+ #footer { padding: 15px; }
