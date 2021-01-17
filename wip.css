@@ -286,12 +286,11 @@ hr.flowers { filter: invert(1) }
 
 #footer { padding: 0; text-align: right }
 
-
 #footer {
     justify-content: flex-end!important;
  }
 
  #footer .navbar { padding: 0; }
-
-
+#footer .copyright, #footer ul { margin: 0 0 0 auto!important }
+#footer ul { padding: 0!important }
  #footer { padding: 15px; }
