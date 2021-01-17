@@ -45,7 +45,7 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
     border: 1px solid #eee3;
  }
 
-.table th, #main .card, .card.text-center { background: #161616 }
+.table th, #main .card, .card.text-center { background: #2d2d2d }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
@@ -118,12 +118,12 @@ table.table.table-striped td { vertical-align: middle; }
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
 th.top {
-    padding: 10px;
+    padding: 15px;
     background-attachment: fixed;
     letter-spacing: 1px;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 85%;
+    font-size: 80%;
 }
 
 
@@ -148,6 +148,7 @@ td { background: #181818 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
+.table { border: 1px solid #2d2d2d } 
 
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
