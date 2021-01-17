@@ -93,8 +93,10 @@ tr td { border-top: 1px solid #8a80ce }
 
 
 .nav {
-    flex-direction: column
+    flex-direction: row-reverse
 }
+
+#main .nav-item i { display: none }
 
 
 
