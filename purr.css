@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Niconne', cursive; }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 80%; latter-spacing: 1px }
+td.b { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
