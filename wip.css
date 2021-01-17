@@ -8,7 +8,7 @@
 #footer { background: none }
 
 body { cursor: default;
-color: #a9b1ea; font-family: calibri, arial, sans-serif; font-size: .71rem;
+color: #a9b1ea; font-family: calibri, arial, sans-serif; font-size: .8rem;
 background-image: url('https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg'); background-color: #000;
 background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
@@ -129,7 +129,7 @@ tr td { border-top: 1px solid #8a80ce }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.left { font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 td.row { margin: 0!important }
 
