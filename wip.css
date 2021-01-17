@@ -128,7 +128,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 .form-control { border: 0; color: #fff!important }
 
 
-.btn-success, .btn-warning {
+.btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover {
     border-bottom-color: #706cbd;
     color: #fff!important;
     background-color: #a39ff5;
@@ -137,9 +137,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 
 
 .btn-success:hover, .btn-warning:hover {
-    border-bottom-color: rgba(255,255,255,.05);
-    color: #a39ff5!important;
-    background-color: #fff;
+  text-shadow: 0 0 3px
 }
 
 
