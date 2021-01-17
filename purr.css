@@ -128,7 +128,7 @@ th.top {
 }
 
 
-th.top::first-letter { font-family: 'Niconne' }
+th.top::first-letter { font-family: 'Niconne'; font-size: 150%; font-weight: 100; float: left }
 
 .small, small {
     font-size: inherit;
