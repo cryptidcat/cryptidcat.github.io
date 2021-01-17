@@ -98,8 +98,20 @@ tr td { border-top: 1px solid #8a80ce }
 #sidebar .bookmarks { padding-left: 0 }
 
 
+.s-chat-sidebar #label_currentChannel { border: 0; color: inherit }
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+    background: #5657a1
+}
 
-
+.s-chat-sidebar #fraChatChannelMenu {
+    background: #5657a1;
+    color: inherit;
+    border: 0;
+    box-shadow: none;
+}
+#fra_chatContainer .channelMenu .channelSwitcher {
+    color: inherit }
+    
 .table .subheader { background: #000 }
 .table-striped td.text-right img, .mr-2, .mx-2 { background: #ffffff24; padding: 5px; border-radius: 20px }
 
