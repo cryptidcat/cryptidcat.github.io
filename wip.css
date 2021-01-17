@@ -148,9 +148,12 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .subheader { display: none }
 
-
-h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
-
+h3.mb-0 {
+    padding: 10px;
+    text-align: right;
+    background: #eee1;
+    text-transform: lowercase;
+}
 
 .text-danger { color: inherit!important }
 
