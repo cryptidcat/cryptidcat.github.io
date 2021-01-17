@@ -87,7 +87,7 @@ td.left.b { vertical-align: middle }
 .table, table { border: 0 }
 tr td { border-top: 1px solid #8a80ce }
 
-.btn, .text-muted { color: inherit }
+.btn, .text-muted { color: inherit!important }
 
 
 
