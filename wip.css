@@ -145,11 +145,11 @@ th.top { padding: 20px }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; }
 
-.small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
+.small, small, td.b { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 80%; latter-spacing: 1px }
+td.b { text-align: right; font-weight: 100 }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
