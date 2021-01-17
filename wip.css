@@ -222,7 +222,7 @@ hr.flowers { filter: invert(1) }
     background-color: #5657a1;
     font-size: inherit;
 }
-.s-chat-message_timestamp { color: inherit; font-size: 90%; font-weight: bold }
+.s-chat-message_timestamp { color: inherit; font-size: 80%; font-weight: bold }
 
 
 #chatMessagePinned.s-chat-message__pinned {
