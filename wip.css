@@ -252,3 +252,12 @@ hr.flowers { filter: invert(1) }
 #chatMessageList::-webkit-scrollbar-track {
     background-color: #8983c6;    border-radius: 0;
 }
+
+
+
+#fra_chatContainer #txtChatInput {
+    padding: 6px;
+    background: #6e67b9;
+    border: 0;
+    color: inherit;
+}
