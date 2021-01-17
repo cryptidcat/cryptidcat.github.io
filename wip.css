@@ -111,7 +111,9 @@ tr td { border-top: 1px solid #8a80ce }
 }
 #fra_chatContainer .channelMenu .channelSwitcher {
     color: inherit }
-    
+    #fra_chatContainer .channelMenu .channelSwitcher:hover {
+    background: #fff
+}
 .table .subheader { background: #000 }
 .table-striped td.text-right img, .mr-2, .mx-2 { background: #ffffff24; padding: 5px; border-radius: 20px }
 
@@ -219,4 +221,20 @@ hr.flowers { filter: invert(1) }
   border: 0;
     background-color: #5657a1;
     font-size: inherit;
+}
+
+
+
+#chatMessagePinned.s-chat-message__pinned {
+    background: #5657a1;
+    border-bottom-color: #716faf !important;
+    color: inherit;
+}
+#chatMessageContainer { border: 0 }
+
+
+
+.s-chat-message:nth-child(even), 
+.s-chat-message:nth-child(odd) {
+    background: #5657a1;
 }
