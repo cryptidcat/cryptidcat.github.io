@@ -35,6 +35,8 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .nav-link.active { display: none }
 
+.mb-1 small { font-size: inherit }
+
 .h1, h1 {
     font-size: 1.75rem;
     font-family: 'Berkshire Swash';
