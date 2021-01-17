@@ -232,9 +232,11 @@ hr.flowers { filter: invert(1) }
 }
 #chatMessageContainer { border: 0 }
 
+.s-chat-message {
+    border-bottom: 1px solid #716faf } 
 
 
-.s-chat-message:nth-child(even), 
+.s-chat-message:nth-child(even),
 .s-chat-message:nth-child(odd) {
     background: #5657a1;
 }
