@@ -31,6 +31,10 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .dropdown-divider { border-top: 1px solid #8a80ce }
 
+.nav-tabs { border: 0 }
+
+.nav-link.active { display: none }
+
 .h1, h1 {
     font-size: 1.75rem;
     font-family: 'Berkshire Swash';
@@ -88,10 +92,9 @@ tr td { border-top: 1px solid #8a80ce }
 
 
 
-
-
-/* */
-
+.nav {
+    flex-direction: column
+}
 
 
 
