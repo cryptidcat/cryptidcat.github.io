@@ -133,7 +133,7 @@ td.left { background: #000!important; font-size: 80%; font-weight: 100; text-ali
 
 td.row { margin: 0!important }
 
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
+td.right.text-right { text-align: center!important; vertical-align: middle!important }
 
 
 .form-row .card { border: 1px solid #eee3!important }
@@ -262,4 +262,9 @@ hr.flowers { filter: invert(1) }
     background: #6e67b9;
     border: 0;
     color: inherit;
+}
+
+
+.table .left {
+    background-color: #5657a1;
 }
