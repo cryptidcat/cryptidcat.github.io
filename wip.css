@@ -126,8 +126,23 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
+
+
+.btn-success, .btn-warning {
+    border-bottom-color: #706cbd;
+    color: #fff!important;
+    background-color: #a39ff5;
+}
+
+
+
+.btn-success, .btn-warning {
+    border-bottom-color: rgba(255,255,255,.05);
+    color: #a39ff5!important;
+    background-color: #fff;
+}
+
+
 
 .progress { background: none!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
 
