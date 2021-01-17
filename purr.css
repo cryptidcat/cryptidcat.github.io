@@ -88,7 +88,10 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
-.card-header { padding: 30px }
+.card-header {
+    background: none;
+    border: 0;
+}
 
 .card.text-center { border: 0!important; background: none!important }
 
@@ -148,7 +151,7 @@ td { background: #181818 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-.table { border: 1px solid #2d2d2d } 
+.table { border: 1px solid #2d2d2d }
 
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
