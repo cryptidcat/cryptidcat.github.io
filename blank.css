@@ -2,75 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
 
 
+/* for 𝖜𝖆𝖗𝖌 with love,
+          - ᓚᘏᗢ */
 
 
 
 
 
 
-h1 {
-    -webkit-text-fill-color: #5d3636a8;
-    -webkit-background-clip: text!important;
-    background: url('https://images2.imgbox.com/0f/07/6wrii1L3_o.gif');
-    color: #000;
-    font-size: 280px;
-    font-weight: 100; text-align: center;
-    text-shadow: 8px 0px #00000040;
-    position: relative; font-family: 'East Sea Dokdo', cursive;
-        letter-spacing: -20px;
 
+.table .subheader { background: #000 }
+.table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px }
+
+#summernote-form, .alert {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #eee3;
+    color: inherit;
+    padding: 0 5px 5px;
 }
 
+.user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-.card { transition: .5s }
+td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+
+#header .navbar-main { background: none!important }
+
+td.row { margin: 0!important }
 
 
-.form-row .card-img-top { mix-blend-mode: luminosity }
+tr { border-top: 1px solid #222 }
+
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
+
+.form-row .card, td.right.text-right, .pb-1, .py-1 {
+    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+    background-size: cover!important; background-position: 50% 50%!important;
+    background-color: #b32b2b;
+    background-blend-mode: darken;
+}
+
+.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
+.form-row .card { border: 1px solid #eee3!important }
+
+.pb-1, .py-1 { padding: 20px!important }
+
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-img-top { display: none }
+.card-header { padding: 30px }
+
+.card.text-center { border: 0!important; background: none!important }
+
+.subheader { display: none }
 
 
+h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
-.form-row .card, .card.mb-3, .form-control, .card.text-center { border: 1px solid #252525!important }
+h1 { font-size: 400% }
+
 
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { border-bottom-color: #482f2f; color: #fff!important; background-color: #3d2424; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #482f2f; }
+.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #3d2424; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #856c6c; border-bottom-color: #eee3; }
 
-.progress { background: #ddd0!important; outline: 1px solid #999; margin: 2px; outline-offset: -1px }
+.progress { background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
 
-.bg-warning { background-color: #856c6c!important }
-.bg-primary { background-color: #5e4545!important }
-.bg-danger { background-color: #482f2f!important }
-.bg-info { background-color: #2c1313!important }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
 
 select { background: #000 }
 
-/*
-.table th.top::before { content: "Allies"; font-size: 1rem }
-.table.mt-3 th { display: none }
-
-th.top { font-size: 0 }
-
-.navbar-brand { filter: grayscale(1) }
-*/
+table.table.table-striped td { vertical-align: middle; }
 
 
+form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
 
-.alert-success { color: inherit!important }
+th.top { padding: 50px; background: none!important }
 
-
+.note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 
 .small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
 
+th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-.alert-info { color: inherit }
-.alert h3 { font-size: inherit }
+td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 80%; latter-spacing: 1px }
 
-.top { font-variant: small-caps; font-size: 120%; letter-spacing: 1px; color: rgba(255,255,255,.2)!important; border-bottom: 1px solid #252525!important }
+.form-control, .btn { font-size: inherit!important }
+.table .bottom, .table tfoot td { color: inherit; background: #111!important }
+td { background: #000 }
+.note-editor { filter: invert(1) }
+#footer ul, select { background: none!important }
+div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
+select option { background: #000!important; color: inherit!important }
 
 
-.pt-1.pb-1 { font-style: italic; font-weight: 100; letter-spacing: .5px }
 
-
-table.table.table-striped td { vertical-align: middle; }
+h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
+img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
