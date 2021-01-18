@@ -4,3 +4,13 @@
 .shy { display: flex; margin: -5px }
 .shy a { flex: 1; text-align: center; background: #ffffff0e;  margin: 5px; padding: 20px; border: 1px solid #ffffff0f; text-transform: lowercase; font-family: 'niconne'; font-size: 1.5rem; line-height: 1 }
 .shy a:hover { background: #00000006; text-decoration: none; text-shadow: 0 0 10px #fff }
+
+.bat {
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    user-select: none;
+    pointer-events: none;
+    margin: -160px 0 0 290px;
+    filter: grayscale(1)
+  }
