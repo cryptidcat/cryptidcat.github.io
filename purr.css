@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
-/* SNAIL */ 
+/* SNAIL */
 
 #footer { background: none }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
@@ -21,7 +21,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
 th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf b::before { content: "as above\Aso below\A\A\2625"; font-size: .875rem!important; white-space: pre-wrap }
+.featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
 #main { flex: 1; max-width: 100%; background: none }
 .container>.row { display: block!important }
