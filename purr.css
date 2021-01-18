@@ -39,6 +39,11 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
     }
 
 
+    tr.pup {
+        font-size: inherit!important;
+    }
+
+
 .card.mb-3, .featured-wolf img {
     border: 1px solid #eee3;
  }
