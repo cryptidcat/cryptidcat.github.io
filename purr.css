@@ -36,7 +36,7 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
 
     #main {
         background: #1f1f1fe3;
-        padding: 60px;
+        padding: 4%;
         border: 1px solid #ffffff0f;
     }
 
