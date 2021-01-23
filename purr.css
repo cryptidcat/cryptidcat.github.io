@@ -11,8 +11,8 @@ body { cursor: default;
 color: #999; font-family: "Cambria", serif; font-size: .71rem;
 background-image: url('https://images2.imgbox.com/03/d8/toV6ZzVz_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 3px; color: #fff }
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 2px; color: #fff; text-decoration: none }
 
 @media (min-width: 1200px) {
 #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
