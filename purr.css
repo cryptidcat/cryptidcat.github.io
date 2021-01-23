@@ -111,7 +111,7 @@ h1 { font-size: 400% }
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
+.btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
 .btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
 
 .progress { background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
