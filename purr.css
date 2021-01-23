@@ -91,7 +91,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
 .card-header {
     background: none;
@@ -161,3 +161,7 @@ select option { background: #000!important; color: inherit!important }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
+
+
+
+#main .card { margin: 0!important }
