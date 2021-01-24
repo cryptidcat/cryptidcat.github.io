@@ -1,296 +1,170 @@
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 
-    /* =====================
-    by ᓚᘏᗢ#35127 for #8497
-    please exuse the mess!
-    ===================== */
+/* a commission by #35127 for #4160 ♡ */
+
+#main>br { display: none }
 
 #footer { background: none }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #bcc4ff; font-family: calibri, arial, sans-serif; font-size: .8rem;
-background-image: url('https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg'); background-color: #000;
-background-attachment: fixed; background-size: cover; background-position: 50% 50% }
+color: #999; font-family: "Cambria", serif; font-size: .71rem;
+background-image: url('https://images2.imgbox.com/03/d8/toV6ZzVz_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
-#footer { font-size: 80%; padding-top: 20px }
-
-.text-dark, .dropdown-menu { color: inherit!important }
-
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link, a.text-dark:focus, .s-chat-message__pinned a { color: #fff; transition: .5s }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa, a.text-dark:hover, .s-chat-message__pinned a:hover { text-shadow: 0 0 3px; color: #fff!important; text-decoration: none }
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 3px #fff; color: transparent; text-decoration: none }
 
 @media (min-width: 1200px) {
-  #header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
-}
-
-.dropdown-item:focus, .dropdown-item:hover { background: none }
-
+#header .navbar-main .nav-link { font-size: .7rem; letter-spacing: 1px; margin-right: 15px }
+#header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
-.breadcrumb-item.active { display: none }
 
-.dropdown-divider { border-top: 1px solid #8a80ce }
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
+th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
+.featured-wolf { font-size: 0!important }
+.featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
-.nav-tabs { border: 0 }
+#main { flex: 1; max-width: 100%; background: none }
+.container>.row { display: block!important }
 
-.nav-link.active { display: none }
+.form-row .card a img { filter:grayscale(1); transition: 1s }
+.card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
 
-.mb-1 small { font-size: inherit }
+#footer {     font-size: 80%;
+    padding-top: 20px; }
 
-.h1, h1 {
-    font-size: 1.75rem;
-    font-family: 'Berkshire Swash';
-    font-size: 5rem;
-    text-align: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: #ffffff47;
-    background-image: url(https://i.giphy.com/media/heOKY8nrJUMfK/giphy.gif);
-    mix-blend-mode: hard-light
-}
+    #main {
+        background: #1f1f1fe3;
+        padding: 4%;
+        border: 1px solid #ffffff0f;
+    }
 
-#header .navbar-status, #header .navbar-main {
-    background: linear-gradient(90deg, #273e83e6, #8177d4e6, #8177d4e6);
-    border-bottom: 1px solid #8a80ce }
-#header .navbar-status { border-radius: 0 0 10px 10px }
-#sidebar { background: none; padding-left: 0!important }
-#header .breadcrumb-nav { background: none!important }
 
-/* old
-#main {
-  background: linear-gradient(90deg, #273e83e6, #8177d4e6);
-  box-shadow: 2px 2px 10px #000f1e9e }
-  */
-  #main {
-    background: linear-gradient(90deg, #273e8399, #8177d499);
-    box-shadow: 2px 2px 10px #000f1e9e;
-    border: 1px solid #8a80ce;
-}
+    tr.pup {
+        font-size: inherit!important;
+    }
+
 
 .card.mb-3, .featured-wolf img {
-    border: 1px solid #8a80ce
+    border: 1px solid #eee3;
  }
 
-#sidebar .card {
-  background: linear-gradient(90deg, #8177d4e6, #273e83e6);
-    border-radius: 15px 0;
-    box-shadow: 2px 2px 10px #000f1e9e; border: 0!important
-}
-
-.table th {
-    background-image: url(https://images2.imgbox.com/ed/f4/4OtrJyOx_o.jpg);
-    background-size: cover;
-    background-position: 50% 0%;
-    background-color: #726abe;
-    background-blend-mode: screen;
-    border-bottom: 2px solid #716faf
-}
-
-#main .card, .card.text-center { background: #5657a1 }
+.table th, #main .card, .card.text-center { background: #2d2d2d }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
 
-.table, table { border: 0 }
-tr td { border-top: 1px solid #8a80ce }
 
-.btn, .text-muted { color: inherit!important }
-
-
-
-
-
-
-.nav { flex-direction: row-reverse }
-#main .nav-link { border: 0!important }
-#main .nav-item i { display: none }
-#sidebar .bookmarks { padding-left: 0 }
-
-
-.s-chat-sidebar #label_currentChannel { border: 0; color: inherit }
-#fra_chatContainer .channelMenu .channelSwitcher.active {
-    background: #5657a1
-}
-
-.s-chat-sidebar #fraChatChannelMenu {
-    background: #5657a1;
-    color: inherit;
-    border: 0;
-    box-shadow: none;
-}
-#fra_chatContainer .channelMenu .channelSwitcher {
-    color: inherit }
-    #fra_chatContainer .channelMenu .channelSwitcher:hover {
-    background: #fff
-}
 .table .subheader { background: #000 }
-.table-striped td.text-right img, .mr-2, .mx-2 { background: #ffffff24; padding: 5px; border-radius: 20px }
+.table-striped td.text-right img, .mr-2, .mx-2 { max-width: 25px; margin: 0 2px; background: #eee3; padding: 5px; border-radius: 20px }
 
 #summernote-form, .alert {
     background: none;
     border: 0;
     border-bottom: 1px solid #eee3;
     color: inherit;
-    padding: 0 5px 5px
+    padding: 0 5px 5px;
 }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-td.left { font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+
+#header .navbar-main { background: none!important }
 
 td.row { margin: 0!important }
 
-td.right.text-right { text-align: center!important; vertical-align: middle!important }
 
+tr { border-top: 1px solid #222 }
 
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
+
+.form-row .card, td.right.text-right, .pb-1, .py-1, th.top {
+    background-image: url(https://images2.imgbox.com/03/d8/toV6ZzVz_o.jpg)!important;
+    background-size: cover!important; background-position: 50% 50%!important;
+    background-blend-mode: exclusion;
+}
+
+.form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #eee3!important }
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
-
+.card-header {
+    background: none;
+    border: 0;
+}
 
 .card.text-center { border: 0!important; background: none!important }
 
 .subheader { display: none }
 
-h3.mb-0 {
-    padding: 10px;
-    text-align: right;
-    background: #eee1;
-    text-transform: lowercase;
-}
+
+h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
+
+h1 { font-size: 400% }
+
 
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
+.btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
+.btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
 
+.progress { background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
 
-.btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-danger, .btn-primary:hover, .btn-primary {
-    border-bottom-color: #706cbd;
-    color: #fff!important;
-    background-color: #a39ff5;
-    transition: .5s
-}
-
-.card-title small { font-family: calibri, arial, sans-serif }
-
-
-.btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-primary:hover {
-  text-shadow: 0 0 3px
-}
-
-
-
-.progress { background: none!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
-
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #6f68bb!important }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
 
 select { background: #000 }
 
-table.table.table-striped td { vertical-align: middle }
+table.table.table-striped td { vertical-align: middle; }
 
-form#summernote-form {
-    background: #5657a1;
-    padding: 20px
+
+form#summernote-form { background: #000; padding: 20px; border: 1px solid #222 }
+
+th.top {
+    padding: 15px;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 80%;
 }
 
-.note-toolbar { color: #000!important }
 
-th.top { padding: 20px }
+th.top::first-letter { font-family: 'Niconne'; font-size: 200%; font-weight: 100}
+
+.small, small {
+    font-size: inherit;
+}
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Berkshire Swash', cursive; text-shadow: 2px 2px #00000033 }
-
-.small, small, td.b, #sidebar .small, #sidebar .small span { font-size: 10px; text-transform: uppercase; letter-spacing: 1px }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Niconne', cursive; }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; font-weight: 100 }
+td.b { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
-.table .bottom, .table tfoot td { color: inherit; background: #797bcf!important }
-td { background: #5657a1 }
+.table .bottom, .table tfoot td { color: inherit; background: #111!important }
+td { background: #181818 }
+.note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
+.table { border: 1px solid #2d2d2d }
+
+
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
-#sidebar .small { font-family: 'calibri' }
-.card-header { background: none; border: 0 }
-
-hr.flowers { filter: invert(1) }
-
-.form-control, .s-chat-sidebar #label_currentChannel {
-    background: #6e67b9!important;
-}
 
 
-.dropdown-menu {
-  border: 0;
-    background-color: #5657a1;
-    font-size: inherit;
-}
-.s-chat-message_timestamp { color: inherit; font-size: 80%; font-weight: bold }
+#main .card { margin: 0!important }
 
-
-#chatMessagePinned.s-chat-message__pinned {
-    background: #5657a1;
-    border-bottom-color: #716faf !important;
-    color: inherit;
-}
-#chatMessageContainer { border: 0 }
-
-.s-chat-message {
-    border-bottom: 1px solid #716faf }
-
-
-.s-chat-message:nth-child(even),
-.s-chat-message:nth-child(odd) {
-    background: #5657a1;
-}
-
-
-
-
-#chatMessageList::-webkit-scrollbar-thumb {
-    background-color: #6f68bb;
-    border: 1px solid #8983c6;    border-radius: 0;
-}
-
-#chatMessageList::-webkit-scrollbar-track {
-    background-color: #8983c6;    border-radius: 0;
-}
-
-
-
-#fra_chatContainer #txtChatInput {
-    padding: 6px;
-    background: #6e67b9;
-    border: 0;
-    color: inherit;
-}
-
-
-.table .left {
-    background-color: #5657a1;
-}
-
-
-#footer .copyright::after { content: "CSS by ᓚᘏᗢ #35127."; display: block }
-
-.pb-1, .py-1 { padding: 0 }
-
-#footer { padding: 0; text-align: right }
-
-#footer {
-    justify-content: flex-end!important;
- }
-
- #footer .navbar { padding: 0; }
-#footer .copyright, #footer ul { margin: 0 0 0 auto!important }
-#footer ul { padding: 0!important }
- #footer { padding: 15px; }
+.card>.pb-1, .col-sm-7 .card { background: none!important }
+.card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
