@@ -153,7 +153,10 @@ td { background: #181818 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-.table { border: 1px solid #2d2d2d }
+.table {
+    border: 0;
+    box-shadow: 0 0 20px #000;
+}
 
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
