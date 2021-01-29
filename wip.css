@@ -21,7 +21,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .navbar-main .nav-link .fa { color: inherit }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
+th.pt-1.pb-1::after { content: " -- fall from grace"; font-size: 25px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
@@ -35,9 +35,9 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
     padding-top: 20px; }
 
     #main {
-        background: #1f1f1fe3;
+        background: #00000073;
         padding: 4%;
-        border: 1px solid #ffffff0f;
+        box-shadow: inset 0 0 30px #000000, 0 0 30px #000000;
     }
 
 
