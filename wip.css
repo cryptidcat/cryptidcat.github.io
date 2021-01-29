@@ -153,7 +153,7 @@ td { background: #181818 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-.table {
+.table, .box {
     border: 0;
     box-shadow: 0 0 20px #000;
 }
