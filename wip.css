@@ -175,4 +175,4 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 /* boxes */
 .boxes { display: flex; margin: -20px }
-.box { flex: 1; margin: 15px }
+.box { flex: 1; margin: 30px }
