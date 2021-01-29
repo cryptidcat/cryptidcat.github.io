@@ -82,7 +82,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .form-row .card, td.right.text-right, .pb-1, .py-1, th.top {
     background-image: url('https://images2.imgbox.com/b3/66/4ETXBD4Z_o.jpg')!important;
     background-size: cover!important; background-position: 50% 50%!important;
-    background-blend-mode: exclusion;
+    background-blend-mode: darken;
 }
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
