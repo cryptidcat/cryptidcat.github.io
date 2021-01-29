@@ -49,7 +49,7 @@ th.pt-1.pb-1::after { content: " -- fall from grace"; font-size: 25px!important 
     border: 1px solid #eee3;
  }
 
-.table th, #main .card, .card.text-center { background: #822512 }
+.table th, #main .card, .card.text-center { background: #671300 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
