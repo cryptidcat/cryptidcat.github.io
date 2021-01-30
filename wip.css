@@ -139,6 +139,9 @@ th.top::first-letter { font-family: 'Astloch'; font-size: 200%; font-weight: 100
     font-size: inherit;
 }
 
+p { margin: 0 0 1em }
+p:last-of-type { margin: 0 }
+
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Astloch', cursive; }
 
