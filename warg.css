@@ -10,7 +10,7 @@
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #999; font-family: "Work Sans", monospace; font-size: .71rem;
+color: #999; font-family: "Cambria", serif; font-size: .71rem;
 background-image: url('https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s }
