@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 /* a commission by #35127 for #4160 ♡ */
 
@@ -8,7 +8,7 @@
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #999; font-family: "Cambria", serif; font-size: .71rem;
+color: #999; font-family: "PT Mono", serif; font-size: 11px;
 background-image: url('https://images2.imgbox.com/b3/66/4ETXBD4Z_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
