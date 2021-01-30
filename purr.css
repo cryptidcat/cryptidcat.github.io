@@ -30,7 +30,7 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
 
 .form-row .card a img { filter:grayscale(1); transition: 1s }
 .card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
-
+.navbar-nav { padding-top: 0 }
 #footer {     font-size: 80%;
     padding-top: 20px; }
 
