@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&display=swap');
 
 /* a commission by #35127 for #4160 ♡ */
 
@@ -132,14 +133,14 @@ th.top {
 }
 
 
-th.top::first-letter { font-family: 'Niconne'; font-size: 200%; font-weight: 100}
+th.top::first-letter { font-family: 'Astloch'; font-size: 200%; font-weight: 100}
 
 .small, small {
     font-size: inherit;
 }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Niconne', cursive; }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Astloch', cursive; }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
