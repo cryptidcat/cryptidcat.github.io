@@ -143,3 +143,10 @@ select option { background: #000!important; color: inherit!important }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
+
+h1 {
+    color: #ffffff2e;
+    text-align: center;
+    font-size: 80px;
+    margin: 0;
+}
