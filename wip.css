@@ -169,7 +169,12 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
 
-
+h1  {
+    color: #ffffff;
+    mix-blend-mode: overlay;
+    font-size: 120px;
+    text-align: right;
+}
 
 
 
