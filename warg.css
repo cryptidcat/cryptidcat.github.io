@@ -123,11 +123,11 @@ th.top { padding: 50px; background: none!important }
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
 h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'East Sea Dokdo', cursive; }
 
-.small, small { font-size: 90%; text-transform: uppercase; letter-spacing: 1px }
+.small, small { font-size: 9px; text-transform: uppercase; letter-spacing: 1px }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 80%; latter-spacing: 1px }
+td.b { text-align: right; font-weight: 100; text-transform: uppercase; font-size: 9px; latter-spacing: 1px }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #111!important }
@@ -137,7 +137,7 @@ td { background: #000 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-
+.table-striped td.text-right img { margin: 0 5px }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
