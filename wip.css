@@ -178,6 +178,7 @@ h1  {
     mix-blend-mode: overlay;
     font-size: 120px;
     text-align: right;
+        text-shadow: 3px 3px #00000052;
 }
 
 
