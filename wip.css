@@ -192,3 +192,8 @@ h1  {
     background: #030303ab;
     max-height: 300px; overflow: auto;
 }
+
+/* credits */
+.shy { position: fixed; bottom: 0; left: 0; padding: 5px }
+.credit { opacity: 0; transition: .5s }
+.shy:hover .credit { opacity: 1 }
