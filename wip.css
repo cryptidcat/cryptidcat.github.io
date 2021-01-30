@@ -181,8 +181,8 @@ h1  {
 }
 
 
-::-webkit-scrollbar { background: #000; border: 6px solid #111; height: 13px; width: 13px }
-::-webkit-scrollbar-thumb { background: #000; border: 5px solid #111 }
+::-webkit-scrollbar { background: #444; border: 6px solid #111; height: 13px; width: 13px }
+::-webkit-scrollbar-thumb { background: #444; border: 5px solid #111 }
 
 /* boxes */
 .boxes { display: flex; margin: -7px }
