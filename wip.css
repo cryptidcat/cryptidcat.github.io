@@ -174,7 +174,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 #main .card { margin: 0!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
-.card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
+.card>a img { border-radius: 50% }
 
 h1  {
     color: #ffffff;
