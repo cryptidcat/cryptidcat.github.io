@@ -1,4 +1,4 @@
- #main>table, .row.justify-content-md-center, br { display: none }
+#main>table, .row.justify-content-md-center, br { display: none }
 #footer br { display: block!important }
 
 .shy { display: flex; margin: -5px }
@@ -16,3 +16,18 @@
   }
 
 h1 { text-align: right; font-size: 15px; font-family: cambria }
+
+/*
+
+<link rel="stylesheet" href="https://maybemagenta.github.io/purr.css">
+<link rel="stylesheet" href="https://maybemagenta.github.io/purrooc.css">
+<img src="https://static.wolvden.com/images/biomes/coniferousforest/encounters/northernlongearedbatnight.png" class="bat" alt="">
+
+<div class="shy">
+  <a href="/den/35127">Devilry</a>
+  <a href="/inbox/new/35127">Message</a>
+  <a href="/chatter/topic/292447">CSS Commissions</a>
+  <a href="/achievements/35127">Achievements</a>
+</div>
+
+*/
