@@ -35,10 +35,9 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
     padding-top: 20px; }
 
     #main {
-        background: #1f1f1fe3;
-        padding: 4%;
-        border: 1px solid #ffffff0f;
+      background: none; border: 0; padding: 0;
     }
+
 
 
     tr.pup {
@@ -105,7 +104,8 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
-h1 { font-size: 400% }
+h1 { text-align: right; filter: opacity(.3); font-size: 72px; }
+h1::before { content: ""; display: block; position: absolute; top: 50%; left: 0; right: 220px; height: 1px; background: rgba(255,255,255,.2); }
 
 
 .text-danger { color: inherit!important }
@@ -156,8 +156,7 @@ td { background: #181818 }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
 
-.table { border: 1px solid #2d2d2d }
-
+#main>table, #main>form>table { box-shadow: 0 0 30px rgba(0,0,0,.5) }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
