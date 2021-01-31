@@ -45,7 +45,7 @@ th.pt-1.pb-1::after { float: right; content: "fall from grace"; font-size: 25px!
 
 
 .card.mb-3, .featured-wolf img {
-    border: 1px solid #eee3;
+    border: 1px solid #000;
  }
 
 .table th, #main .card, .card.text-center { background: #671300 }
@@ -60,12 +60,12 @@ td.left.b { vertical-align: middle }
 #summernote-form, .alert {
     background: none;
     border: 0;
-    border-bottom: 1px solid #eee3;
+    border-bottom: 1px solid #000;
     color: inherit;
     padding: 0 5px 5px;
 }
 
-.user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
+.user-tag, .float-left.mr-2 { border: 1px solid #000 }
 
 td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
@@ -85,7 +85,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 }
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
-.form-row .card { border: 1px solid #eee3!important }
+.form-row .card { border: 1px solid #000!important }
 
 .pb-1, .py-1 { padding: 20px!important }
 
@@ -117,7 +117,7 @@ h1 { font-size: 400% }
 .btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #3b1300; color: #fff }
 .btn-success:hover, .btn-warning:hover { background: #3b13008c; border-bottom-color: #eee3; }
 
-.progress { background: #ddd0!important; outline: 1px solid #eee3; margin: 2px; outline-offset: -1px }
+.progress { background: #ddd0!important; outline: 1px solid #000; margin: 2px; outline-offset: -1px }
 
 .bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
 
