@@ -196,6 +196,8 @@ h1  {
     max-height: 300px; overflow: auto;
 }
 
+@media(max-width:990px) { .boxes { display: block } } 
+
 /* credits */
 .shy { position: fixed; bottom: 0; left: 0; padding: 5px }
 .credit { opacity: 0; transition: .5s }
