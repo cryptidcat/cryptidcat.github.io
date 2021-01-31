@@ -44,9 +44,7 @@ th.pt-1.pb-1::after { float: right; content: "fall from grace"; font-size: 25px!
     }
 
 
-.card.mb-3, .featured-wolf img {
-    border: 1px solid #000;
- }
+.card.mb-3, .featured-wolf img { border-radius: 50% }
 
 .table th, #main .card, .card.text-center { background: #671300 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
