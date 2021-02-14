@@ -191,8 +191,9 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 h1  {
     color: #ffffff;
     mix-blend-mode: overlay;
-    font-size: 120px;
+    font-size: 50px;
     text-align: right;
+    font-variant: small-caps;
         text-shadow: 3px 3px #00000052;
 }
 #main .card { background: #000 }
