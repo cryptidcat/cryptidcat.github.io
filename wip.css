@@ -55,7 +55,7 @@ th.pt-1.pb-1::after { float: right; content: "fall from grace"; font-size: 25px!
 
 .featured-wolf img { border-radius: 50%  }
 
-.table th, #main .card, .card.text-center { background: #ffffff12 }
+.table th, #main .card, .card.text-center { background: #3a3a3a1f }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
