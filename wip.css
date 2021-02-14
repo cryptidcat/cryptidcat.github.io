@@ -9,26 +9,13 @@
 
 body { cursor: default;
 color: #999; font-family: "Courier Prime", serif; font-size: 11px;
-background-image:  url('https://images2.imgbox.com/f2/4a/nPAPECxa_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
-
-/*
-@media (min-width: 576px) {
-.container { min-width: auto!important; max-width: auto!important; padding: 2% }
-}
-@media (min-width: 768px) {
-.container { min-width: auto!important; max-width: auto!important; padding: 2% }
-}
-@media (min-width: 992px) {
-.container { min-width: auto!important; max-width: auto!important; padding: 2% }
-}
-@media (min-width: 1200px) {
-.container { min-width: auto!important; max-width: auto!important; padding: 2% }
-}
-*/
 
 .container { max-width: 100%!important; min-width: 100%!important; padding: 2% }
 
-#header::before { position: absolute; top: 0; right: 0; height: 100px; background: url('https://images2.imgbox.com/bb/71/6TRoV9cT_o.png') bottom center }
+#header::before { position: absolute; top: 0; right: 0; height: 100px;  }
+#header.container { background: #e6e6e6 }
+
+.container { background: url('https://images2.imgbox.com/bb/71/6TRoV9cT_o.png'); background-position: top; background-repeat: no-repeat }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { color: #963409!important; text-decoration: none }
