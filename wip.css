@@ -145,7 +145,7 @@ th.top {
     font-size: 9px;
 }
 
-th.top::first-letter { font-size: 150%; font-weight: 100}
+th.top::first-letter { font-size: 150%; font-weight: 100; text-transform: lowercase }
 
 .small, small {
     font-size: inherit;
