@@ -86,7 +86,6 @@ td.left.b { vertical-align: middle }
 }
 
 
-td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
 #header .navbar-main { background: none!important }
 
@@ -190,6 +189,9 @@ select option { background: #000!important; color: inherit!important }
     box-shadow: 0 0 20px #00000085;
 }
 
+.table .left {
+    background-color: #4a4a4a38;
+}
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 
