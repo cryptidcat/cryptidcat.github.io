@@ -80,7 +80,7 @@ td.left.b { vertical-align: middle }
 #summernote-form, .alert {
     background: none;
     border: 0;
-    border-bottom: 1px solid #000;
+    border: 0;
     color: inherit;
     padding: 0 5px 5px;
 }
@@ -123,11 +123,9 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .subheader { display: none }
 
 h3.mb-0 {
-    padding: 10px;
-    text-align: right;
-    background: #eee1;
-    font-size: 2rem;
     text-transform: lowercase;
+    font-style: italic;
+    font-size: 130%;
 }
 
 h1 { font-size: 400% }
