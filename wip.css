@@ -202,7 +202,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 15px 0; box-shadow: 2px 2px 5px #0006 }
 .featured-wolf img { margin-bottom: 5px }
 
-
+.mr-2 { max-width: 65px }
 
 
 h1 {
