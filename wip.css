@@ -11,7 +11,16 @@ body { cursor: default;
 color: #999; font-family: "Courier Prime", serif; font-size: 11px;
 background-image:  url('https://images2.imgbox.com/f2/4a/nPAPECxa_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
-@media (min-width: 1200px), @media (min-width: 992px), @media (min-width: 768px), @media (min-width: 576px) {
+@media (min-width: 1200px) {
+.container { min-width: auto!important; max-width: auto!important; padding: 2% }
+}
+@media (min-width: 992px) {
+.container { min-width: auto!important; max-width: auto!important; padding: 2% }
+}
+@media (min-width: 768px) {
+.container { min-width: auto!important; max-width: auto!important; padding: 2% }
+}
+@media (min-width: 576px) {
 .container { min-width: auto!important; max-width: auto!important; padding: 2% }
 }
 
