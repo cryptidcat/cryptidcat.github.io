@@ -91,7 +91,16 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-header b {
+    display: inline-block;
+    text-transform: lowercase;
+    letter-spacing: 0;
+    font-size: 130%;
+    padding: 20px;
+    font-weight: 100;
+    font-style: italic;
+}
+
 .form-row .card-img-top { display: none }
 .card-header {
     background: none;
