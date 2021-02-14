@@ -8,14 +8,14 @@
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #999; font-family: "Courier Prime", serif; font-size: 11px }
+color: #999; font-family: "Courier Prime", serif; font-size: 11px; background-image: url('https://images2.imgbox.com/2d/c8/KnnjtCkL_o.jpg'); background-color: #111 }
 
 .container { max-width: 100%!important; min-width: 100%!important; padding: 2% }
 
 #header::before { position: absolute; top: 0; right: 0; height: 100px;  }
 #header.container { background: #e6e6e6 }
 
-.container { background: url('https://images2.imgbox.com/bb/71/6TRoV9cT_o.png'); background-position: top; background-repeat: no-repeat }
+.container { background: url('https://images2.imgbox.com/1f/df/utIcPUWW_o.png'); background-position: top; background-repeat: no-repeat }
 
 
 
