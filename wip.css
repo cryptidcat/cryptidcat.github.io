@@ -53,8 +53,6 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
     }
 
 
-.featured-wolf img { border-radius: 50%  }
-
 .table th, #main .card, .card.text-center { background: #3a3a3a1f }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
@@ -185,7 +183,10 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 #main .card { margin: 0!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
-.card>a img { border-radius: 50% }
+.card>a img, .featured-wolf img { border-radius: 15px 0; box-shadow: 2px 2px 5px #000 }
+
+
+
 
 h1  {
     color: #ffffff;
