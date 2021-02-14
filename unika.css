@@ -194,8 +194,6 @@ select option { background: #000!important; color: inherit!important }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 
-
-
 #main .card { margin: 0!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
