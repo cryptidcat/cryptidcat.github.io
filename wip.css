@@ -192,7 +192,6 @@ select option { background: #000!important; color: inherit!important }
 
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
-img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
 
@@ -201,7 +200,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 15px 0; box-shadow: 2px 2px 5px #0006 }
 .featured-wolf img { margin-bottom: 5px }
-
+img.float-left.mr-2 { padding: 0 }
 .mr-2 { max-width: 65px }
 
 
