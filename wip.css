@@ -25,6 +25,12 @@ color: #999; font-family: "Courier Prime", serif; font-size: 11px; background-im
 
 .blink { color: #fff; animation: blinker 5s linear infinite }
 @keyframes blinker { 50% { opacity: 0 } }
+.quote {
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: #444;
+}
 
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
