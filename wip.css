@@ -11,6 +11,7 @@ body { cursor: default;
 color: #999; font-family: "Courier Prime", serif; font-size: 11px;
 background-image:  url('https://images2.imgbox.com/f2/4a/nPAPECxa_o.jpg'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
+/*
 @media (min-width: 576px) {
 .container { min-width: auto!important; max-width: auto!important; padding: 2% }
 }
@@ -23,6 +24,9 @@ background-image:  url('https://images2.imgbox.com/f2/4a/nPAPECxa_o.jpg'); backg
 @media (min-width: 1200px) {
 .container { min-width: auto!important; max-width: auto!important; padding: 2% }
 }
+*/
+
+.container { max-width: 100%!important; min-width: 100%!important; padding: 2% }
 
 #header::before { position: absolute; top: 0; right: 0; height: 100px; background: url('https://images2.imgbox.com/bb/71/6TRoV9cT_o.png') bottom center }
 
