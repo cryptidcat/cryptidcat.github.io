@@ -22,6 +22,11 @@ color: #999; font-family: "Courier Prime", serif; font-size: 11px; background-im
 #header .navbar-main .nav-link:hover { color: #555; text-shadow: 1px 1px 2px #111 }
 
 
+
+.blink { color: #fff; animation: blinker 5s linear infinite }
+@keyframes blinker { 50% { opacity: 0 } }
+
+
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { color: #fff!important; text-shadow: 0 0 2px; text-decoration: none }
 
