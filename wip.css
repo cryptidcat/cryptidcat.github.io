@@ -139,7 +139,9 @@ h1 { font-size: 400% }
 
 .progress { background: #ddd0!important; outline: 1px solid #000; margin: 2px; outline-offset: -1px }
 
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eee3!important }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #ffffff17!important }
+
+hr.flowers { filter: invert(1) }
 
 select { background: #000 }
 
@@ -200,13 +202,11 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
 
-h1  {
-    color: #ffffff;
-    mix-blend-mode: overlay;
+h1 {
+    color: #ffffff1c;
     font-size: 50px;
     text-align: right;
     font-variant: small-caps;
-        text-shadow: 3px 3px #00000052;
 }
 #main .card { background: #000 }
 
