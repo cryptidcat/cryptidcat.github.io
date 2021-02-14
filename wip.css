@@ -15,7 +15,7 @@ color: #999; font-family: "Courier Prime", serif; font-size: 11px; background-im
 #header::before { position: absolute; top: 0; right: 0; height: 100px;  }
 #header.container { background: #e6e6e6 }
 
-.container { background: url('https://images2.imgbox.com/1f/df/utIcPUWW_o.png'); background-position: top; background-repeat: no-repeat }
+.container { background: url('https://images2.imgbox.com/1f/df/utIcPUWW_o.png'); background-position: top; background-repeat: no-repeat; padding-top: 12vh }
 
 
 
