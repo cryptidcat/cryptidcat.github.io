@@ -222,9 +222,7 @@ h1 {
 .box {
     flex: 1;
     margin: 10px 7px;
-    padding: 15px;
-    background: #030303ab;
-    max-height: 300px; overflow: auto;
+    padding: 0; align-items: center; align-self: center
 }
 
 @media(max-width:990px) { .boxes { display: block } }
