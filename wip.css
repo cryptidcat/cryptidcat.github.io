@@ -18,6 +18,8 @@ color: #999; font-family: "Courier Prime", serif; font-size: 11px; background-im
 .container { background: url('https://images2.imgbox.com/1f/df/utIcPUWW_o.png'); background-position: top; background-repeat: no-repeat; padding-top: 12vh }
 
 
+#header .navbar-main .nav-link { color: #111 }
+
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { color: #963409!important; text-decoration: none }
@@ -53,7 +55,7 @@ th.pt-1.pb-1::after { float: right; content: "fall from grace"; font-size: 25px!
 
 .featured-wolf img { border-radius: 50%  }
 
-.table th, #main .card, .card.text-center { background: #671300 }
+.table th, #main .card, .card.text-center { background: #ffffff12 }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
@@ -83,11 +85,6 @@ tr { border-top: 1px solid #000 }
 
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #000 }
 
-.form-row .card, td.right.text-right, .pb-1, .py-1, th.top {
-    background-image: url('https://images2.imgbox.com/b3/66/4ETXBD4Z_o.jpg')!important;
-    background-size: cover!important; background-position: 50% 50%!important;
-    background-blend-mode: darken;
-}
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #000!important }
@@ -159,7 +156,7 @@ td.b { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #000!important }
-td { background: #030303ab }
+td { background: #4a4a4a38 }
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
