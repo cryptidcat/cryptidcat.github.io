@@ -85,7 +85,6 @@ td.left.b { vertical-align: middle }
     padding: 0 5px 5px;
 }
 
-.user-tag, .float-left.mr-2 { border: 1px solid #000 }
 
 td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
 
@@ -200,7 +199,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 #main .card { margin: 0!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
-.card>a img, .featured-wolf img { border-radius: 15px 0; box-shadow: 2px 2px 5px #0006 }
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 15px 0; box-shadow: 2px 2px 5px #0006 }
 .featured-wolf img { margin-bottom: 5px }
 
 
