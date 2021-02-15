@@ -35,13 +35,14 @@ i.fa { color: #5d402096!important; font-size: 90%!important }
 th.top, th.pt-1.pb-1, .alert, .alert-success, .alert-danger {
       color: inherit;
       background: #40351873;
-      font-variant: small-caps;
-      font-size: 16px;
-      font-weight: bold;
-      letter-spacing: 1px;
 }
 
-
+th.top, th.pt-1.pb-1 {
+font-variant: small-caps;
+font-size: 16px;
+font-weight: bold;
+letter-spacing: 1px;
+ }
 
 
 table, tr { background: none; }
@@ -131,7 +132,7 @@ td.left.b { vertical-align: middle }
 #summernote-form, .alert {
     border: 0;
     color: inherit;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -363,3 +364,7 @@ button:hover { color: #703308!important }
     letter-spacing: 2px;
     font-weight: bold;
 }
+
+
+
+.col-xl-3.col-sm-7.text-center { text-align: center; padding: 20px }
