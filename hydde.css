@@ -21,11 +21,11 @@ background-image: url('https://images2.imgbox.com/fa/cb/NlTEyLzv_o.png'); backgr
 
 
 
-#header .navbar-main .nav-link { color: #111 }
-#header .navbar-main .nav-link:hover { color: #555; text-shadow: 1px 1px 2px #111 }
+#header .navbar-main .nav-link { color: #80540d }
+#header .navbar-main .nav-link:hover { color: #555 }
 
-a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #fff; transition: .5s; text-decoration: none }
-a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { color: #fff!important; text-shadow: 0 0 2px; text-decoration: none }
+a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #80540d; transition: .5s; text-decoration: none }
+a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { color: #703308!important; text-decoration: none }
 
 
 
@@ -52,14 +52,10 @@ table, tr { background: none; }
 #header i { font-size: 90%; }
 
 tr { background: #1a1311bf!important; }
-
 table tr tr { background: none }
 
 td.b { background: none; text-align: right; font-size: 11px; text-transform: uppercase; font-weight: bold; letter-spacing: 4px; }
 
-a, a span { text-decoration: none; transition: .5s; }
-a:link, a:visited, a span { color: #80540d; }
-a:hover, a span:hover { color: #703308!important }
 button.btn.btn-danger { color: inherit; }
 
 td.bottom, button.btn.btn-danger {
@@ -98,6 +94,7 @@ button.btn.btn-danger, td.bottom { border: 0 }
 .pt-1.pb-1 a::before { content: "Guiding Spirit "; font-style: italic; color: #6d4b27; font-size: 80%; text-shadow: none!important }
 
 
+table td td { background: none!important }
 
 
 
