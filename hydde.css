@@ -269,7 +269,7 @@ select option { background: #2f2615!important; color: inherit!important }
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 
-#main .card { margin: 0!important }
+#main .card { margin: 0 auto!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .featured-wolf img { margin-bottom: 5px }
@@ -365,6 +365,4 @@ button:hover { color: #703308!important }
     font-weight: bold;
 }
 
-
-
-.col-xl-3.col-sm-7.text-center { text-align: center; padding: 20px }
+.col-xl-3.col-sm-7.text-center { text-align: center; padding: 20px 0 0 }
