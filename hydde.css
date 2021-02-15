@@ -10,7 +10,7 @@ background-image: url('https://images2.imgbox.com/fa/cb/NlTEyLzv_o.png'); backgr
 
 
 
-#main { flex: 1; max-width: 100%; background: none }
+#main { flex: 1; max-width: 100%; background: none; padding: 0 }
 
 
 #header .navbar-main {
@@ -95,43 +95,26 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 
-.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-.pt-1.pb-1 a::before { content: "guardian "; font-style: italic; color: #444; font-size: 80%; text-shadow: none!important }
-.featured-wolf b::after { display: block; content: "high cleric"; font-size:10px; font-style: italic; margin-bottom: -10px }
+.pt-1.pb-1 { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
+.pt-1.pb-1 a::before { content: "Guiding Spirit "; font-style: italic; color: #444; font-size: 80%; text-shadow: none!important }
 
-.nav-link i { display: none }
+
+
+
+
 
 .container>.row { display: block!important }
 
-.form-row .card a img { filter:grayscale(1); transition: 1s }
+.form-row .card a img { filter: sepia(85%) brightness(100%) hue-rotate(10deg) contrast(95%) saturate(160%) opacity(80%)!important; transition: 1s }
 .card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
 
-#footer {     font-size: 80%;
-    padding-top: 20px; }
 
-    #main {
-        background: none;
-        padding: 0
-    }
-
-
-    tr.pup {
-        font-size: inherit!important;
-    }
-
-
-.table th, #main .card, .card.text-center { background: #3a3a3a1f }
+tr.pup { font-size: inherit!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
-
 td.left.b { vertical-align: middle }
-
-
-.table .subheader { background: #000 }
-.table-striped td.text-right img, .mr-2, .mx-2 { max-width: 25px; margin: 0 2px; background: #eee3; padding: 5px; border-radius: 20px }
+.table-striped td.text-right img, .mr-2, .mx-2 { max-width: 25px; margin: 0 2px; padding: 5px; border-radius: 20px }
 
 #summernote-form, .alert {
-    background: none;
-    border: 0;
     border: 0;
     color: inherit;
     padding: 0 5px 5px;
@@ -140,18 +123,11 @@ td.left.b { vertical-align: middle }
 
 
 #header .navbar-main { background: none!important }
-
 td.row { margin: 0!important }
-
-
-tr { border-top: 1px solid #000 }
-
-td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #000 }
-
-
+tr { border: 0 }
+td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 0 }
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
-.form-row .card { border: 1px solid #000!important }
-
+.form-row .card { border: 0!important }
 .pb-1, .py-1 { padding: 20px!important }
 
 .form-row .card-header b {
@@ -182,8 +158,44 @@ h3.mb-0 {
 
 h1 { font-size: 400% }
 
-
 .text-danger { color: inherit!important }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .form-control { border: 0; color: #fff!important }
 .btn-success, .btn-warning { transition: .5s; border-bottom-color: #222; color: #fff!important; background-color: #111; color: #fff }
