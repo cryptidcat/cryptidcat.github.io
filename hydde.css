@@ -95,8 +95,19 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 .pt-1.pb-1 { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-.pt-1.pb-1 a::before { content: "Guiding Spirit "; text-transform: uppercase; font-weight: bold; color: #6d4b27; font-size: 50%; text-shadow: none!important }
-
+.pt-1.pb-1 a::before {
+    content: "Guiding Spirit ";
+    text-transform: lowercase;
+    font-weight: bold;
+    color: #6d4b27;
+    font-size: 50%;
+    text-shadow: none!important;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+    font-variant: none;
+    font-style: italic;
+}
 
 table tr tr { background: none!important }
 
