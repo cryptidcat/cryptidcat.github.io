@@ -217,7 +217,7 @@ h1 { font-size: 400% }
 
 
 
-
+.text-muted { color: inherit }
 
 
 .form-control { border: 0; color: inherit!important }
