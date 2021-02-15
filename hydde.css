@@ -234,10 +234,13 @@ select { background: #000 }
 
 table.table.table-striped td { vertical-align: middle; }
 
-
-form#summernote-form { background: #000; padding: 20px; border: 1px solid #000 }
-::-webkit-scrollbar { background: #444; border: 6px solid #111; height: 13px; width: 13px }
-::-webkit-scrollbar-thumb { background: #444; border: 5px solid #111 }
+form#summernote-form {
+    background: #211911;
+    padding: 20px;
+    border: 0;
+}
+::-webkit-scrollbar { background: #403518; border: 6px solid #201912; height: 13px; width: 13px }
+::-webkit-scrollbar-thumb { background: #403518; border: 5px solid #201912 }
 
 
 
