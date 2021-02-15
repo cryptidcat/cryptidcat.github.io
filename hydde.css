@@ -126,7 +126,7 @@ table tr tr { background: none!important }
 tr.pup { font-size: inherit!important }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 td.left.b { vertical-align: middle }
-.table-striped td.text-right img, .mr-2, .mx-2 { max-width: 25px; margin: 0 2px; padding: 5px; border-radius: 20px }
+.table-striped td.text-right img, .mr-2, .mx-2 { max-width: auto; margin: 0; padding: 0; border-radius: 0 }
 
 #summernote-form, .alert {
     border: 0;
@@ -222,7 +222,7 @@ h1 { font-size: 400% }
 
 .form-control { border: 0; color: inherit!important }
 .btn-success, .btn-warning { transition: .5s; border-bottom: none; color: inherit; background-color: #2b2505}
-.btn-success:hover, .btn-warning:hover { background: inherit }
+.btn-success:hover, .btn-warning:hover { background: #2b2505 }
 
 .progress { background: #ddd0!important; outline: 1px solid #000; margin: 2px; outline-offset: -1px }
 
