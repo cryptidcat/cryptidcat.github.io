@@ -6,7 +6,8 @@
 
 body { cursor: default;
 color: #6d4b27; font-family: "Courier", monospace; font-size: 11px;
-background-image: url('https://images2.imgbox.com/fa/cb/NlTEyLzv_o.png'); background-color: #382c0b; background-size: auto; background-position: attached }
+background-image: url('https://images2.imgbox.com/fa/cb/NlTEyLzv_o.png'); background-color: #382c0b; background-size: auto; background-position: attached; background-repeat: repeat }
+
 
 
 #main { flex: 1; max-width: 100%; background: none }
@@ -39,8 +40,55 @@ th.top, th.pt-1.pb-1, .alert, .alert-success, .alert-danger {
 
 
 
+table, tr { background: none; }
+#main>table, #main .table.mt-3, .alert, .alert-success, .alert-danger, button.btn.btn-danger, #main table.table.table-striped, .form-row .card {
+    border: 0 solid #1b0b05; }
+.navbar a.nav-link {
+    color: #7b530f;
+    font-size: 11px;
+    margin: 0 20px 0 0; transition: .5s;
+}
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */ 
+#header i { font-size: 90%; }
+
+tr { background: #1a1311bf!important; }
+
+table tr tr { background: none }
+
+td.b { background: none; text-align: right; font-size: 11px; text-transform: uppercase; font-weight: bold; letter-spacing: 4px; }
+
+a, a span { text-decoration: none; transition: .5s; }
+a:link, a:visited, a span { color: #80540d; }
+a:hover, a span:hover { color: #703308!important }
+button.btn.btn-danger { color: inherit; }
+
+td.bottom, button.btn.btn-danger {
+    background: #403518!important;
+    border-top: 1px solid #1b0b05;
+}
+
+.card b { transition: .5s }
+
+.text-success { color: inherit; }
+
+.progress { margin: 0 0 1px }
+.form-row .card img { display: none }
+div.row.justify-content-center a { color: inherit }
+
+#main .card { background: none }
+
+button.btn.btn-danger, td.bottom { border: 0 }
+
+.navbar-brand { filter:  sepia(90%) brightness(90%) hue-rotate(0deg) contrast(100%) saturate(200%) }
+.navbar-brand:hover { filter: none }
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 
 
