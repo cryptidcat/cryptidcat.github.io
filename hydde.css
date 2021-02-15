@@ -58,7 +58,7 @@ table, tr { background: none; }
 tr { background: #1a1311bf!important; }
 table tr tr { background: none }
 
-td.b { background: none; text-align: right; font-size: 11px; text-transform: uppercase; font-weight: bold; letter-spacing: 4px; }
+td.b { background: none; text-align: right; font-size: 10px; text-transform: uppercase; font-weight: bold; letter-spacing: 4px; }
 
 button.btn.btn-danger { color: inherit; }
 
@@ -148,7 +148,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
     display: block;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-size: 90%;
+    font-size: 10px;
     padding: 20px;
     font-weight: bold;
 }
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 {  }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; text-transform: uppercase; font-size: 90%; font-weight: bold; letter-spacing: 2px }
+td.b { text-align: right; text-transform: uppercase; font-size: 10px; font-weight: bold; letter-spacing: 2px }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit }
@@ -356,3 +356,10 @@ div.progress-bar.bg-success {
 
 button:hover { color: #703308!important }
 .progress { outline: 0!important }
+
+
+.navbar-main .nav-link {
+    font-size: 10px!important;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
