@@ -33,8 +33,12 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 i.fa { color: #5d402096!important; font-size: 90%!important }
 
 th.top, th.pt-1.pb-1, .alert, .alert-success, .alert-danger {
-    color: inherit;
-    background: #40351873;
+      color: inherit;
+      background: #40351873;
+      font-variant: small-caps;
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 1px;
 }
 
 
@@ -94,7 +98,7 @@ button.btn.btn-danger, td.bottom { border: 0 }
 .pt-1.pb-1 a::before { content: "Guiding Spirit "; text-transform: uppercase; font-weight: bold; color: #6d4b27; font-size: 50%; text-shadow: none!important }
 
 
-table td td { background: none!important }
+table tr tr { background: none!important }
 
 
 
@@ -116,7 +120,7 @@ td.left.b { vertical-align: middle }
 #summernote-form, .alert {
     border: 0;
     color: inherit;
-    padding: 0 5px 5px;
+    padding: 5px;
 }
 
 
@@ -130,13 +134,12 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .pb-1, .py-1 { padding: 20px!important }
 
 .form-row .card-header b {
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 80%;
+    letter-spacing: 3px;
+    font-size: 90%;
     padding: 20px;
-    font-weight: 100;
-
+    font-weight: bold;
 }
 
 .form-row .card-img-top { display: none }
@@ -206,7 +209,7 @@ h1 { font-size: 400% }
 
 
 
-.form-control { border: 0; color: #fff!important }
+.form-control { border: 0; color: inherit!important }
 .btn-success, .btn-warning { transition: .5s; border-bottom-color: #222; color: #fff!important; background-color: #111; color: #fff }
 .btn-success:hover, .btn-warning:hover { background: #444; border-bottom-color: #111; }
 
@@ -245,7 +248,6 @@ td.b { text-align: right; text-transform: lowercase; font-style: italic }
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit }
 
-.note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
