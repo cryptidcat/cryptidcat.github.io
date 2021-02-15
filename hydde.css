@@ -352,3 +352,4 @@ div.progress-bar.bg-success {
 
 
 button:hover { color: #703308!important }
+.progress { outline: 0!important }
