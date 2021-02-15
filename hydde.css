@@ -30,7 +30,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 
 .nav-item i { vertical-align: middle; display: inline }
-i.fa { color: #5d402096 }
+i.fa { color: #5d402096!important; font-size: 90%!important }
 
 th.top, th.pt-1.pb-1, .alert, .alert-success, .alert-danger {
     color: inherit;
@@ -91,7 +91,7 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 .pt-1.pb-1 { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-.pt-1.pb-1 a::before { content: "Guiding Spirit "; font-style: italic; color: #6d4b27; font-size: 80%; text-shadow: none!important }
+.pt-1.pb-1 a::before { content: "Guiding Spirit "; text-transform: uppercase; font-weight: bold; color: #6d4b27; font-size: 50%; text-shadow: none!important }
 
 
 table td td { background: none!important }
