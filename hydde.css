@@ -88,7 +88,6 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 
 
@@ -96,7 +95,7 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 .pt-1.pb-1 { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-.pt-1.pb-1 a::before { content: "Guiding Spirit "; font-style: italic; color: #444; font-size: 80%; text-shadow: none!important }
+.pt-1.pb-1 a::before { content: "Guiding Spirit "; font-style: italic; color: #6d4b27; font-size: 80%; text-shadow: none!important }
 
 
 
@@ -104,6 +103,9 @@ button.btn.btn-danger, td.bottom { border: 0 }
 
 
 .container>.row { display: block!important }
+
+
+
 
 .form-row .card a img { filter: sepia(85%) brightness(100%) hue-rotate(10deg) contrast(95%) saturate(160%) opacity(80%)!important; transition: 1s }
 .card a:hover img, .featured-wolf a:hover img { filter: grayscale(0) }
@@ -169,6 +171,7 @@ h1 { font-size: 400% }
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
 
 
 
@@ -213,6 +216,8 @@ table.table.table-striped td { vertical-align: middle; }
 
 
 form#summernote-form { background: #000; padding: 20px; border: 1px solid #000 }
+::-webkit-scrollbar { background: #444; border: 6px solid #111; height: 13px; width: 13px }
+::-webkit-scrollbar-thumb { background: #444; border: 5px solid #111 }
 
 
 
@@ -232,56 +237,28 @@ th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 td.b { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
-.table .bottom, .table tfoot td { color: inherit; background: #000!important }
-td { background: #4a4a4a38 }
+.table .bottom, .table tfoot td { color: inherit }
+
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
 select option { background: #000!important; color: inherit!important }
-
-.table {
-    border: 0;
-    box-shadow: 0 0 20px #00000085;
-}
-
-.table .left {
-    background-color: #4a4a4a38;
-}
 
 h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 
 #main .card { margin: 0!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
-.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 15px 0; box-shadow: 2px 2px 5px #0006 }
 .featured-wolf img { margin-bottom: 5px }
 img.float-left.mr-2 { padding: 0 }
 .mr-2 { max-width: 65px }
 
-
-h1 {
-    color: #ffffff1c;
-    font-size: 50px;
-    text-align: right;
-    font-variant: small-caps;
-}
-#main .card { background: #000 }
-
-::-webkit-scrollbar { background: #444; border: 6px solid #111; height: 13px; width: 13px }
-::-webkit-scrollbar-thumb { background: #444; border: 5px solid #111 }
-
-.grayscale { filter: grayscale(1) }
+h1 { font-size: 50px }
 
 /* boxes */
 .boxes { display: flex; margin: -7px }
-.box {
-    flex: 1;
-    margin: 10px 7px;
-    padding: 0; align-items: center; align-self: center
-}
-
+.box { flex: 1; margin: 10px 7px; padding: 0; align-items: center; align-self: center }
 .centered { text-align: center }
-.box.links a { display: block; font-style: italic; text-align: right; font-size: 120%; text-transform: lowercase; border-bottom: 1px solid #000; padding: 5px; }
 
 @media(max-width:990px) { .boxes { display: block } }
 
