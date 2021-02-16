@@ -118,15 +118,15 @@ h1::before { content: ""; display: block; position: absolute; top: 51%; left: 0;
 
 
 .progress {
-    background: #181818;
-    outline: 1px solid #eeeeee14;
+    background-color: #181818!important;
+    outline: 1px solid #222;
     margin: 2px;
     outline-offset: -1px;
     border-radius: 0;
 }
 
 
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #eeeeee17!important }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #222!important }
 
 select { background: #000 }
 
