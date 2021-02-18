@@ -144,6 +144,7 @@ th.top {
     font-size: 80%;
 }
 
+.featured-wolf { padding: 15px!important }
 
 th.top::first-letter { font-family: 'Niconne'; font-size: 200%; font-weight: 100}
 
@@ -173,7 +174,7 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
 
-#main .card { margin: 0!important }
+#main .card { margin: 0 auto!important }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
