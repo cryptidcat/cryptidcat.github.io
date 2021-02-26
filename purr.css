@@ -3,8 +3,14 @@
 /* SNAIL */
 
 
-
-form .table.table-striped tbody tr td a:before { content: "⸺"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
+form .table.table-striped tbody tr td a:before {
+    color: #31313178;
+    margin: 0 13px 7px 10px;
+    display: inline-block;
+    font-size: 225%;
+    content: "🙞";
+    vertical-align: middle;
+}
 
 #main>br { display: none }
 
