@@ -4,13 +4,19 @@
 
 
 form .table.table-striped tbody tr td a:before {
-    color: #31313178;
+    color: #31313178!important;
+    text-shadow: none!important;
     margin: 0 13px 7px 10px;
     display: inline-block;
     font-size: 225%;
     content: "🙞";
     vertical-align: middle;
 }
+
+form .table.table-striped tbody tr td a {line-height: 0; font-weight: bold }
+
+form .table.table-striped tbody tr td:nth-child(1) small { font-style: italic; text-transform: uppercase; letter-spacing: 1px; font-weight: bold }
+
 
 #main>br { display: none }
 
