@@ -46,7 +46,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
 .pt-1.pb-1 a::before { content: "guardian "; font-style: italic; color: #444; font-size: 80%; text-shadow: none!important }
-.featured-wolf b::after { display: block; content: "high cleric"; font-size:10px; font-style: italic; margin-bottom: -10px }
+.featured-wolf b::after { display: block; content: "guide"; font-size:10px; font-style: italic; margin-bottom: -10px }
 
 .nav-link i { display: none }
 
