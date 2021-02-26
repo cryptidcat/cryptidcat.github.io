@@ -2,6 +2,10 @@
 
 /* SNAIL */
 
+
+
+form .table.table-striped tbody tr td a:before { content: "⸺"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
+
 #main>br { display: none }
 
 #footer { background: none }
