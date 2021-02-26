@@ -56,6 +56,7 @@ td.left.b { vertical-align: middle }
 .table .subheader { background: #000 }
 /* .table-striped td.text-right img, .mr-2, .mx-2 { background: #eee3; padding: 5px; border-radius: 20px } */
 .table-striped td.text-right img, .mr-2, .mx-2 { width: 10px }
+br, #footer { display: none } 
 
 #summernote-form, .alert {
     background: none;
