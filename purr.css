@@ -15,7 +15,7 @@ form .table.table-striped tbody tr td a:before {
 form .table.table-striped tbody tr td a {line-height: 0; font-weight: bold }
 form .table-striped tr td:nth-child(1)>div { display: flex }
 div>.text-break { flex: 1 }
-form .table.table-striped tbody tr td:nth-child(1) small { font-style: italic }
+form .table.table-striped tbody tr td:nth-child(1) small { font-style: italic; display: block; text-align: right }
 
 
 #main>br { display: none }
