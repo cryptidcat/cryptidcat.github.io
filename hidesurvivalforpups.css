@@ -1,1 +1,2 @@
-.pup td>div:nth-child(1) { height: 0!important }
+
+.pup td>div { height: 0!important }
