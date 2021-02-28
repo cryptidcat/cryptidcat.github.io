@@ -19,7 +19,7 @@ div>.text-break:nth-child(2) { flex: 1 }
 form .table.table-striped tbody tr td:nth-child(1) small { font-style: italic; display: block; text-align: right }
 
 
-form table td:nth-child(1) div::before {
+form table td:nth-child(1)>div::before {
     color: #31313178!important;
     text-shadow: none!important;
     margin: 0 13px 0 10px;
@@ -27,7 +27,7 @@ form table td:nth-child(1) div::before {
     content: "\01F664";
     vertical-align: middle; }
 
-    
+
 
 #main>br { display: none }
 
