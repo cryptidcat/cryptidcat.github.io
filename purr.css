@@ -4,7 +4,7 @@
 
 /* SNAIL */
 
-.table.table-striped td { padding:  }
+/*
 div .text-break:nth-child(1)::before {
     color: #31313178!important;
     text-shadow: none!important;
@@ -13,6 +13,8 @@ div .text-break:nth-child(1)::before {
     content: "\01F664";
     vertical-align: middle;
 }
+*/
+form .table.table-striped td { padding: .25rem }
 form .table.table-striped tbody tr td a {line-height: 0; font-weight: bold }
 form .table-striped tr td:nth-child(1)>div { display: flex; align-items: baseline }
 div>.text-break:nth-child(2) { flex: 1 }
