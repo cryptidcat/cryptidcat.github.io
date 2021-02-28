@@ -3,13 +3,13 @@
 /* SNAIL */
 
 
-form .table.table-striped tbody tr td a:before {
+div .text-break:nth-child(1)::before {
     color: #31313178!important;
     text-shadow: none!important;
     margin: 0 13px 7px 10px;
     display: inline-block;
     font-size: 225%;
-    content: "🙞";
+    content: "\01F664";
     vertical-align: middle;
 }
 form .table.table-striped tbody tr td a {line-height: 0; font-weight: bold }
