@@ -13,7 +13,7 @@ div .text-break:nth-child(1)::before {
     vertical-align: middle;
 }
 form .table.table-striped tbody tr td a {line-height: 0; font-weight: bold }
-form .table-striped tr td:nth-child(1)>div { display: flex }
+form .table-striped tr td:nth-child(1)>div { display: flex; align-items: baseline }
 div>.text-break:nth-child(2) { flex: 1 }
 form .table.table-striped tbody tr td:nth-child(1) small { font-style: italic; display: block; text-align: right }
 
