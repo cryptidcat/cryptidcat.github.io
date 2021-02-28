@@ -4,12 +4,11 @@
 
 /* SNAIL */
 
-
+.table.table-striped td { padding:  }
 div .text-break:nth-child(1)::before {
     color: #31313178!important;
     text-shadow: none!important;
-    margin: 0 13px 7px 10px;
-    display: inline-block;
+    margin: 0 13px 0 10px;
     font-size: 225%;
     content: "\01F664";
     vertical-align: middle;
