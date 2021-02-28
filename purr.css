@@ -33,7 +33,7 @@ a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #ff
 a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa { text-shadow: 0 0 3px #fff; color: transparent; text-decoration: none }
 
 @media (min-width: 1200px) {
-#header .navbar-main .nav-link { font-size: 9px; letter-spacing: 1px; margin-right: 15px }
+#header .navbar-main .nav-link { font-size: 8px; font-weight: bold; letter-spacing: 1px; margin-right: 15px }
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
@@ -110,7 +110,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 9px; padding: 20px; font-weight: 100 }
+.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
 .card-header {
     background: none;
