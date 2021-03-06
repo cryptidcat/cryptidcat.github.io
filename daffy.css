@@ -176,14 +176,14 @@ th.top {
 
 .featured-wolf { padding: 15px!important }
 
-th.top::first-letter { font-family: 'Niconne'; font-size: 200%; font-weight: 100}
+th.top::first-letter { font-size: 200%; font-weight: 100}
 
 .small, small {
     font-size: inherit;
 }
 
 .note-popover .popover-content, .note-toolbar { padding: 0 0 5px }
-h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-family: 'Niconne', cursive; }
+h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-weight: bold }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
