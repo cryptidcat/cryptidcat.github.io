@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300;1,600&display=swap');
 
 
 
@@ -41,7 +41,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #999; font-family: 'Montserrat', serif; font-size: .6rem; letter-spacing: 1px;
+color: #bf9a28; font-family: 'Montserrat', serif; font-size: .6rem; letter-spacing: 1px;
 background-image: url('https://puu.sh/Gsdzv/caceeb1e7b.png'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #a76d8a; transition: .5s; text-decoration: none }
