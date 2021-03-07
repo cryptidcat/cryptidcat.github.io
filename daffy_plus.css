@@ -16,7 +16,7 @@ h3.mb-0 i { font-size: 80% }
     text-align: right;
     padding-right: 20px!important;
     align-self: flex-end;
-    filter: opacity(.2);
+    filter: opacity(.4);
     font-size: 300%;
     line-height: 1!important
 }
