@@ -86,11 +86,12 @@ td.left.b { vertical-align: middle }
     margin: 0 2px;
 }
 #summernote-form, .alert {
-    background: none;
     border: 0;
-    border-bottom: 1px solid #eee3;
     color: inherit;
-    padding: 0 5px 5px;
+    padding: 1.5em;
+    background: none;
+    font-size: 90%;
+    background-image: linear-gradient(to right, #f7ebaf, #ffff0000);
 }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
