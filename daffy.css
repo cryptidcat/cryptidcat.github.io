@@ -33,7 +33,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 #footer { background: none }
 .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
-body { cursor: default;
+body { text-transform: lowercase; cursor: default;
 color: #bf9a28; font-family: 'Montserrat', serif; font-size: .6rem; letter-spacing: 1px;
 background-image: url('https://puu.sh/Gsdzv/caceeb1e7b.png'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
@@ -47,7 +47,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .navbar-main .nav-link .fa { color: inherit }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
+th.pt-1.pb-1::before { content: "sanguine "; font-size: 25px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
@@ -96,7 +96,7 @@ td.left.b { vertical-align: middle }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: uppercase }
+td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: lowercase }
 
 #header .navbar-main { background: none!important }
 
@@ -116,7 +116,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; font-weight: 900 }
+.form-row .card-header b { display: inline-block; text-transform: lowercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; font-weight: 900 }
 .form-row .card-img-top { display: none }
 .card-header {
     background: none;
