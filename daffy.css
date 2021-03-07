@@ -47,7 +47,7 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .navbar-main .nav-link .fa { color: inherit }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-th.pt-1.pb-1::before { content: "sanguine "; font-size: 25px!important }
+th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
@@ -141,7 +141,7 @@ h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 6
 
 
 .progress {
-    background-color: #a76d8a!important;
+    background-color: #b59f55!important;
     outline: 0;
     margin: 2px;
     outline-offset: -1px;
