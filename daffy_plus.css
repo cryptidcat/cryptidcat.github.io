@@ -1,7 +1,7 @@
 
     /* a commission by #35127 for #1713 ♡ */
 
-#main>.table { display: none }
+.table { display: none }
 .table.mt-3 { display: table!important }
 h1 { font-size: 20px; text-shadow: 0 2px #baa653; }
 input { background: #fff!important }
