@@ -145,7 +145,7 @@ h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4
     color: #fff;
 }
 
-.btn-success:hover, .btn-warning:hover { background: #87ccf2; border-bottom-color: #eee3; }
+.btn-success:hover, .btn-warning:hover { background: #63adec; border-bottom-color: #eee3; }
 
 
 .progress {
