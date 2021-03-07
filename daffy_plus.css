@@ -9,4 +9,4 @@ h3.mb-0 i { font-size: 80% }
 
 .duck { background: #f7ebaf; padding: 20px 10px; display: flex; align-items: center; font-size: 1.5em; line-height: 1em }
 .duck>div { padding: 5px }
-.butter { font-size: 120% }
+.butter { font-style: italic; flex: 1 }
