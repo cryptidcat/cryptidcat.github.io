@@ -226,12 +226,13 @@ i.fa { font-size: 75%!important }
     display: inline-block;
     vertical-align: top;
     border: 0;
-    margin: -1em -5em 0 3em;
+    margin: -.5em -5em 0 3em;
 }
 .pup td {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 9px;
+    padding: 0!important
 }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
