@@ -124,8 +124,6 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
     border: 0;
 }
 
-.card.text-center { border: 0!important; background: none!important }
-
 .subheader { display: none }
 
 
@@ -238,3 +236,5 @@ i.fa { font-size: 75%!important }
 th .floatright { font-size: .7em; }
 
 .floatright.b.mt-2 { margin-right: 1em; font-size: 1.4em; font-weight: 100; font-style: italic; }
+
+.card.text-center { border: 0!important; background: none!important; border-radius: 0 }
