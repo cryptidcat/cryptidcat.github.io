@@ -226,7 +226,7 @@ i.fa { font-size: 75%!important }
     display: inline-block;
     vertical-align: top;
     border: 0;
-    margin: -1.3em 1.75em 0 5em;
+    margin: -1.3em -4em 0 5em;
 }
 .pup td {
     text-transform: uppercase;
