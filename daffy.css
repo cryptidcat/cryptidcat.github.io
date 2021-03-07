@@ -141,15 +141,15 @@ h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 7
 
 
 .progress {
-    background-color: #181818!important;
-    outline: 1px solid #222;
+    background-color: #abebc757!important;
+    outline: 0;
     margin: 2px;
     outline-offset: -1px;
     border-radius: 0;
 }
 
 
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #222!important }
+.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #ead080!important }
 
 select { background: #000 }
 
