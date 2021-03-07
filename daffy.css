@@ -48,9 +48,12 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
 th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
-.featured-wolf { font-size: 0!important }
+.featured-wolf { font-size: 0!important;
+height: 210px;
+overflow: auto;
+width: 100%; }
 
-.featured-wolf b::before {
+.featured-wolf::before {
     content: "sun kisses";
     font-size: 15px;
     text-align: left;
@@ -60,16 +63,13 @@ th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
     position: relative;
 }
 
-.featured-wolf b::after { content: "it is said that the moon is the mother of wolves, creator of life. now, hear the legends of their guardian - the sun, protector of wolves. her rays of light nourish the cosmos and open shadow-veiled eyes to the beauty of esse. beneath her fiery shield, all existence thrives - flora blossoms and fauna flourishes. enlightened by her radiant love.\A\A explore the group of wolves that dance amidst the sunbeams; revere the fire in the sky and their hearts. those among them who appear drizzled in honey, like embodiments of the rays of sun, are adored for the light that blooms within their soul and shines from their body. believed to have been kissed by the sun itself.\A\A few wolves stand out amongst the yellow painted furs with noticeably darker features, almost appearing burnt. it is said that the souls of these wolves are not so pure of heart. mere shadows of the moon, where the light cannot touch. believed to have been scorched by the sun.";
+.featured-wolf::after { content: "it is said that the moon is the mother of wolves, creator of life. now, hear the legends of their guardian - the sun, protector of wolves. her rays of light nourish the cosmos and open shadow-veiled eyes to the beauty of esse. beneath her fiery shield, all existence thrives - flora blossoms and fauna flourishes. enlightened by her radiant love.\A\A explore the group of wolves that dance amidst the sunbeams; revere the fire in the sky and their hearts. those among them who appear drizzled in honey, like embodiments of the rays of sun, are adored for the light that blooms within their soul and shines from their body. believed to have been kissed by the sun itself.\A\A few wolves stand out amongst the yellow painted furs with noticeably darker features, almost appearing burnt. it is said that the souls of these wolves are not so pure of heart. mere shadows of the moon, where the light cannot touch. believed to have been scorched by the sun.";
 white-space: pre-wrap;
 font-size: 10px;
 font-weight: 100;
 text-align: left;
-width: 100%;
 background: #ffffd5;
 display: block;
-height: 210px;
-overflow: auto;
 padding: 1em;
 }
 
@@ -273,4 +273,8 @@ form#summernote-form select { background: #fff!important }
 ::-webkit-scrollbar-thumb {
   background: #ffffd5;
   border-radius: 10px; padding: 5px; border: 5px solid #debf59;
+}
+
+
+.featured-wolf b::after::-webkit-scrollbar {width: 15px; background: #debf59;
 }
