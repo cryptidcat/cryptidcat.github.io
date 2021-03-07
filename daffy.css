@@ -130,9 +130,9 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
-h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 60px; }
+h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4em; }
 
-
+#header .navbar-main .nav-link { text-transform: lowercase }  
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: inherit!important }
