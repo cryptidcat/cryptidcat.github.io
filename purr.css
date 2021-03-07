@@ -222,7 +222,12 @@ i.fa { font-size: 75%!important }
 
 .pup td:nth-child(1n+2) { display: none; }
 .pup div .text-break:nth-child(1)::before { content: "" }
-.pup { display: inline-block;  vertical-align: top; border: 0; margin-top: -1em; }
+.pup {
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    margin: -1em -5em 0 3em;
+}
 .pup td {
     text-transform: uppercase;
     letter-spacing: 1px;
