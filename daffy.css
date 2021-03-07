@@ -51,7 +51,9 @@ th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
 .featured-wolf { font-size: 0!important;
 height: 210px;
 overflow: auto;
-width: 100%; }
+width: 100%;
+background: #ffffd5;
+padding: 1em; }
 
 .featured-wolf::before {
     content: "sun kisses";
@@ -68,9 +70,7 @@ white-space: pre-wrap;
 font-size: 10px;
 font-weight: 100;
 text-align: left;
-background: #ffffd5;
 display: block;
-padding: 1em;
 }
 
 #main { flex: 1; max-width: 100%; background: none }
