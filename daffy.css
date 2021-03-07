@@ -50,7 +50,20 @@ form#summernote-form select { background: #fff; }
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
 th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
 .featured-wolf { font-size: 0!important }
-.featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
+
+
+.featured-wolf b::before { content: "it is said that the moon is the mother of wolves, creator of life. now, hear the legends of their guardian - the sun, protector of wolves. her rays of light nourish the cosmos and open shadow-veiled eyes to the beauty of esse. beneath her fiery shield, all existence thrives - flora blossoms and fauna flourishes. enlightened by her radiant love.\A\A";
+white-space: pre-wrap;
+font-size: 12px;
+font-weight: 100;
+text-align: left;
+width: 100%;
+background: #ffffd5;
+display: block;
+height: 210px;
+overflow: auto;
+padding: 1em;
+}
 
 #main { flex: 1; max-width: 100%; background: none }
 .container>.row { display: block!important }
