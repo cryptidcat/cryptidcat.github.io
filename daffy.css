@@ -261,3 +261,5 @@ form#summernote-form select { background: #fff!important }
 
 .featured-wolf b::after::-webkit-scrollbar {width: 15px; background: #debf59;
 }
+
+.form-row { align-items: baseline; }
