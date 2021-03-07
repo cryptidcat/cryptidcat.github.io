@@ -138,7 +138,6 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .subheader { display: none }
 
 
-h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee1; font-size: 2rem }
 
 h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4em; }
 
@@ -228,7 +227,6 @@ div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.t
 select option { background: #000!important; color: inherit!important }
 
 
-h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-right: 10px; filter: opacity(.2) }
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
