@@ -139,7 +139,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 
 
-h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4em; }
+h1 { text-align: right; color: #eecb61; /* text-shadow: 0 3px #baa653; */ font-size: 4em; }
 
 #header .navbar-main .nav-link { text-transform: lowercase }
 .text-danger { color: inherit!important }
