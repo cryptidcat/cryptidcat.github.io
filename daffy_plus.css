@@ -1,7 +1,7 @@
 
     /* a commission by #35127 for #1713 ♡ */
 
-.table, h1 { display: none }
+.table, h1, .row.justify-content-md-center { display: none }
 h1 { font-size: 20px; text-shadow: 0 2px #baa653; }
 input { background: #fff!important }
 h3.mb-0 { text-align: left }
