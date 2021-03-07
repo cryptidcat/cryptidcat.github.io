@@ -42,9 +42,9 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 
-.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 20px!important; font-style: italic }
 th.pt-1.pb-1 a { color: #fff!important }
-th.pt-1.pb-1 a::before { content: "sanguine "; font-size: 20px!important }
+th.pt-1.pb-1 a::before { content: "sanguine " }
 .featured-wolf { font-size: 0!important;
 height: 210px;
 overflow: auto;
