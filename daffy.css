@@ -232,7 +232,7 @@ h3.mb-0 i { vertical-align: middle; display: inline; font-size: 50%; margin-righ
 img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
-
+.text-muted { color: inherit!important; font-style: italic }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
