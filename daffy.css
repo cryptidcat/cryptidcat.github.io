@@ -251,3 +251,6 @@ th .floatright { font-size: .7em; }
 .floatright.b.mt-2 { margin-right: 1em; font-size: 1.4em; font-weight: 100; font-style: italic; }
 
 .card.text-center { border: 0!important; background: none!important; border-radius: 0 }
+
+
+#header .navbar-main .navbar-brand { background: url('https://cdn.discordapp.com/attachments/817897616125198336/817963484423258152/image0.png') }
