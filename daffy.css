@@ -34,7 +34,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
-color: #bf9a28; font-family: 'Montserrat', serif; font-size: .6rem; letter-spacing: 1px;
+color: #bf9a28; font-family: 'work sans', serif; font-size: .6rem; letter-spacing: 1px;
 background-image: url('https://puu.sh/Gsdzv/caceeb1e7b.png'); background-color: #000; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #a76d8a; transition: .5s; text-decoration: none }
@@ -188,6 +188,7 @@ td.b { text-align: right; text-transform: lowercase; font-style: italic }
 .table .bottom, .table tfoot td { color: inherit; background: #ead080!important }
 
 td { background: #f7ebaf }
+#main .card { border-radius: 20px 0 0; margin: 0 auto!important; background: #f7ebaf }
 
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
@@ -200,7 +201,6 @@ img.float-left.mr-2 { background: none; border-radius: 0; padding: 0; }
 
 
 
-#main .card { border-radius: 20px 0 0; margin: 0 auto!important; background: #ead080 }
 
 .card>.pb-1, .col-sm-7 .card { background: none!important }
 .card>a img { outline: 1px solid #ffffff24; outline-offset: -5px }
