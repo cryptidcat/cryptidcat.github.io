@@ -137,8 +137,15 @@ h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: inherit!important }
-.btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
+
+.btn-success, .btn-warning {
+    transition: .5s;
+    border-bottom-color: #eee3;
+    background-color: #a76d8a;
+    color: #fff;
+}
+
+.btn-success:hover, .btn-warning:hover { background: #87ccf2; border-bottom-color: #eee3; }
 
 
 .progress {
