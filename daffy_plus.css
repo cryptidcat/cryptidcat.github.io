@@ -3,4 +3,5 @@
 
 #main>.table { display: none }
 .table.mt-3 { display: table!important }
-h1 { font-size: 20px; text-align: left }
+h1 { font-size: 20px; text-shadow: 0 2px #baa653; }
+input { background: #fff!important }
