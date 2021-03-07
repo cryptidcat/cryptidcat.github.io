@@ -82,7 +82,6 @@ th.pt-1.pb-1::after { content: ", maven"; font-size: 25px!important }
     border: 1px solid #eee3;
  }
 
-.table th, #main .card, .card.text-center { background: #2d2d2d }
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
@@ -123,7 +122,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .pb-1, .py-1 { padding: 20px!important }
 
-.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; padding: 20px; font-weight: 100 }
+.form-row .card-header b { display: inline-block; text-transform: uppercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; font-weight: 900 }
 .form-row .card-img-top { display: none }
 .card-header {
     background: none;
@@ -175,6 +174,8 @@ th.top {
     font-style: italic;
     border-radius: 20px 0 0;
 }
+
+.pt-1.pb-1 { border-radius: 20px 0 0 }
 
 .featured-wolf { padding: 15px!important }
 
