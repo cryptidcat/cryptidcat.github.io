@@ -5,3 +5,5 @@
 .table.mt-3 { display: table!important }
 h1 { font-size: 20px; text-shadow: 0 2px #baa653; }
 input { background: #fff!important }
+h3.mb-0 { text-align: left }
+h3.mb-0 i { vertical-align: middle; display: inline; font-size: 80%; margin-right: 5px; color: #fff }
