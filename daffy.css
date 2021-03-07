@@ -267,3 +267,10 @@ th .floatright { font-size: .7em; }
 }
 
 form#summernote-form select { background: #fff!important }
+::-webkit-scrollbar {width: 15px; background: #debf59;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffd5;
+  border-radius: 10px; padding: 5px; border: 5px solid #debf59;
+}
