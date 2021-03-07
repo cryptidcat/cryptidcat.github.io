@@ -223,8 +223,10 @@ i.fa { font-size: 75%!important }
 form table { background: #181818!important }
 
 .pup { display: inline-block;  vertical-align: top; border: 0; margin-top: -1em; }
-
-.pup td { margin: 0 .12rem .25rem; padding: 1em; line-height: 1; vertical-align: top; display: inline-block; font-size: 75% }
+.pup div .text-break:nth-child(1)::before { content: "" }
+.pup td { margin: 0 .12rem .25rem; padding: 1em; line-height: 1; vertical-align: top; display: inline-block; text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px; margin-right: -2em }
 .ml-3 { display: block; }
 
 .text-break { display: flex;  align-items: center; align-self: center  }
