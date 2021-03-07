@@ -45,7 +45,6 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 #header .navbar-main { min-height: 115px; background: none } }
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
-form#summernote-form select { background: #fff; }
 
 .pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
 th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
@@ -60,6 +59,7 @@ th.pt-1.pb-1::before { content: "sanguine"; font-size: 25px!important }
     z-index: 99;
     position: relative;
 }
+
 .featured-wolf b::after { content: "it is said that the moon is the mother of wolves, creator of life. now, hear the legends of their guardian - the sun, protector of wolves. her rays of light nourish the cosmos and open shadow-veiled eyes to the beauty of esse. beneath her fiery shield, all existence thrives - flora blossoms and fauna flourishes. enlightened by her radiant love.\A\A explore the group of wolves that dance amidst the sunbeams; revere the fire in the sky and their hearts. those among them who appear drizzled in honey, like embodiments of the rays of sun, are adored for the light that blooms within their soul and shines from their body. believed to have been kissed by the sun itself.\A\A few wolves stand out amongst the yellow painted furs with noticeably darker features, almost appearing burnt. it is said that the souls of these wolves are not so pure of heart. mere shadows of the moon, where the light cannot touch. believed to have been scorched by the sun.";
 white-space: pre-wrap;
 font-size: 10px;
@@ -265,3 +265,5 @@ th .floatright { font-size: .7em; }
     background-size: auto 100%;
     background-repeat: no-repeat;
 }
+
+form#summernote-form select { background: #fff!important }
