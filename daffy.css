@@ -31,7 +31,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 #main>br { display: none }
 
 #footer { background: none }
-.nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { text-transform: lowercase; cursor: default;
 color: #bf9a28; font-family: 'Montserrat', serif; font-size: .6rem; letter-spacing: 1px;
@@ -132,7 +132,7 @@ h3.mb-0 { padding: 10px; text-align: right; font-style: italic; background: #eee
 
 h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 4em; }
 
-#header .navbar-main .nav-link { text-transform: lowercase }  
+#header .navbar-main .nav-link { text-transform: lowercase }
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: inherit!important }
