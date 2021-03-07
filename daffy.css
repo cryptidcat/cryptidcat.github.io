@@ -173,6 +173,7 @@ th.top {
     text-transform: lowercase;
     font-size: 200%;
     font-style: italic;
+    border-radius: 20px 0 0;
 }
 
 .featured-wolf { padding: 15px!important }
