@@ -102,7 +102,7 @@ td.left { background: #000!important; font-size: 80%; font-weight: 100; text-ali
 td.row { margin: 0!important }
 
 
-tr { border-bottom: 1px solid #e8d89c }
+tr { border-bottom: 1px solid #ead080 }
 .table { border: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #222 }
 
@@ -134,7 +134,7 @@ h1 { text-align: right; color: #eecb61; text-shadow: 0 3px #baa653; font-size: 7
 
 .text-danger { color: inherit!important }
 
-.form-control { border: 0; color: #fff!important }
+.form-control { border: 0; color: inherit!important }
 .btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
 .btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
 
@@ -185,8 +185,10 @@ th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 td.b { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
-.table .bottom, .table tfoot td { color: inherit; background: #f7ebaf!important }
+.table .bottom, .table tfoot td { color: inherit; background: #ead080!important }
+
 td { background: #f7ebaf }
+
 .note-editor { filter: invert(1) }
 #footer ul, select { background: none!important }
 div.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf, .col-xl-3.col-sm-7.text-center { align-self: center }
