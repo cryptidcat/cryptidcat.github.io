@@ -10,7 +10,7 @@ div .text-break:nth-child(1)::before {
     text-shadow: none!important;
     margin: 0 13px 0 10px;
     font-size: 225%;
-    content: "\01F664";
+    content: "🌼";
     vertical-align: middle;
 }
 
