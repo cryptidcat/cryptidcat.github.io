@@ -126,7 +126,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
 .form-row .card { border: 1px solid #eee3!important }
 
-.pb-1, .py-1 { padding: 20px!important }
+.pb-1, .py-1 { padding: 15px!important }
 
 .form-row .card-header b { display: inline-block; text-transform: lowercase; letter-spacing: 1px; font-size: 8px; font-weight: bold; font-weight: 900 }
 .form-row .card-img-top { display: none }
