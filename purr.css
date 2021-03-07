@@ -145,8 +145,8 @@ h1::before { content: ""; display: block; position: absolute; top: 51%; left: 0;
 .text-danger { color: inherit!important }
 
 .form-control { border: 0; color: #fff!important }
-.btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
-.btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
+.btn-primary, .btn-success, .btn-warning { transition: .5s; border-bottom-color: #eee3; color: #fff!important; background-color: #2f1b23; color: #fff }
+.btn-primary:hover, .btn-success:hover, .btn-warning:hover { background: #2f1b238c; border-bottom-color: #eee3; }
 
 
 .progress {
@@ -220,7 +220,7 @@ i.fa { font-size: 75%!important }
 .pup td:nth-child(1n+2) { display: none; }
 
 
-form table { background: #181818 }
+form table { background: #181818!important }
 
 .pup { display: inline-block;  vertical-align: top; border: 0; margin-top: -1em; }
 
@@ -228,3 +228,6 @@ form table { background: #181818 }
 .ml-3 { display: block; }
 
 .text-break { display: flex;  align-items: center; align-self: center  }
+.ml-3, .mx-3 {
+    margin-left: 0!important;
+}
