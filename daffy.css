@@ -111,7 +111,7 @@ td.left.b { vertical-align: middle }
 
 .user-tag, .float-left.mr-2 { border: 1px solid #eee3 }
 
-td.left { background: #000!important; font-size: 80%; font-weight: 100; text-align: right; letter-spacing: 1px; text-transform: lowercase }
+td.left { background: #f7ebaf!important }
 
 #header .navbar-main { background: none!important }
 
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, th.pt-1.pb-1 { font-weight: bold }
 
 th, .table a, #footer nav .nav-item .nav-link { font-weight: 100 }
 
-td.b { text-align: right; text-transform: lowercase; font-style: italic }
+td.b, td.left { text-align: right; text-transform: lowercase; font-style: italic }
 
 .form-control, .btn { font-size: inherit!important }
 .table .bottom, .table tfoot td { color: inherit; background: #ead080!important }
