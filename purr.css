@@ -226,7 +226,7 @@ i.fa { font-size: 75%!important }
     display: inline-block;
     vertical-align: top;
     border: 0;
-    margin: -1.3em -6em 0 3em;
+    margin: -1.3em 1.75em 0 5em;
 }
 .pup td {
     text-transform: uppercase;
@@ -235,6 +235,7 @@ i.fa { font-size: 75%!important }
     padding: 0!important;
     display: inline-block;
 }
+.pup:before { content: "x"; margin: 0; color: #31313178; font-size: 2rem; float: left; margin-top: -.6em; font-family: niconne; }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
 form table { background: #181818!important }
