@@ -33,7 +33,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
     font-weight: bold;
 }
 
-
+.form-row a { background: #f7ebafcc; display: block; margin: 1em 0 }
 
 #main>br { display: none }
 
