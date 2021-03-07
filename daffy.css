@@ -252,5 +252,8 @@ th .floatright { font-size: .7em; }
 
 .card.text-center { border: 0!important; background: none!important; border-radius: 0 }
 
-
-#header .navbar-main .navbar-brand { background: url('https://cdn.discordapp.com/attachments/817897616125198336/817963484423258152/image0.png') }
+#header .navbar-main .navbar-brand {
+    background: url(https://cdn.discordapp.com/attachments/817897616125198336/817963484423258152/image0.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
