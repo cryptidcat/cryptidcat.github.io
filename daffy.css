@@ -31,7 +31,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 #main>br { display: none }
 
 #footer { background: none }
-#sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
+.nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
 
 body { cursor: default;
 color: #bf9a28; font-family: 'work sans', serif; font-size: .6rem; letter-spacing: 1px;
