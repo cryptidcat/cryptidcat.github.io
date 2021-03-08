@@ -82,9 +82,9 @@ th.pt-1.pb-1::after { content: ", high priestess"; font-size: 25px!important }
  }
 
 
-th {    background: #111;
+th {    background-color: #111;
     background-blend-mode: difference; }
-    
+
 .table-striped tbody tr:nth-of-type(odd), .form-control { background-color: transparent }
 
 td.left.b { vertical-align: middle }
