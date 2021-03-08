@@ -52,8 +52,8 @@ a:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .na
 .nav-item i { vertical-align: middle; display: inline }
 #header .navbar-main .nav-link .fa { color: inherit }
 
-.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: 25px!important }
-th.pt-1.pb-1::after { content: ", high priestess"; font-size: 25px!important }
+.pt-1.pb-1, .featured-wolf b { font-size: 0!important } .pt-1.pb-1 a { font-size: .9em!important }
+th.pt-1.pb-1::after { content: ", high priestess"; font-size: .9em!important }
 .featured-wolf { font-size: 0!important }
 .featured-wolf b::before { content: "as above\Aso below"; font-style: italic; font-size: .875rem!important; white-space: pre-wrap }
 
@@ -76,7 +76,7 @@ th.pt-1.pb-1::after { content: ", high priestess"; font-size: 25px!important }
         font-size: inherit!important;
     }
 
-.table { border: 0!important }  
+.table { border: 0!important }
 .card.mb-3, .featured-wolf img {
     border: 1px solid #eee3;
  }
@@ -176,8 +176,10 @@ th.top {
     letter-spacing: 1px;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: .9em;
 }
+
+.text-break.featured-wolf b { margin: 0 auto }
 
 .featured-wolf { padding: 15px!important }
 
