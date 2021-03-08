@@ -76,7 +76,7 @@ th.pt-1.pb-1::after { content: ", high priestess"; font-size: 25px!important }
         font-size: inherit!important;
     }
 
-
+.table { border: 0!important }  
 .card.mb-3, .featured-wolf img {
     border: 1px solid #eee3;
  }
