@@ -244,7 +244,9 @@ form td:nth-child(5) { width: 7%; }
     padding: 0!important;
     display: inline-block;
 }
-.pup:before { content: "x"; margin: 0; color: #31313178; font-size: 2rem; float: left; margin-top: -.6em; font-family: niconne; }
+.pup:before { content: "x"; margin: 0; color: #31313178; font-size: 2rem;
+display: inline-block;
+vertical-align: middle; font-family: niconne; }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
 form table { background: #181818!important }
