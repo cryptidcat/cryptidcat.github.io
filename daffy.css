@@ -115,7 +115,7 @@ td.left { background: #f7ebaf!important }
 td.row { margin: 0!important }
 
 
-tr { border-top: 1px solid #ead080 }
+tr { border-bottom: 1px solid #ead080 }
 .table { border: 0!important }
 td.right.text-right { text-align: center!important; vertical-align: middle!important; border-left: 1px solid #ead080 }
 
@@ -304,4 +304,3 @@ form#summernote-form select { background: #fff!important }
 }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
-form table { background: #f7ebaf!important }
