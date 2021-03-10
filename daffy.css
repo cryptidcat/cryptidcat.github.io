@@ -302,7 +302,8 @@ tr.pup {
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
 
-table { background: #ead080!important }
+table { background: #f7ebaf!important;
+border-radius: 20px 0; }
 
 .form-row .card, td.right.text-right, .pb-1, .py-1, th.top {
         background-color: #edc653e6!important;
