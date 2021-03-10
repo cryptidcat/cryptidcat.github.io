@@ -34,7 +34,7 @@ form .table.table-striped tbody tr td:nth-child(1) small {
 
 
 
-#main>br { display: none }
+#main>br, #footer { display: none }
 
 #footer { background: none }
 #sidebar, .nav-tabs, .navbar-status, .breadcrumb-nav { display: none }
