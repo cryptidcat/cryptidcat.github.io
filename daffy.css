@@ -264,3 +264,35 @@ form#summernote-form select { background: #fff!important }
 }
 
 .form-row { align-items: baseline; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pup td:nth-child(1n+2) { display: none; }
+.pup div .text-break:nth-child(1)::before { content: "" }
+.pup {
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    margin: -1.3em -1.5em 0 1.5em;
+}
+.pup td {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    padding: 0!important;
+    display: inline-block;
+}
+.pup:before { content: "🌱"; margin: 0; color: #31313178; font-size: 2rem; float: left; margin-top: -.6em; font-family: niconne; }
+.ml-3 { display: block }
+.ml-3, .mx-3 { margin-left: 0!important }
+form table { background: #181818!important }
