@@ -282,7 +282,7 @@ tr.pup {
     margin: -1.5em 0 1em 2.5em;
     padding: 2px;
     border: 1px solid #ead080;
-    background: #f7ebaf;
+    background: #f7ebaf!important;
 }
 .pup td {
     display: inline-block;
