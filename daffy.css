@@ -53,7 +53,7 @@ background: #ffffd5;
 padding: 1em; }
 
 th.pt-1.pb-1 { position: relative; }
-th.pt-1.pb-1::after { content: "sun kisses"; display: block; position: absolute; top: 4.5em; right: 2.3em; font-size: 15px; color: #bf9a28; z-index: 1; pointer-events: none; user-select: none; }
+th.pt-1.pb-1::after { content: "sun kisses"; display: block; position: absolute; top: 5.2em; right: 2.3em; font-size: 15px; color: #bf9a28; z-index: 1; pointer-events: none; user-select: none; }
 
 .featured-wolf::after { content: "it is said that the moon is the mother of wolves, creator of life. now, hear the legends of their guardian - the sun, protector of wolves. her rays of light nourish the cosmos and open shadow-veiled eyes to the beauty of esse. beneath her fiery shield, all existence thrives - flora blossoms and fauna flourishes. enlightened by her radiant love.\A\A explore the group of wolves that dance amidst the sunbeams; revere the fire in the sky and their hearts. those among them who appear drizzled in honey, like embodiments of the rays of sun, are adored for the light that blooms within their soul and shines from their body. believed to have been kissed by the sun itself.\A\A few wolves stand out amongst the yellow painted furs with noticeably darker features, almost appearing burnt. it is said that the souls of these wolves are not so pure of heart. mere shadows of the moon, where the light cannot touch. believed to have been scorched by the sun.";
 white-space: pre-wrap;
