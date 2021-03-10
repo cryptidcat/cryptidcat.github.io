@@ -279,7 +279,7 @@ form#summernote-form select { background: #fff!important }
 
 .pup td:nth-child(1n+2) { display: none; }
 .pup div .text-break:nth-child(1)::before { content: "" }
-.pup {
+tr.pup {
     display: inline-block;
     vertical-align: top;
     margin: -1.5em 0 0 2.5em;
