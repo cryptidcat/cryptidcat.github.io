@@ -225,7 +225,7 @@ form td:nth-child(4) { width: 5% }
 form td:nth-child(5) { width: 7%; }
 
 
-.card.mb-3 { background: #181818 }
+.card.mb-3 { background: #181818!important }
 
 
 
