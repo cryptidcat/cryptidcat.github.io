@@ -292,7 +292,14 @@ form#summernote-form select { background: #fff!important }
     padding: 0!important;
     display: inline-block;
 }
-.pup:before { content: "🌱"; margin: 0; color: #31313178; font-size: 2rem; float: left; margin-top: -.6em; font-family: niconne; }
+.pup:before {
+    content: "🌱";
+    margin: 0;
+    color: #d8b54db3;
+    font-size: 150%;
+    display: inline-block;
+    vertical-align: middle;
+}
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
 form table { background: #f7ebaf!important }
