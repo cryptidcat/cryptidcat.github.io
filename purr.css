@@ -245,7 +245,7 @@ form td:nth-child(5) { width: 7%; }
     display: inline-block;
 }
 .pup:before { content: "x"; margin: 0 0 .35em 0; color: #31313178; font-size: 2rem;
-display: inline-block; line-height: 1; 
+display: inline-block; line-height: 1;
 vertical-align: middle; font-family: niconne; }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
@@ -256,4 +256,4 @@ form table { background: #181818!important }
 
 
 
-#header { filter: grayscale(1) }
+#header { filter: opacity(.5) }
