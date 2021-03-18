@@ -256,4 +256,5 @@ form table { background: #181818!important }
 
 
 
-#header { filter: opacity(.5) }
+#header { filter: opacity(.5); transition: .6s }
+#header:hover { filter: opacity(0) }
