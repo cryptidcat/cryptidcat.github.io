@@ -1,0 +1,50 @@
+/* a commission by #35127 for #6985 */
+
+body { background: #959CB2 }
+
+a { color: inherit!important }
+
+nav { background: none }
+
+#main br, #footer { display: none }
+
+#main { flex: 1; max-width: 100%; padding: 0; background: none; }
+#sidebar, .breadcrumb-nav, .nav-tabs { display: none }
+
+table { background: #CACAE2; border: 4px double #eee;  box-shadow: none; margin: 1rem 0  }
+
+th { background: none; color: inherit; border-bottom: 1px solid #fff6 }
+
+
+
+table.table.mt-3 td { padding: .2rem; }
+
+table.table.mt-3 td.right.text-right img { display: none }
+
+table.table.mt-3 td.left.b { font-weight: bold; font-size: 90%; text-transform: uppercase; background: none; vertical-align: middle; }
+
+table.table.mt-3 tbody { display: flex; flex-wrap: wrap; }
+table.table.mt-3 tr {
+  flex: 0 0 50%; padding: .5em 1em 0 }
+
+table.table.mt-3 tbody tr:nth-child(1),table.table.mt-3 tbody tr:nth-child(2) { display: none }
+
+table.table.mt-3 tbody tr:nth-last-child(1) { flex: 1; padding: 0; }
+
+
+.bottom:first-letter { font-size: 300%; font-family: georgia; float: left; text-transform: lowercase; line-height: 1; margin: -.1em .2em 0 0; font-style: italic; }
+
+
+.bottom:before { content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."; background: url('https://i.imgur.com/pjDixSK.png') 50% 100%; background-size: cover; display: block; padding: 3rem; font-size: 90%; color: #fff; text-align: justify }
+
+
+.table .bottom, .table tfoot td { background: none; }
+table.table.mt-3 td.bottom { padding: 0 }
+
+
+#main .form-row br { display: block }
+#header i { color: inherit }
+#header { font-size: .7rem }
+#header a, #header i { font-size: inherit }
+#header a:hover { color: #fff }
+.navbar-status { background: #eee2; margin-bottom: 1rem }
