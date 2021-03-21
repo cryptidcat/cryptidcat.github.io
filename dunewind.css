@@ -42,6 +42,7 @@ table {
 
 th { background: none; color: inherit; border-bottom: 1px solid #fff6 }
 
+.bottom { display: block }
 
 
 table.table.mt-3 td { padding: .2rem }
