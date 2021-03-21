@@ -104,7 +104,4 @@ th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 
 
-
-
-
-.text-light { color: inherit }
+.text-danger, .text-light { color: inherit }
