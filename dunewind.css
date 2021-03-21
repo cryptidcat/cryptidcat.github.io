@@ -3,7 +3,7 @@
 /* a commission by #35127 for #6985 */
 
 body { cursor: default;
-color: #727882; font-family: lato, sans-serif; font-size: .71rem;
+color: #373f42; font-family: lato, sans-serif; font-size: .71rem;
 background-image: url('https://i.ibb.co/b2nfFGS/soft.jpg'); background-color: #9dafc6; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
 
 a, .nav-link, .table th a, .alert-info .alert-link, .alert-success .alert-link { color: #e0e4f1; transition: .5s; text-decoration: none }
@@ -93,3 +93,8 @@ table.table.mt-3 td.bottom { padding: 0 }
 #header a, #header i { font-size: inherit }
 .navbar-status { background: #eee2; margin-bottom: 1rem }
 #header .navbar-main .nav-link .fa { color: inherit }
+
+
+th.top { background: transparent; border-bottom: 1px solid #eeea; text-transform: lowercase; font-size: 2rem; font-weight: 100; line-height: 1; padding: 1rem }
+
+h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
