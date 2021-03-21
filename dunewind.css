@@ -99,7 +99,7 @@ table.table.mt-3 td.bottom { padding: 0 }
 #header .navbar-main .nav-link .fa { color: inherit }
 
 
-th.top { background: transparent; border-bottom: 1px solid #eeea; text-transform: lowercase; font-size: 2rem; font-weight: 100; line-height: 1; padding: 1rem }
+th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: lowercase; font-size: 1.5rem; font-weight: 100; line-height: 1; padding: 1.5rem }
 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 
