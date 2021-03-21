@@ -89,7 +89,7 @@ table.table.mt-3 td.bottom { padding: 0 }
 
 
 #main .form-row br { display: block }
-#header i { color: inherit }
 #header { font-size: .7rem }
 #header a, #header i { font-size: inherit }
 .navbar-status { background: #eee2; margin-bottom: 1rem }
+#header .navbar-main .nav-link .fa { color: inherit }
