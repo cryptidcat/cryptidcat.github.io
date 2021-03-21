@@ -25,12 +25,11 @@ a:hover, .nav-link:hover, #footer nav .nav-item .nav-link:hover, #header .navbar
     background-position: center;
 }
 
-
+#header .navbar-status { background-color: none }
 .table, table, #header .navbar-status {
-border: 1px solid #eee4;
-background-image: linear-gradient(136deg, rgb(230 218 234 / 58%), rgb(183 207 247 / 50%));
+    border: 1px solid #c4d2e86b;
+    background-image: linear-gradient(136deg, rgb(164 151 179 / 42%), rgb(255 255 255 / 31%));
 }
-
 
 
 nav { background: none }
