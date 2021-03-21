@@ -18,8 +18,8 @@ form td:nth-child(2) { width: auto!important }
 
 
 .float-right.mt-2 { margin: 0; padding: 0; float: none; }
-.btn.btn-danger { font-size: 0; z-index: 1; position: fixed; bottom: 0; left: 0; margin: 1rem; border: 0; vertical-align: middle; display: inline-block; padding: .5rem; background: #fff2; color: inherit; line-height: 1 }
-.btn.btn-danger:hover { font-size: 8px; font-style: italic; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
+.btn.btn-danger { font-size: 0!important; z-index: 1; position: fixed; bottom: 0; left: 0; margin: 1rem; border: 0; vertical-align: middle; display: inline-block; padding: .5rem; background: #fff2; color: inherit; line-height: 1 }
+.btn.btn-danger:hover { font-size: 8px!important; font-style: italic; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
 .btn i { font-size: 10px; display: inline-block; }
 
 
