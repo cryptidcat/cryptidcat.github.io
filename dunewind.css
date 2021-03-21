@@ -55,7 +55,7 @@ table.table.mt-3 tbody { display: flex; flex-wrap: wrap; }
   table.table.mt-3 tr {
     flex: 0 0 25%; padding: .5em 1em 0 }
 
-@media (min-width: 992px){
+@media (max-width: 992px){
   table.table.mt-3 tr {
     flex: 0 0 100%; padding: .5em 1em 0 }
 }
