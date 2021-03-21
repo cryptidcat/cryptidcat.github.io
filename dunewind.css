@@ -24,7 +24,6 @@ a:hover, .nav-link:hover, #footer nav .nav-item .nav-link:hover, #header .navbar
     background-size: contain;
     background-position: center;
 }
-#header .navbar-main .nav-link .fa { color: inherit }
 
 
 
@@ -38,7 +37,6 @@ a:hover, .nav-link:hover, #footer nav .nav-item .nav-link:hover, #header .navbar
 }
 
 
-a { color: inherit!important }
 
 nav { background: none }
 
