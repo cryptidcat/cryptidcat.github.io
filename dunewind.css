@@ -29,7 +29,11 @@ nav { background: none }
 #main { flex: 1; max-width: 100%; padding: 0; background: none; }
 #sidebar, .breadcrumb-nav, .nav-tabs { display: none }
 
-table { background: #CACAE2; border: 4px double #eee;  box-shadow: none; margin: 1rem 0  }
+table {
+    background: #eeeeeead!important;
+    border: 0!important;
+    box-shadow: 0 0 20px #4f588069;
+}
 
 th { background: none; color: inherit; border-bottom: 1px solid #fff6 }
 
