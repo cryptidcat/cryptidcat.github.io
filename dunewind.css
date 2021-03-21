@@ -96,3 +96,9 @@ table.table.mt-3 td.bottom { padding: 0 }
 #header a, #header i { font-size: inherit }
 #header a:hover { color: #fff }
 .navbar-status { background: #eee2; margin-bottom: 1rem }
+
+
+
+
+.nav-link { color: #e0e4f1 }
+.nav-link:hover { color: #fff }
