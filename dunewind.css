@@ -2,6 +2,8 @@
 
 /* a commission by #35127 for #6985 */
 
+* { outline: 0 }
+
 body { cursor: default;
 color: #56606d; font-family: lato, sans-serif; font-size: .75rem;
 background-image: url('https://i.ibb.co/b2nfFGS/soft.jpg'); background-color: #9dafc6; background-attachment: fixed; background-size: cover; background-position: 50% 50% }
