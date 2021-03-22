@@ -99,7 +99,7 @@ th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 
 
-.text-light, .text-dark { color: inherit!important }
+.text-light, .text-dark, .text-success { color: inherit!important }
 
 
 .table .bottom, .table tfoot td { background: none; }
