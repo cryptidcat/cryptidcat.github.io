@@ -167,3 +167,7 @@ form-row .float-left mr-2 { border-radius: 50% }
     letter-spacing: 2px !important;
     color: #fff6 !important;
 }
+
+
+
+.btn-danger { font-size: 85%; background: none; border: 0 }
