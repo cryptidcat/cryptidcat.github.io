@@ -151,3 +151,8 @@ body:after { content: "ᓚᘏᗢ"; position: fixed; bottom: 0; left: 0; padding:
 
 
 form-row .float-left mr-2 { border-radius: 50% }
+
+.mr-2 { filter: opacity(.5); border-radius: 50%; transition: .6s }
+.mb-2:hover .mr-2 { filter: opacity(1) }
+
+.form-row { margin-bottom: -5px }
