@@ -126,3 +126,10 @@ table.table.mt-3 td.bottom {
 }
 h1 small { font-size: 25% }
 .fa, .fas { font-size: 9px; margin-right: 5px; vertical-align: middle; display: inline }
+
+
+
+#main .card {
+    background: #b1abc3;
+}
+.table .left { background-color: transparent }
