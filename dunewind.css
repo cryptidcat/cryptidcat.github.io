@@ -83,8 +83,6 @@ table.table.mt-3 tbody:nth-last-child(1):after {
     text-align: justify;
 }
 
-.table .bottom, .table tfoot td { background: none; }
-table.table.mt-3 td.bottom { padding: 0 }
 
 
 #main .form-row br { display: block }
@@ -99,4 +97,15 @@ th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 
 
-.text-danger, .text-light { color: inherit }
+.text-danger, .text-light { color: inherit!important }
+
+
+
+.table .bottom, .table tfoot td { background: none; }
+table.table.mt-3 td.bottom {
+    padding: .5rem;
+    text-transform: lowercase;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 120%;
+}
