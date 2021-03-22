@@ -140,3 +140,6 @@ h1 small { font-size: 25% }
     font-style: italic;
     border-right: 1px solid #eeea;
 }
+
+
+body:after { content: "ᓚᘏᗢ"; position: fixed; bottom: 0; left: 0; padding: 1em  }
