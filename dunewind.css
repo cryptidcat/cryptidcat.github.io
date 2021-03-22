@@ -136,7 +136,7 @@ h1 small { font-size: 25% }
 #main .card {
     background: #b1abc3;
 }
-.table .left {
+form .table .left {
     text-align: right;
     font-style: italic;
     border-right: 1px solid #eeea;
