@@ -96,7 +96,7 @@ th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 
 
-.text-danger, .text-light { color: inherit!important }
+.text-danger, .text-light, .text-dark { color: inherit!important }
 
 
 
@@ -107,4 +107,12 @@ table.table.mt-3 td.bottom {
     font-weight: 100;
     font-style: italic;
     font-size: 120%;
+}
+
+
+.dropdown-menu  {
+    background: #cbcad9;
+    border: 0;
+    font-size: inherit;
+    box-shadow: 2px 2px 5px #908aa5;
 }
