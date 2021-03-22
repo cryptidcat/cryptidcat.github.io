@@ -80,6 +80,7 @@ table.table.mt-3 tbody:nth-last-child(1):after {
     display: block;
     padding: 1rem;
     text-align: justify;
+    border-top: 1px solid #eeea;
 }
 
 
@@ -108,7 +109,6 @@ table.table.mt-3 td.bottom {
     font-style: italic;
     font-size: 120%;
     background: #ffffff45;
-    border-bottom: 1px solid #eeea;
     border-top: 1px solid #eeea;
     margin: -.5em;
 }
