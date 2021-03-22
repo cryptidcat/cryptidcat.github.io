@@ -28,7 +28,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
     background-position: center;
 }
 
-#header .navbar-status { background-color: transparent }
+#header .navbar-status, .table .left { background-color: transparent }
 
 .alert-info, .table, table, #header .navbar-status {
   background-color: transparent;
