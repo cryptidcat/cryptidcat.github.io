@@ -171,3 +171,5 @@ form-row .float-left mr-2 { border-radius: 50% }
 
 
 .btn-danger { font-size: 85%; background: none; border: 0 }
+
+.mb-2 a { color: inherit }
