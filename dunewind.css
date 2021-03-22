@@ -168,7 +168,10 @@ form-row .float-left mr-2 { border-radius: 50% }
     color: #fff6 !important;
 }
 
-
+a.text-danger {
+    color: #fff!important;
+}
+a.text-danger:hover { color: #e0e4f1!important }
 
 .btn-danger, .btn-primary, .btn-success { font-size: 85%; background: none; border: 1px solid #eeea }
 .btn-danger:hover, .btn-primary:hover, .btn-success:hover { background: #eeea }
