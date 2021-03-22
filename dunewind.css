@@ -152,6 +152,7 @@ h3 {
 
 body:after { content: "ᓚᘏᗢ"; position: fixed; bottom: 0; left: 0; padding: 1em  }
 
+h1 { pointer-events: none }
 
 form-row .float-left mr-2 { border-radius: 50% }
 
