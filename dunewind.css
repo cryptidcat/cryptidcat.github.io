@@ -156,3 +156,10 @@ form-row .float-left mr-2 { border-radius: 50% }
 .mb-2:hover .mr-2 { filter: opacity(1) }
 
 .form-row { margin-bottom: -5px }
+
+.left.b {
+    border-radius: 30px !important;
+    font-size: 80% !important;
+    letter-spacing: 2px !important;
+    color: #fff6 !important;
+}
