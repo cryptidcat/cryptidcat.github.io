@@ -119,3 +119,7 @@ table.table.mt-3 td.bottom {
     box-shadow: 2px 2px 5px #908aa5;
 }
 .table a { font-weight: 100 }
+.small, small {
+    font-size: inherit
+}
+h1 small { font-size: 25% }
