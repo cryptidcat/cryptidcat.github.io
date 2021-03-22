@@ -68,9 +68,7 @@ table.table.mt-3 tr { flex: 0 0 25%; padding: .5rem }
 
 table.table.mt-3 tbody tr:nth-child(1),table.table.mt-3 tbody tr:nth-child(2) { display: none }
 
-table.table.mt-3 tbody tr:nth-last-child(1) { flex: 1; padding: 0; background: #ffffff45;
-    border-bottom: 1px solid #eeea;
-        border-top: 1px solid #eeea;  }
+table.table.mt-3 tbody tr:nth-last-child(1) { flex: 1  }
 
 /*
 table.table.mt-3 tbody:nth-last-child:first-letter { font-size: 300%; font-family: georgia; float: left; text-transform: lowercase; line-height: 1; margin: -.1em .2em 0 0; font-style: italic; }
@@ -109,8 +107,11 @@ table.table.mt-3 td.bottom {
     font-weight: 100;
     font-style: italic;
     font-size: 120%;
+    background: #ffffff45;
+    border-bottom: 1px solid #eeea;
+    border-top: 1px solid #eeea;
+    margin: -.5em;
 }
-
 
 .dropdown-menu  {
     background: #cbcad9;
