@@ -106,6 +106,9 @@ h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light }
 .text-light, .text-success { color: inherit!important }
 
 
+.navbar-brand { filter: opacity(.5); transition: .6s }
+nav:hover .navbar-brand { filter: opacity(1); }
+
 .table .bottom, .table tfoot td { background: none; }
 table.table.mt-3 td.bottom {
     padding: .5rem;
