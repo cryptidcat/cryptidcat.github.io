@@ -30,7 +30,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 #header .navbar-status, .table .left { background-color: transparent }
 
-.alert-info, .table, table, #header .navbar-status {
+.alert-info, .form-row, #header .navbar-status {
   background-color: transparent;
     border: 0px solid #c4d2e86b;
     background-image: linear-gradient(136deg, rgb(164 151 179 / 42%), #ffffff99);
