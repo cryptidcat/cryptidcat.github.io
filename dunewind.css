@@ -100,7 +100,7 @@ table.table.mt-3 tbody:nth-last-child(1):after {
     border-top: 1px solid #eeea;
 }
 
-
+.table { margin: 3em 0 }
 
 #main .form-row br { display: block }
 #header { font-size: .7rem }
