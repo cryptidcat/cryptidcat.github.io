@@ -89,6 +89,8 @@ table.table.mt-3 tbody tr:nth-child(1),table.table.mt-3 tbody tr:nth-child(2) { 
 
 table.table.mt-3 tbody tr:nth-last-child(1) { flex: 1  }
 
+h1 small { display: block; font-family: lato, sans-serif; }
+
 /*
 table.table.mt-3 tbody:nth-last-child:first-letter { font-size: 300%; font-family: georgia; float: left; text-transform: lowercase; line-height: 1; margin: -.1em .2em 0 0; font-style: italic; }
 */
