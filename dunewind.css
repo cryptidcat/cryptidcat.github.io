@@ -218,7 +218,6 @@ form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 25% } form td:
 
 
 
-.pup td:nth-child(2),
 .pup td:nth-child(3),
 .pup td:nth-child(4),
 .pup td:nth-child(5) { display: none }
@@ -232,6 +231,7 @@ tr.pup {
 }
 .pup td { display: inline-block; padding: 0 .5em }
 .pup small { white-space: nowrap }
+.pup td:nth-child(2) { width: auto!important }
 /*
 .pup:before {
     content: "+";
