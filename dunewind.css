@@ -175,4 +175,4 @@ tr.subheader { display: none }
 .form-control { color: inherit; background: #fff2; font-size: 85%;padding: 0; margin: 0; padding: .375rem .375rem .3rem; height: auto; }
 
 
-div.card-body.pt-1.pb-1 { padding: 10px }
+div.card-body.pt-1.pb-1 { padding: 10px!important }
