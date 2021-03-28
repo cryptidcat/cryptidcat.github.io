@@ -162,5 +162,5 @@ a.text-danger:hover { color: #e0e4f1!important }
 
 .btn-danger, .btn-primary, .btn-success, .btn-warning { font-size: 85%; background-color: transparent; background: none; border: 1px solid #eeea }
 .btn-danger:hover, .btn-primary:hover, .btn-success:hover, .btn-warning:hover { background: #eeeeee40; border: 1px solid #eeea }
-
+.btn-warning i { margin-left: .1rem; width: 10px; background-size: contain; background-position: 50% 70%; }
 .mb-2 a { color: inherit }
