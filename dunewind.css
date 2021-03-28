@@ -122,9 +122,6 @@ h1 small { font-size: 25% }
 
 
 
-#main .card {
-    background: #b1abc3;
-}
 form .table .left {
     text-align: right;
     font-style: italic;
@@ -170,7 +167,7 @@ tr.subheader { display: none }
 
 .form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
-.card-header { padding: 1rem }
+.card-header { padding: 1rem; background: #b1abc3 }
 
 .form-control { color: inherit; background: #fff2; font-size: 85%;padding: 0; margin: 0; padding: .375rem .375rem .3rem; height: auto; }
 
@@ -179,7 +176,7 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 
 
 
-
+#main .card, div.card-body.pt-1.pb-1 { background: 0; padding: 0; border: 0; }
 .row .striped { border: 1px solid #fff4;  background: #b1abc356;  }
 
 .col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf { align-self:  center; }
