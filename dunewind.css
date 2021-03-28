@@ -55,7 +55,7 @@ table.table.mt-3 tbody tr:nth-child(6)
 
 nav { background: none }
 
-#main br, #footer { display: none }
+#footer { display: none }
 
 #main { flex: 1; max-width: 100%; padding: 0; background: none; }
 #sidebar, .breadcrumb-nav, .nav-tabs { display: none }
