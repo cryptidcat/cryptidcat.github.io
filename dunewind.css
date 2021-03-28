@@ -85,7 +85,7 @@ h1 small { font-family: lato, sans-serif; }
 #header .navbar-main .nav-link .fa { color: inherit }
 
 
-th.top { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: lowercase; font-size: 1.5rem; font-weight: 100; line-height: 1; padding: 1.5rem }
+th.top, .pt-1.pb-1 { background: #ffffff45; border-bottom: 1px solid #eeea; text-transform: lowercase; font-size: 1.5rem; font-weight: 100; line-height: 1; padding: 1.5rem }
 
 h1 { color: #fff; font-size: 4rem; mix-blend-mode: soft-light; font-family: Parisienne, Lato, sans-serif; }
 
