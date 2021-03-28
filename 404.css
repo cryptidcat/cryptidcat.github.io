@@ -3,5 +3,5 @@
 
 
 #header .navbar-main .navbar-brand {
-    background: url(https://static.wolvden.com/images/layout/logo.png);
+    background: url(https://static.wolvden.com/images/layout/logo.png)!important;
 }
