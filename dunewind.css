@@ -196,12 +196,17 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 
 
 .progress {
-    background: #aab7ca!important;
+    background: #56606d!important;
     margin: 1px;
     outline-offset: -1px;
     height: 3px!important;
 }
-.bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #fff4!important }
+
+.bg-warning { background-color: red!important }
+.bg-primary { background-color: orange!important }
+.bg-danger { background-color: yellow!important }
+.bg-info { background-color: green!important }
+.bg-success { background-color: blue!important }
 
 
 
