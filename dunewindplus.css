@@ -20,3 +20,5 @@ table.table.mt-3 tbody:nth-last-child(1):after {
 }
 
 .mt-3 { background: none!important }
+
+#main br { display: none }
