@@ -217,8 +217,7 @@ td { vertical-align: middle!important}
 form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 30% } form td:nth-child(4) { width: 13% }
 
 
-
-.pup td:nth-child(1n+2) { display: none }
+/* .pup td:nth-child(1n+2) { display: none } */ 
 .pup div .text-break:nth-child(1)::before { content: "" }
 tr.pup {
   font-size: inherit!important;
