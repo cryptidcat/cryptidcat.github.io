@@ -176,3 +176,20 @@ tr.subheader { display: none }
 
 
 div.card-body.pt-1.pb-1 { padding: 10px!important }
+
+
+
+
+.row .striped { border: 1px solid #fff4;  background: #b1abc356;  }
+
+.col-xl-6.col-sm-12.order-xl-9.order-12, .featured-wolf { align-self:  center; }
+
+.row .striped tr { border-top: 1px solid #fff4 }
+
+.row .striped .b {     font-weight: bold;
+    font-size: 80%;
+    text-transform: uppercase;
+    background: none;
+    vertical-align: middle;
+    letter-spacing: 2px !important;
+    color: #fff6 !important; }
