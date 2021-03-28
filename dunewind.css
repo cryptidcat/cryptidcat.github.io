@@ -227,10 +227,8 @@ tr.pup {
       margin: 0 0 1em 1em;
       border: 1px solid #fff4;
 }
-.pup td {
-    display: inline-block;
-    padding: 0 .5em;
-}
+.pup td { display: inline-block; padding: 0 .5em }
+/*
 .pup:before {
     content: "+";
     color: #fff6;
@@ -238,8 +236,5 @@ tr.pup {
     display: inline-block;
     vertical-align: middle;
 }
-
-
-.ml-3, .mx-3 {
-    margin-left: 0!important;
-}
+*/
+.ml-3, .mx-3 { margin-left: 0!important }
