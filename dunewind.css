@@ -231,7 +231,7 @@ tr.pup {
 }
 .pup td { display: inline-block; padding: 0 .5em }
 .pup small { white-space: nowrap }
-.pup td:nth-child(2) { width: auto!important }
+.pup td:nth-child(2) { width: auto!important; padding-left: 0 }
 /*
 .pup:before {
     content: "+";
