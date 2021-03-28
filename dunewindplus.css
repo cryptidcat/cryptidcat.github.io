@@ -18,3 +18,5 @@ table.table.mt-3 tbody:nth-last-child(1):after {
     text-align: justify;
     border-top: 1px solid #eeea;
 }
+
+.mt-3 { background: none!important }
