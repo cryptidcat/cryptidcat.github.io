@@ -134,7 +134,7 @@ h3 {
     text-transform: lowercase;
 }
 
-body:after { content: "ᓚᘏᗢ"; position: fixed; bottom: 0; left: 0; padding: 1em  }
+body:after { content: "by ᓚᘏᗢ\a#35127"; position: fixed; bottom: 0; left: 0; padding: 1em  }
 
 h1 { pointer-events: none }
 
