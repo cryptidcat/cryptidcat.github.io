@@ -195,6 +195,17 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 .row a img { border-radius: 50% }
 
 
-
-.progress { background: #ddd0!important; outline: 1px solid #eee; margin: 2px; outline-offset: -1px }
+.progress {
+    background: #aab7ca!important;
+    margin: 1px;
+    outline-offset: -1px;
+    height: 3px!important;
+}
 .bg-warning, .bg-primary, .bg-danger, .bg-info, .bg-success { background-color: #fff4!important }
+
+
+
+.d-md-block { display: none }
+.d-md-none { display: inline-block!important; margin-left: 5px }
+
+td { vertical-align: middle!important}
