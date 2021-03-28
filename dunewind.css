@@ -218,6 +218,7 @@ form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 25% } form td:
 
 
 
+.pup td:nth-child(2),
 .pup td:nth-child(3),
 .pup td:nth-child(4),
 .pup td:nth-child(5) { display: none }
