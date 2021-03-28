@@ -171,3 +171,5 @@ tr.subheader { display: none }
 .form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
 .card-header { padding: 1rem }
+
+.form-control { color: inherit; background: #fff2; font-size: 85%;padding: 0; margin: 0; padding: .375rem .375rem .3rem; height: auto; }
