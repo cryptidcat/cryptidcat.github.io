@@ -218,6 +218,7 @@ form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 30% } form td:
 
 
 
+.pup td:nth-child(3),
 .pup td:nth-child(4),
 .pup td:nth-child(5) { display: none }
 .pup div .text-break:nth-child(1)::before { content: "" }
