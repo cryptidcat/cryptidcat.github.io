@@ -170,4 +170,4 @@ tr.subheader { display: none }
 
 .form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
 .form-row .card-img-top { display: none }
-.card-header { padding: 30px }
+.card-header { padding: 1rem; margin-top: 1rem }
