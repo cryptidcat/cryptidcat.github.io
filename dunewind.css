@@ -202,11 +202,10 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
     height: 3px!important;
 }
 
-.bg-warning { background-color: red!important }
-.bg-primary { background-color: orange!important }
-.bg-danger { background-color: yellow!important }
-.bg-info { background-color: green!important }
-.bg-success { background-color: blue!important }
+.bg-warning, .bg-success { background-color: #9FA4BE!important }
+.bg-primary { background-color: #B1ABC3!important }
+.bg-danger { background-color: #B6B4CA!important }
+.bg-info { background-color: #A4B3CA!important }
 
 
 
