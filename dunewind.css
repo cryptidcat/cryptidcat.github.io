@@ -229,7 +229,7 @@ tr.pup {
 }
 .pup td {
     display: inline-block;
-    padding: 0 1em;
+    padding: 0 .5em;
 }
 .pup:before {
     content: "+";
