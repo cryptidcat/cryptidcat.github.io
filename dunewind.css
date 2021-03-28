@@ -166,5 +166,8 @@ a.text-danger:hover { color: #e0e4f1!important }
 
 .table-striped tbody tr:nth-of-type(odd) { background: none }
 
-
 tr.subheader { display: none }
+
+.form-row .card-header b { text-transform: uppercase; letter-spacing: 1px; font-size: 80%; padding: 20px; font-weight: 100 }
+.form-row .card-img-top { display: none }
+.card-header { padding: 30px }
