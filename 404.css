@@ -4,7 +4,7 @@
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.
           please consider commissioning me!   */
-          
+
 
 * { font-family: 'Courier Prime', monospace;
 font-size: inherit; color: inherit }
@@ -18,6 +18,7 @@ font-size: inherit; color: inherit }
 .table .left { background-color: inherit }
 td { vertical-align: middle }
 body { cursor: default }
+.card.text-center .card-img-top { display: none }
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
