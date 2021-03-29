@@ -17,6 +17,7 @@ font-size: inherit; color: inherit }
 .table .left { background-color: inherit }
 td { vertical-align: middle }
 body { cursor: default }
+#header .navbar-main .nav-link .fa { color: inherit }
 
 .navbar-status, @media (min-width: 1200px) { #header .navbar-main { height: 105px; padding-left: 300px } }
 
