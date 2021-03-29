@@ -18,7 +18,7 @@ font-size: inherit; color: inherit }
 td { vertical-align: middle }
 body { cursor: default }
 #header .navbar-main .nav-link .fa { color: inherit }
-nav i, .nav-tabs { display: none }
+nav i, .nav-tabs { display: none!important }
 
 .navbar-status { display: none } @media (min-width: 1200px) { #header .navbar-main { height: 105px; padding-left: 300px } }
 
