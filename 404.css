@@ -8,6 +8,7 @@
 
 
 body { background: #fff; color: #000 }
+a { color: pink }
 
 #footer, #sidebar { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
@@ -18,6 +19,7 @@ body { background: #fff; color: #000 }
 
 /* colored */
 #main { background: #111; color: #fff }
+#main a { color: #ddd }
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
