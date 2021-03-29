@@ -9,16 +9,14 @@
 * { font-family: 'Courier Prime', monospace;
 font-size: inherit; color: inherit }
 
-#footer, #sidebar { display: none }
+#footer, #sidebar, .navbar-status, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
-.breadcrumb-item { display: none }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
 .table a { font-weight: inherit }
 .table .left { background-color: inherit }
 td { vertical-align: middle }
 body { cursor: default }
-.card.text-center .card-img-top { display: none }
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
