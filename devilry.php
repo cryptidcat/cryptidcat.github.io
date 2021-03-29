@@ -1,6 +1,7 @@
 <style>
 
-.wolves { margin: -3em 0 }
+
+.wolves { margin: 0em 0 -4em }
 
 .wolves { text-align: center }
 .wolves>div { margin: 0 0 0 -200px }
@@ -11,6 +12,7 @@ img:hover {
 filter: drop-shadow(10px 10px 20px #0009); }
 
 body { background: #666 }
+
 </style>
 
 
