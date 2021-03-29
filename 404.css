@@ -9,7 +9,7 @@
 * { font-family: 'Courier Prime', monospace;
 font-size: inherit; color: inherit }
 
-#footer, #sidebar, .navbar-status, .card.text-center .card-img-top, .breadcrumb-item { display: none }
+#footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
@@ -17,6 +17,8 @@ font-size: inherit; color: inherit }
 .table .left { background-color: inherit }
 td { vertical-align: middle }
 body { cursor: default }
+
+.navbar-status, @media (min-width: 1200px) { #header .navbar-main { height: 105px; padding-left: 300px } }
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
