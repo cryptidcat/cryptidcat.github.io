@@ -1,7 +1,5 @@
 <style>
-.wolves { margin: 0em 0 -4em }
-
-.wolves { text-align: center }
+.wolves { margin: -4em 0; text-align: center }
 .wolves>div { margin: 0 0 0 -200px }
 .wolves img { display: inline-block; width: 400px; margin: 0 -200px 0 0 }
 
@@ -9,13 +7,15 @@ img { transition: .2s }
 img:hover {
 filter: drop-shadow(10px 10px 20px #0009); }
 
-body { background: #666 }
+body { background: #666; display: flex }
+.packwrap { margin: 0 auto; align-self: center }
 
 </style>
 
 
 <title>Devilry</title>
 
+<div class="packwrap">
 
 <div class="wolves">
   <div>
@@ -45,4 +45,6 @@ body { background: #666 }
   <img src="https://www.wolvden.com/equipper-wolf-image?wolf=1963713">
   <img src="https://www.wolvden.com/equipper-wolf-image?wolf=1759502">
   </div>
+</div>
+
 </div>
