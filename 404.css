@@ -26,7 +26,7 @@ nav i { display: none }
 #header .breadcrumb-nav { background-color: transparent }
 
 /* colored */
-body { background-image: url('https://images2.imgbox.com/a2/35/SYJ4R7b4_o.jpg'); background-size: cover; background-attachment: fixed;
+body { background-image: url('https://images2.imgbox.com/22/0c/x4Olwsca_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #000 }
 a { color: pink }
 #main a { color: #ddd }
