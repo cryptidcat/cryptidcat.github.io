@@ -8,3 +8,9 @@
 
 
 body { background: #111; color: #000 }
+
+#footer, #sidebar { display: none }
+#main.col-lg-9 { max-width: 100%; flex: 1 }
+.breadcrumb-item { display: none }
+#main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
+#header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
