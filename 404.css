@@ -28,5 +28,10 @@ body { cursor: default }
 body { background-image: url('https://images2.imgbox.com/a2/35/SYJ4R7b4_o.jpg'); background-size: cover; background-attachment: fixed;
 color: #000 }
 a { color: pink }
-#main { background: #111; color: #fff }
 #main a { color: #ddd }
+
+#main {
+    background: #fff9;
+    color: #2f2f2f;
+    border: 1px solid;
+}
