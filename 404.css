@@ -30,10 +30,16 @@ color: #000 }
 a { color: pink }
 #main a { color: #ddd }
 
-#header .navbar-main, 
+#header .navbar-main,
 #main {
     background: #ffffffd6;
     color: #818181;
     border: 1px solid #81818163;
     padding: 2em;
 }
+
+a, a.text-danger, .nav-link, .table th a, .alert-info .alert-link, .alert-success .alert-link
+{ color: #81818163; transition: .5s; text-decoration: none }
+
+a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa
+{ color: #000; text-decoration: none }
