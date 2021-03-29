@@ -7,7 +7,7 @@
 
 
 * { font-family: 'Courier Prime', monospace;
-font-size: inherit; color: inherit; transition: .6s }
+font-size: inherit; color: inherit }
 
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
