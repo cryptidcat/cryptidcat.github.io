@@ -36,7 +36,6 @@ a { color: pink }
     background: #ffffffd6;
     color: #818181;
     border: 1px solid #81818163;
-    padding: 2em;
 }
 
 a, a.text-danger, .nav-link, .table th a, .alert-info .alert-link, .alert-success .alert-link
