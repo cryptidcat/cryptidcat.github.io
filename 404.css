@@ -25,7 +25,8 @@ body { cursor: default }
 #header .breadcrumb-nav { background-color: transparent }
 
 /* colored */
-body { background: #fff; color: #000 }
+body { background: url('https://images2.imgbox.com/33/4b/yijDHYCq_o.jpg'); background-size: cover; background-attachment: fixed;
+color: #000 }
 a { color: pink }
 #main { background: #111; color: #fff }
 #main a { color: #ddd }
