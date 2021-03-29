@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-
-
-* { font-family: 'Courier Prime', monospace; font-size: inherit; color: inherit }
-
-
-
-
-body { background: #fff; color: #000 }
-a { color: pink }
+* { font-family: 'Courier Prime', monospace;
+font-size: inherit; color: inherit }
 
 #footer, #sidebar { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
@@ -18,10 +11,13 @@ a { color: pink }
 .table a { font-weight: inherit }
 .table .left { background-color: inherit }
 td { vertical-align: middle }
-
-/* colored */
-#main { background: #111; color: #fff }
-#main a { color: #ddd }
+body { cursor: default }
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
+
+/* colored */
+body { background: #fff; color: #000 }
+a { color: pink }
+#main { background: #111; color: #fff }
+#main a { color: #ddd }
