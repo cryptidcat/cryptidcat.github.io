@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,700;1,400;1,600;1,700&display=swap');
 
-* { font-family: courier new, monospace; font-size: inherit; color: inherit }
+* { font-family: 'IBM Plex Serif', serif; font-size: inherit; color: inherit }
 
 
 
 
-body { font-family: 'IBM Plex Serif', serif; background: #111; color: #000 }
+body { background: #111; color: #000 }
