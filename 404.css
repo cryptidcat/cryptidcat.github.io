@@ -17,7 +17,9 @@ a { color: pink }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
 .table a { font-weight: inherit }
 
-
+.table .left {
+    background-color: inherit;
+}
 /* colored */
 #main { background: #111; color: #fff }
 #main a { color: #ddd }
