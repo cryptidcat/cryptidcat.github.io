@@ -7,7 +7,7 @@
 
 
 * { font-family: 'Courier Prime', monospace;
-font-size: inherit; color: inherit }
+font-size: inherit; color: inherit; border: 0 }
 
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
@@ -22,6 +22,22 @@ nav i, .nav-tabs { display: none!important }
 br { display: none }
 
 .navbar-status { display: none } @media (min-width: 1200px) { #header .navbar-main { height: 105px; padding-left: 300px } }
+
+
+
+
+.mb-3, .my-3 { margin: 0 auto }.table td {
+    align-items: center;
+}
+
+.featured-wolf b { display: block }
+
+td.b { width: 35% }
+
+.form-row .card.text-center { margin-top: 1rem }
+
+
+
 
 /* headers */
 #header .breadcrumb-nav { background-color: transparent }
