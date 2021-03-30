@@ -15,7 +15,7 @@ font-size: inherit; color: inherit; border: 0 }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
 .table a { font-weight: inherit }
 .table .left { background-color: inherit }
-td { vertical-align: middle }
+.table td, .table th { vertical-align: middle }
 body { cursor: default }
 #header .navbar-main .nav-link .fa { color: inherit }
 nav i, .nav-tabs { display: none!important }
