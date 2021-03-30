@@ -23,6 +23,10 @@ br { display: none }
 
 .navbar-status { display: none } @media (min-width: 1200px) { #header .navbar-main { height: 105px; padding-left: 300px } }
 
+form td:nth-child(2) { width: 10% }
+form td:nth-child(3) { width: 25% }
+form td:nth-child(4) { width: 5% }
+form td:nth-child(5) { width: 7% }
 
 
 
