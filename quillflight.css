@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 
       /*  by #35127  */
 
 
-* { font-family: 'calibri', sans-serif;
+* { font-family: 'Syne Mono', monospace;
 font-size: inherit; color: inherit; border: 0 }
 
 #footer, .card.text-center .card-img-top, .breadcrumb-item { display: none }
-/* #main.col-lg-9 { max-width: 100%; flex: 1 } */ 
+/* #main.col-lg-9 { max-width: 100%; flex: 1 } */
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
 .table a { font-weight: inherit }
