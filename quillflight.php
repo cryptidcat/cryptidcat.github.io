@@ -31,6 +31,7 @@ form td:nth-child(5) { width: 7% }
     align-items: center;
 }
 
+
 .featured-wolf b { display: block }
 
 td.b { width: 35% }
