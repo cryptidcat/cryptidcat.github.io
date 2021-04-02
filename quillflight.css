@@ -46,8 +46,8 @@ td.b { width: 35% }
 #header .breadcrumb-nav { background-color: transparent }
 
 /* colored */
-h1 { font-family: 'Kristi', cursive; text-align: center }
-body { background-image: url('https://images2.imgbox.com/34/56/uRls0qdh_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
+h1 { text-align: center }
+body { background-image: url('https://images2.imgbox.com/20/44/tAIRs6PE_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #000 }
 a { color: pink }
 #main a { color: #ddd }
