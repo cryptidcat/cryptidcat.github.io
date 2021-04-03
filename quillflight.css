@@ -52,9 +52,13 @@ color: #f83cbb }
 a { color: pink }
 #main a { color: #ddd }
 
-#header .navbar-main  {
-background: url('https://i.pinimg.com/originals/7d/a5/e1/7da5e135a268d23ac6f548213010a2dc.jpg');
-background-position: center center
+#header .navbar-main, .table th {
+    background: url(https://i.pinimg.com/originals/7d/a5/e1/7da5e13….jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #f83cbb;
+    background-blend-mode: overlay;
 }
 
 #sidebar {
