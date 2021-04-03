@@ -46,7 +46,6 @@ td.b { width: 35% }
 #header .breadcrumb-nav { background-color: transparent }
 
 /* colored */
-h1 { text-align: center }
 body { background-image: url('https://images2.imgbox.com/20/44/tAIRs6PE_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #f83cbb }
 
@@ -143,6 +142,7 @@ animation:rainbow 1s infinite;
 
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark { background: transparent; border: 0; color: inherit }
 
+#main h1::after { content: ""; background: url('https://images2.imgbox.com/27/87/X9ELDokC_o.gif'); width: 339px; height: 174px;  position: absolute; right: -1em; z-index: 9; top: -1.5em;  }
 
 #main .card { background: transparent; color: inherit; }
 
