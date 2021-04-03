@@ -90,7 +90,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 #main .card { background: transparent; color: inherit }
 
-.btn { opacity: 1!important }
+.btn { opacity: 1!important; color: inherit }
 
 .btn-danger, .btn-primary, .btn-warning, .btn-success { background: #4cddde; color: #fff; border: 0 }
 
