@@ -150,7 +150,7 @@ animation:rainbow 1s infinite;
 .btn-danger, .btn-primary, .btn-warning { background: #4cddde; color: #fff; border: 0; }
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover { background: transparent!important }
 
-.table {
+.table, .form-control {
     border: 2px solid #0cfb08;
 }
 .table-striped tbody tr:nth-of-type(odd) {
