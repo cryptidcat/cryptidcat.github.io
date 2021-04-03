@@ -113,3 +113,5 @@ a { color: #4cddde }
 .bg-danger { background-color: #42fa09!important }
 
 .bg-info, .bg-success { background-color: #4cddde!important }
+
+.text-success { color: inherit }
