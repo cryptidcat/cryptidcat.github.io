@@ -139,6 +139,7 @@ animation:rainbow 1s infinite;
 
 
 
+.alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark { background: transparent; border: 0; color: inherit }
 
 
 
