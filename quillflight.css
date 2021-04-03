@@ -76,7 +76,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 
 
-
+.btn:hover, 
 a:hover {
   color: red;
 -webkit-animation:rainbow 1s infinite;
@@ -142,7 +142,9 @@ animation:rainbow 1s infinite;
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark { background: transparent; border: 0; color: inherit }
 
 
+#main .card { background: transparent; color: inherit; }
 
+.btn { background: #4cddde; color: #fff; opacity: 1; padding: .5em; border: 0; }
 
 .table {
     border: 2px solid #0cfb08;
