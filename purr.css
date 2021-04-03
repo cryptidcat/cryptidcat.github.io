@@ -226,7 +226,7 @@ form td:nth-child(5) { width: 7%; }
 .card.mb-3 { background: #181818!important }
 
 
-
+/*
 .pup td:nth-child(1n+2) { display: none; }
 .pup div .text-break:nth-child(1)::before { content: "" }
 .pup {
@@ -247,6 +247,8 @@ display: inline-block; line-height: 1;
 vertical-align: middle; font-family: niconne; }
 .ml-3 { display: block }
 .ml-3, .mx-3 { margin-left: 0!important }
+*/
+
 form table { background: #181818!important }
 
 .text-break { display: flex; align-items: center; align-self: center  }
