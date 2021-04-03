@@ -147,8 +147,8 @@ animation:rainbow 1s infinite;
 #main .card { background: transparent; color: inherit; }
 
 .btn { opacity: 1!important }
-button { background: #4cddde; color: #fff; border: 0; }
-button:hover { background: transparent!important }
+.btn-danger, .btn-primary, .btn-warning { background: #4cddde; color: #fff; border: 0; }
+.btn-danger:hover, .btn-primary:hover, .btn-warning:hover { background: transparent!important }
 
 .table {
     border: 2px solid #0cfb08;
