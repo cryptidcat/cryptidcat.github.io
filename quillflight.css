@@ -115,3 +115,5 @@ a { color: #4cddde }
 .bg-info, .bg-success { background-color: #4cddde!important }
 
 .text-success { color: inherit }
+
+.form-row .col-12.col-md-6.mb-2 br { display: block }
