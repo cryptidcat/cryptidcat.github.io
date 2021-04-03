@@ -37,3 +37,19 @@ form td:nth-child(2) { width: auto!important }
 </div>
 
 */
+
+
+
+
+body {
+    cursor: default;
+    color: #999;
+    font-family: 'PT Serif', serif;
+    font-size: .71rem;
+    background-image: url(https://images2.imgbox.com/d0/2f/qOB5U9te_o.jpg);
+    background-color: #000;
+    background-attachment: fixed;
+    background-size: auto;
+    background-position: 50% 50%;
+    background-repeat: repeat;
+}
