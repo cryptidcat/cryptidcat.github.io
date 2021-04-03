@@ -53,12 +53,11 @@ a { color: pink }
 #main a { color: #ddd }
 
 #header .navbar-main  {
-background: url('https://i.pinimg.com/originals/7d/a5/e1/7da5e135a268d23ac6f548213010a2dc.jpg';
+background: url('https://i.pinimg.com/originals/7d/a5/e1/7da5e135a268d23ac6f548213010a2dc.jpg');
 background-position: center center
-
 }
 
-{ #sidebar {
+#sidebar {
   background: #fffefe;
 }
 
@@ -73,15 +72,6 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 #sidebar a { color: inherit }
 
-
-.navbar-nav li:nth-child(1) a { color: #ff0000 }
-.navbar-nav li:nth-child(2) a { color: #ff8000 }
-.navbar-nav li:nth-child(3) a { color: #ffff00 }
-.navbar-nav li:nth-child(4) a { color: #80ff00 }
-.navbar-nav li:nth-child(5) a { color: #00ff00 }
-.navbar-nav li:nth-child(6) a { color: #00ff80 }
-.navbar-nav li:nth-child(7) a { color: #00ffff }
-.navbar-nav li:nth-child(8) a { color: #0080ff }
 
 
 
