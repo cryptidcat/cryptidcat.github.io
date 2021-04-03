@@ -53,7 +53,7 @@ a { color: pink }
 #main a { color: #ddd }
 
 #header .navbar-main, .table th {
-    background: url(https://i.pinimg.com/originals/7d/a5/e1/7da5e13….jpg);
+    background: url('https://images2.imgbox.com/7a/50/RvxHNg2G_o.jpg');
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
