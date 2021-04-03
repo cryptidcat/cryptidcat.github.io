@@ -74,9 +74,9 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 #sidebar a { color: inherit }
 
 
+#main h1 { font-size: 4em }
 
-
-.btn:hover, 
+.btn:hover,
 a:hover {
   color: red;
 -webkit-animation:rainbow 1s infinite;
