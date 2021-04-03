@@ -73,8 +73,8 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark {}
-.btn-danger, .btn-primary, .btn-warning { background: #4cddde; color: #fff; border: 0; }
-.btn-danger:hover, .btn-primary:hover, .btn-warning:hover { background: transparent!important }
+.btn-danger, .btn-primary, .btn-warning, .btn-success { background: #4cddde; color: #fff; border: 0; }
+.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover { background: transparent!important }
 
 #header .navbar-main .nav-link {
     color: #b2b2b2;
