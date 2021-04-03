@@ -170,7 +170,7 @@ a { color: #4cddde }
     background: #fc1ab90d!important;
 }
 
-
+.card-header { background: transparent }
 .bg-warning {
     background-color: #fd58dc!important;
 }
