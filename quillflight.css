@@ -92,9 +92,9 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 .btn { opacity: 1!important; color: inherit }
 
-.btn-danger, .btn-primary, .btn-warning, .btn-success { background: #4cddde; color: #fff; border: 0 }
+.btn-danger, .btn-primary, .btn-warning, .btn-success, .alert-info { background: #4cddde; color: #fff; border: 0 }
 
-.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover { background: transparent!important }
+.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover, .alert-info:hover { background: transparent!important }
 
 .table, .form-control { border: 2px solid #0cfb08 }
 
