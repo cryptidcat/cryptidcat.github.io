@@ -117,3 +117,7 @@ a { color: #4cddde }
 .text-success { color: inherit }
 
 .form-row .col-12.col-md-6.mb-2 br { display: block }
+
+#summernote-form td:nth-child(2) { width: 80% }
+
+.left.b.v-middle { width: 20% }
