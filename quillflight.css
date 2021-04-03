@@ -163,10 +163,10 @@ a { color: #4cddde }
 .bg-warning {
     background-color: #fd58dc!important;
 }
-.bg-primary {
+.bg-primary, #sidebar .bg-info {
     background-color: #fdfc08!important;
 }
-.bg-danger, .bg-info {
+.bg-danger {
     background-color: #42fa09!important;
 }
 .bg-info, .bg-success {
