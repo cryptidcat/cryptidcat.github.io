@@ -152,7 +152,7 @@ animation:rainbow 1s infinite;
     border-bottom: 1px solid #0cfb08;
 }
 
-a { color: #71f5f6 }
+a { color: #4cddde }
 
 .progress {
     background: #fc1ab90d!important;
@@ -166,7 +166,7 @@ a { color: #71f5f6 }
     background-color: #fdfc08!important;
 }
 .bg-danger, .bg-info {
-    background-color: #42fa09!important;
+    background-color: #4cddde!important;
 }
 .bg-info, .bg-success {
     background-color: #71f5f6!important;
