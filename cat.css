@@ -90,3 +90,44 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 .form-row .col-12.col-md-6.mb-2 br { display: block }
 #summernote-form td:nth-child(2) { width: 80% }
 .left.b.v-middle { width: 20% }
+
+
+
+#header { filter: opacity(.5); transition: .6s }
+#header:hover { filter: opacity(1) }
+
+
+
+
+
+/* oof */
+
+
+
+/* */
+
+
+#main .card, .table-striped tbody tr:nth-of-type(odd) { background: inherit }
+
+.table-striped tbody tr:nth-of-type(odd) { border-bottom: 1px solid #eee2; border-top: 1px solid #eee2 }
+
+.table { border: 0 }
+
+.subheader { display: none }
+
+.table th { font-size: 1.5em;  }
+
+
+
+
+
+th.top {
+    padding: 15px;
+    background-attachment: fixed;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+th.top::first-letter { font-family: 'Niconne'; font-size: 200%; font-weight: 100}
