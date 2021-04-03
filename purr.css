@@ -115,7 +115,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 
 .form-row .card, td.right.text-right, .pb-1, .py-1, th.top {
     background-image: url(https://images2.imgbox.com/03/d8/toV6ZzVz_o.jpg)!important;
-    background-size: cover!important; background-position: 50% 50%!important;
+   background-position: 50% 50%;
     background-blend-mode: difference;
 }
 
