@@ -139,6 +139,10 @@ animation:rainbow 1s infinite;
 .form-control { color: inherit }
 
 
+.table .bottom, .table tfoot td {
+    color: inherit;
+    background-color: #fdfc08;
+}
 
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark { background: transparent; border: 0; color: inherit }
 
