@@ -72,6 +72,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 #sidebar .card { background: transparent; border: 0 }
 
+#sidebar a { color: #fff }
 
 
 a:hover {
