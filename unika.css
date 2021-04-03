@@ -239,6 +239,33 @@ h1 {
     border-bottom: 1px solid #0cfb08;
 }
 
+
+
+.progress {
+    background: #fc1ab90d!important;
+}
+
+
+.bg-warning {
+    background-color: #fd58dc!important;
+}
+.bg-primary {
+    background-color: #fdfc08!important;
+}
+.bg-danger, .bg-info {
+    background-color: #42fa09!important;
+}
+.bg-info {
+    background-color: #71f5f6!important;
+}
+
+
+
+.bg-success {
+    background-color: #71f5f6!important;
+}
+
+
 /* credits */
 .shy { position: fixed; bottom: 0; left: 0; padding: 5px; z-index: 666 }
 .credit { opacity: 0; transition: .5s }
