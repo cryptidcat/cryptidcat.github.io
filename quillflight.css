@@ -144,7 +144,7 @@ animation:rainbow 1s infinite;
 
 #main .card { background: transparent; color: inherit; }
 
-.btn { background: #4cddde; color: #fff; opacity: 1; padding: .5em; border: 0; }
+.btn { background: #4cddde; color: #fff; opacity: 1!important; padding: .3em!important; border: 0; }
 
 .table {
     border: 2px solid #0cfb08;
