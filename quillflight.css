@@ -49,8 +49,6 @@ td.b { width: 35% }
 h1 { text-align: center }
 body { background-image: url('https://images2.imgbox.com/20/44/tAIRs6PE_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #f83cbb }
-a { color: pink }
-#main a { color: #ddd }
 
 #header .navbar-main, .table th {
     background: url('https://images2.imgbox.com/7a/50/RvxHNg2G_o.jpg');
@@ -155,7 +153,7 @@ animation:rainbow 1s infinite;
     border-bottom: 1px solid #0cfb08;
 }
 
-#main a { color: #71f5f6 }
+a { color: #71f5f6 }
 
 .progress {
     background: #fc1ab90d!important;
