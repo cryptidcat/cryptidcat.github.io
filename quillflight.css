@@ -139,3 +139,44 @@ animation:rainbow 1s infinite;
 90% {color: #8000ff;}
 100% {color: #ff0080;}
 }
+
+
+
+
+
+
+
+.table {
+    border: 2px solid #0cfb08;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background: none;
+    border-top: 1px solid #0cfb08;
+    border-bottom: 1px solid #0cfb08;
+}
+
+#main a { color: #42fa09 }
+
+.progress {
+    background: #fc1ab90d!important;
+}
+
+
+.bg-warning {
+    background-color: #fd58dc!important;
+}
+.bg-primary {
+    background-color: #fdfc08!important;
+}
+.bg-danger, .bg-info {
+    background-color: #42fa09!important;
+}
+.bg-info {
+    background-color: #71f5f6!important;
+}
+
+
+
+.bg-success {
+    background-color: #71f5f6!important;
+}
