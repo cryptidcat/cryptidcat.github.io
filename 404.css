@@ -83,3 +83,10 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 #header .navbar-main .nav-link {
     color: #b2b2b2;
 }
+
+/* making the player page work */
+
+.text-success { color: inherit!important }
+.form-row .col-12.col-md-6.mb-2 br { display: block }
+#summernote-form td:nth-child(2) { width: 80% }
+.left.b.v-middle { width: 20% }
