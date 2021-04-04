@@ -262,3 +262,12 @@ form table { background: #181818!important }
 
 #header { filter: opacity(.5); transition: .6s }
 #header:hover { filter: opacity(1) }
+
+
+
+/* #main {
+    background: #131313f2;
+    padding: 0 3em; box-shadow: 0 0 20px #000 }
+table { box-shadow: none; background: transparent }
+    tr, td, form table { background: transparent }
+h1 { display: none } */ 
