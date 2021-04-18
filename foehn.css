@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-
-
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.
           please consider commissioning me!   */
-
-
 
 * { font-family: 'DM Mono', monospace;
 font-size: inherit; color: inherit; border: 0 }
@@ -17,46 +13,24 @@ font-size: inherit; color: inherit; border: 0 }
 #header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
 .table a { font-weight: inherit }
 .table .left { background-color: inherit }
+.text-muted { color: inherit }
 .table td, .table th { vertical-align: middle }
 body { cursor: default }
 #header .navbar-main .nav-link .fa { color: inherit }
 nav i, .nav-tabs { display: none!important }
-br { display: none }
-
-.navbar-status { display: none }
-
-/*  @media (min-width: 1200px) { #header .navbar-main { padding-left: 300px } }
-*/
-
+br, .navbar-status { display: none }
 form td:nth-child(2) { width: 10% }
 form td:nth-child(3) { width: 25% }
 form td:nth-child(4) { width: 10% }
 form td:nth-child(5) { width: 7% }
-
-.text-muted { color: inherit }
-
-
-.mb-3, .my-3 { margin: 0 auto }.table td {
-    align-items: center;
-}
-
-.featured-wolf b { display: block }
-
 td.b { width: 35% }
-
+.mb-3, .my-3 { margin: 0 auto }
+.table td { align-items: center }
+.featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 
-
-
-
-/* headers */
 #header .breadcrumb-nav { background-color: transparent }
-
-/* colored */
-
-
-
-h1 { text-align: center }
+h1 { font-style: italic }
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #000 }
 a { color: pink }
