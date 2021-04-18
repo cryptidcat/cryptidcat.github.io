@@ -4,9 +4,7 @@
           this code is *not* free-to-use.
           please consider commissioning me!   */
 
-* { font-family: 'DM Mono', monospace;
-font-size: inherit; color: inherit; border: 0 }
-
+* { font-size: inherit; color: inherit; border: 0; cursor: default }
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
@@ -29,16 +27,16 @@ td.b { width: 35% }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 
+/* foehn */
+* { font-family: 'DM Mono', monospace }
 #header .breadcrumb-nav { background-color: transparent }
+
 h1 { font-style: italic }
-body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
-color: #000 }
-a { color: pink }
+body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed; color: #595764 }
 
 #main {
   padding: 3em;
   background: #fff4;
-  color: #595764;
   border: 0;
 }
 
