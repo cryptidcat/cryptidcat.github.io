@@ -68,7 +68,14 @@ a { color: pink }
 }
 
 .navbar-main a { color: #595661 }
-.navbar-main { background: none }
+#header .navbar-main { background: none }
+
+
+@media (min-width: 1200px) {
+#header .navbar-main .nav-link {
+    font-size: .9rem;
+    text-transform: lowercase;
+} }
 
 a, a.text-danger, .nav-link, .table th a, .alert-info .alert-link, .alert-success .alert-link
 { color: #81818163; transition: .5s; text-decoration: none }
