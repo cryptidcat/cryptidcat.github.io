@@ -37,21 +37,23 @@ body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
 /* tables */
 .table, table { border: 0 }
 
+.table .bottom, .table tfoot td {
+    color: inherit;
+    background-color: transparent;
+}
+
 /* typo */
 * { font-family: 'DM Mono', monospace }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-h1 { font-style: italic }
 
 a
 { color: #ae9957; transition: .6s; text-decoration: none }
 
-a:hover
-{ color: #000; text-decoration: none }
+a:hover, #header .navbar-main .nav-link:hover
+{ color: #ae9957; text-decoration: none }
 
-.table .bottom, .table tfoot td {
-    color: inherit;
-    background-color: #f4f4f7;
-}
+h1
+{ font-style: italic }
 
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark { color: inherit;
     background-color: #f4f7fe6e;
