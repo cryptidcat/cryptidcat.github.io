@@ -41,11 +41,6 @@ a { color: pink }
   background: #fff4;
   color: #595764;
   border: 0;
-  background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
-  background-size: auto;
-  background-repeat: repeat;
-  background-attachment: fixed;
-  background-blend-mode: difference;
 }
 
 .table, table { border: 0 }
