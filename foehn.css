@@ -38,7 +38,7 @@ a { color: pink }
 
 #main {
   padding: 3em;
-  background: #ececec2b;
+  background: #fff4;
   color: #595764;
   border: 0;
   background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
@@ -90,6 +90,6 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 
 
-@media (min-width: 576px) {
-#header { background: #ddd }
+@media (max-width: 990px) {
+#header { background: #dcdce8 }
 }
