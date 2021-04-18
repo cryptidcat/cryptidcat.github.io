@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,300;0,600;0,800;1,300;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
 
       /*  hello! I'm cat, #35127 on wolvden.
@@ -8,7 +7,7 @@
 
 
 
-* { font-family: 'crimson pro', serif;
+* { font-family: 'DM Mono', monospace;
 font-size: inherit; color: inherit; border: 0 }
 
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
@@ -57,7 +56,7 @@ td.b { width: 35% }
 
 
 h1 { text-align: center }
-body { background-image: url('https://images2.imgbox.com/22/0c/x4Olwsca_o.png'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
+body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed;
 color: #000 }
 a { color: pink }
 #main a { color: #ddd }
