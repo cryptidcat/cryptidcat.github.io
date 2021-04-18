@@ -67,7 +67,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 
 .table .bottom, .table tfoot td {
     color: inherit;
-    background-color: #fdfc08;
+    background-color: #f4f4f7;
 }
 
 .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark {}
