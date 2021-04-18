@@ -4,7 +4,7 @@
           this code is *not* free-to-use.
           please consider commissioning me!   */
 
-* { font-size: inherit; color: inherit; border: 0; cursor: default }
+* { font-size: inherit; color: inherit; border: 0 }
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap;font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
@@ -27,34 +27,25 @@ td.b { width: 35% }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 
-/* foehn */
-* { font-family: 'DM Mono', monospace }
-#header .breadcrumb-nav { background-color: transparent }
-
-h1 { font-style: italic }
+/* */
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed; color: #595764 }
-
-#main {
-  padding: 3em;
-  background: #fff4;
-  border: 0;
-}
-
-.table, table { border: 0 }
+#main { padding: 3em; background: #fff4; border: 0 }
 
 #header .navbar-main { background: none }
 
 
-@media (min-width: 1200px) {
-#header .navbar-main .nav-link {
-    font-size: .9rem;
-    text-transform: lowercase;
-} }
+/* tables */
+.table, table { border: 0 }
 
-#main a, a, a.text-danger, .nav-link, .table th a
-{ color: #ae9957; transition: .5s; text-decoration: none }
+/* typo */
+* { font-family: 'DM Mono', monospace }
+#header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
+h1 { font-style: italic }
 
-a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #footer nav .nav-item .nav-link:hover, #header .navbar-main .active .nav-link, #header .navbar-main .active .nav-link .fa, #header .navbar-main .nav-link:hover, #header .navbar-main .nav-link:hover .fa
+a
+{ color: #ae9957; transition: .6s; text-decoration: none }
+
+a:hover
 { color: #000; text-decoration: none }
 
 .table .bottom, .table tfoot td {
@@ -68,8 +59,7 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 .btn-danger, .btn-primary, .btn-warning, .btn-success { background: #4cddde; color: #fff; border: 0; }
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover { background: transparent!important }
 
-#header .navbar-main .nav-link {
-    color: #5d585e; transition: .6s;
+#header .navbar-main .nav-link { color: #5d585e; transition: .6s;
     filter: opacity(.7);
 }
 
