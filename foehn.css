@@ -67,7 +67,6 @@ a { color: pink }
     border: 1px solid #81818163;
 }
 
-.navbar-main a { color: #595661 }
 #header .navbar-main { background: none }
 
 
@@ -93,8 +92,11 @@ a:hover, a.text-danger:hover, #header .navbar-status a:hover, .nav-link:hover, #
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover { background: transparent!important }
 
 #header .navbar-main .nav-link {
-    color: #b2b2b2;
+    color: #5d585e; transition: .6s;
+    filter: opacity(.7);
 }
+
+#header .navbar-main .nav-link:hover { filter: opacity(1) }
 
 /* making the player page work */
 
