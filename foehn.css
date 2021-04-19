@@ -44,16 +44,13 @@ table, .table { border: 0 }
 td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #dcdce0; background-color: transparent }
-
 .card.text-center, .card.mb-3 { background: #f4f4f7!important }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 /* typo */
 * { font-family: 'DM Mono', monospace }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-
 body { color: #595764 }
-
 .floatright a { font-size: 10px }
 
 #main a, .table th a
@@ -102,6 +99,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .bg-danger { background: #6f7082 }
 .bg-info { background: #5c575b }
 .bg-success { background: #ae9957 } /* survival */
+.progress { border-radius: 0; height: 9px; margin: 0 0 1px }
 
 /* making the player page work */
 .text-success { color: inherit!important }
