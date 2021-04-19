@@ -70,11 +70,10 @@ h1
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
-{ transition: .6s; background: #ae9957; color: #f4f4f7; border: 0; }
-
+{ transition: .6s; background: #dcdce8; color: inherit; border: 0; font-weight: 100; font-style: italic }
 .form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ background: transparent!important; color: #ae9957 }
+{ background: transparent!important; color: #dcdce8 }
 
 
 #summernote-form { padding: 1em; background: #f4f4f7 }
