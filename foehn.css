@@ -61,6 +61,8 @@ body { color: #595764 }
 #main a:hover, .table th a:hover
 { color: #ae9957; text-decoration: none; border-color: #ae9957; }
 
+.floatright a { color: #fff!important }
+
 #header .navbar-main .nav-link
 { color: #5d585e; transition: .6s; filter: opacity(.7); border: 0!important }
 #header .navbar-main .nav-link:hover
@@ -80,7 +82,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 }
 
 .card-header { font-size: 80%; text-transform: lowercase; }
-.text-danger { color: #fff!important }
+.text-danger { color: inherit!important }
 
 /* buttons, alerts */
 .form-control,
