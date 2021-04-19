@@ -94,11 +94,11 @@ td.b { font-size: 85%; text-transform: uppercase; }
 { background: transparent; color: #595764 }
 
 /* progress bars */
-.bg-warning { background-color: #bdc4de }
-.bg-primary { background-color: #a0a5b9 }
-.bg-danger { background-color: #6f7082 }
-.bg-info { background-color: #5c575b }
-.bg-success { background-color: #ae9957 } /* survival */
+.bg-warning { background-color: #bdc4de!important }
+.bg-primary { background-color: #a0a5b9!important }
+.bg-danger  { background-color: #6f7082!important }
+.bg-info    { background-color: #5c575b!important }
+.bg-success { background-color: #ae9957!important } /* survival */
 .progress { border-radius: 0; height: 9px; margin: 0 0 1px }
 
 /* making the player page work */
