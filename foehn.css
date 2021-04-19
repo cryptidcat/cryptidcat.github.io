@@ -71,9 +71,9 @@ h1
 td.b { font-size: 85%; text-transform: uppercase; }
 .pt-1.pb-1, th.top {
     font-weight: 100;
-    font-size: 150%;
+    font-size: 35px;
     text-transform: lowercase;
-    font-style: italic;
+    font-weight: bold;
 }
 
 /* buttons, alerts */
