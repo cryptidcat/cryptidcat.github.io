@@ -89,7 +89,7 @@ th.top {
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
-.text-danger { color: #fff }
+.text-danger { color: #fff!important }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 
