@@ -69,12 +69,11 @@ h1
 { font-style: italic }
 
 td.b { font-size: 85%; text-transform: uppercase; }
-th.top {
+.pt-1.pb-1, th.top {
     font-weight: 100;
     font-size: 150%;
     text-transform: lowercase;
     font-style: italic;
-    text-shadow: 2px 2px 3px #676c80;
 }
 
 /* buttons, alerts */
@@ -85,7 +84,7 @@ th.top {
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { transition: .6s; background: #595764; color: #f4f4f7; border: 0; font-weight: 100; font-style: italic }
-.form-row .card-header:hover, 
+.form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
