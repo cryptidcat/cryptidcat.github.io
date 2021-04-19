@@ -66,6 +66,7 @@ h1
 { font-style: italic }
 
 th.top { font-weight: 100; font-size: 150%; font-variant: small-caps; color: inherit }
+td.b { font-size: 85%; text-transform: uppercase; }
 
 /* buttons, alerts */
 .form-control,
@@ -81,7 +82,6 @@ th.top { font-weight: 100; font-size: 150%; font-variant: small-caps; color: inh
 
 .text-danger { color: #fff }
 #summernote-form { padding: 1em; background: #f4f4f7 }
-
 
 
 
