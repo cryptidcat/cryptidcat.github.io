@@ -32,6 +32,7 @@ td.row { margin: 0 }
 .mb-3 { margin: 0!important }
 .note-toolbar .note-btn { background: inherit; color: inherit }
 .featured-wolf a { display: block }
+.featured-wolf a:hover { border: 0!important }
 
 /* */
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
