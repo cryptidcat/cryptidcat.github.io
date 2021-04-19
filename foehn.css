@@ -41,7 +41,7 @@ table, .table { border: 0 }
 .table th { background: transparent }
 td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; background-color: #f4f4f7 }
+.table .bottom, .table tfoot td { color: inherit; border-top: 1px solid; background-color: transparent }
 
 /* typo */
 * { font-family: 'DM Mono', monospace }
@@ -77,7 +77,7 @@ h1
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
-
+.text-danger { color: #fff }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 
