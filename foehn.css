@@ -12,14 +12,14 @@
 .table a, .alert-link { font-weight: inherit }
 .table .left { background-color: inherit }
 .text-muted { color: inherit }
-.table td, .table th { vertical-align: middle }
+/* .table td, .table th { vertical-align: middle } */
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
 br, .navbar-status { display: none }
-form td:nth-child(2) { width: 10% }
+form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
-form td:nth-child(4) { width: 10% }
+form td:nth-child(4) { width: 15% }
 form td:nth-child(5) { width: 7% }
 td.b { width: 35% }
 .mb-3, .my-3 { margin: 0 auto }
@@ -28,6 +28,7 @@ td.b { width: 35% }
 .form-row .card.text-center { margin-top: 1rem }
 #main .card { background: none }
 td.row { margin: 0 }
+.mb-3 { margin: 0!important }
 
 /* */
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
@@ -65,7 +66,7 @@ body { color: #595764 }
 h1
 { font-style: italic }
 
-th.top { font-weight: 100; font-size: 150%; font-variant: small-caps; color: inherit }
+th.top { border-bottom: 1px solid; font-weight: 100; font-size: 150%; font-variant: small-caps; color: inherit }
 td.b { font-size: 85%; text-transform: uppercase; }
 
 /* buttons, alerts */
@@ -82,7 +83,6 @@ td.b { font-size: 85%; text-transform: uppercase; }
 
 .text-danger { color: #fff }
 #summernote-form { padding: 1em; background: #f4f4f7 }
-
 
 
 
