@@ -4,6 +4,9 @@
 
 /* SNAIL */
 
+
+.mb-3 { margin: 0!important }
+
 div .text-break:nth-child(1)::before {
     color: #31313178!important;
     text-shadow: none!important;
