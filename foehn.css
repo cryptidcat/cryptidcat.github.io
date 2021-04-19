@@ -40,7 +40,7 @@ body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
 
 /* tables */
 table, .table { border: 0 }
-.table th { background: transparent; border-bottom: 1px solid }
+.table th { background: transparent; border-bottom: 3px solid #dcdce0 }
 td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #dcdce0; background-color: transparent }
@@ -70,12 +70,13 @@ h1
 { text-align: right; letter-spacing: 0 }
 
 td.b { font-size: 85%; text-transform: uppercase; }
-.pt-1.pb-1, th.top {
+.pt-1.pb-1, th.top, .table th {
     font-weight: 100;
     font-size: 20px!important;
     text-transform: lowercase;
     font-weight: bold;
-    border-bottom: 3px solid #dcdce0;
+    color: inherit;
+    filter: opacity(0.7);
 }
 
 .card-header { font-size: 80%; text-transform: lowercase; }
