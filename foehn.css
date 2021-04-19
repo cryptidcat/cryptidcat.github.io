@@ -65,6 +65,8 @@ body { color: #595764 }
 h1
 { font-style: italic }
 
+th.top { font-weight: 100; font-size: 150%; font-variant: small-caps; color: inherit }
+
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
