@@ -67,12 +67,12 @@ body { color: #595764 }
 { color: #5d585e; filter: opacity(1) }
 
 h1
-{ font-style: italic }
+{ text-align: right; letter-spacing: 0 }
 
 td.b { font-size: 85%; text-transform: uppercase; }
 .pt-1.pb-1, th.top {
     font-weight: 100;
-    font-size: 25px!important;
+    font-size: 20px!important;
     text-transform: lowercase;
     font-weight: bold;
     border-bottom: 3px solid #dcdce0;
