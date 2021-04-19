@@ -50,6 +50,8 @@ td { background: #f4f4f7 }
 
 body { color: #595764 }
 
+.floatright a { font-size: 10px }
+
 #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
@@ -67,17 +69,23 @@ h1
 { font-style: italic }
 
 td.b { font-size: 85%; text-transform: uppercase; }
-th.top { font-weight: 100; font-size: 150%; text-transform: lowercase; font-style: italic }
+th.top {
+    font-weight: 100;
+    font-size: 150%;
+    text-transform: lowercase;
+    font-style: italic;
+    text-shadow: 2px 2px 3px #676c80;
+}
 
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 { color: inherit; background-color: #f4f7fe6e; border: 0 }
 
-.form-row .card-header,
+.form-row .card-header, .floatright a,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { transition: .6s; background: #595764; color: #f4f4f7; border: 0; font-weight: 100; font-style: italic }
-.form-row .card-header:hover,
+.form-row .card-header:hover, .floatright a:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
