@@ -68,9 +68,11 @@ h1
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 { color: inherit; background-color: #f4f7fe6e; border: 0 }
 
+.form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { background: #ae9957; color: #f4f4f7; border: 0; }
 
+.form-row .card-header:hover, 
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent!important; color: #ae9957 }
 
