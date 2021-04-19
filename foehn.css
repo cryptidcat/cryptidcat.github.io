@@ -33,7 +33,7 @@ td.row { margin: 0 }
 
 /* */
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
-#main { padding: 3em; background: #fff4; border: 0 }
+#main { padding: 3em; background: #dddcea9e; border: 0 }
 @media (max-width: 990px) { #header
   { background: #dcdce8 } }
 #header .navbar-main, #header .breadcrumb-nav { background: none }
