@@ -44,7 +44,7 @@ td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #dcdce0; background-color: transparent }
 
-.card.text-center { background: #f4f4f7 }
+.card.text-center, .card.mb-3 { background: #f4f4f7 }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 /* typo */
