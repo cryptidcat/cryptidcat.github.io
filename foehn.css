@@ -43,12 +43,12 @@ body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
 
 /* tables */
 table, .table { border: 0 }
-.table th { background: transparent; border-bottom: 3px solid #e0e4f0 }
-.card-body.pt-1 { background: #e0e4f0; border: 0; margin-top: -1px }
+.table th { background: transparent; border-bottom: 3px solid #e0e1f4 }
+.card-body.pt-1 { background: #e0e1f4; border: 0; margin-top: -1px }
 td { background: #f4f4f7;  }
 form .table-striped td { border-top: 1px solid #e6e6ea!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #e0e4f0; background-color: transparent; padding: 1em 0 }
+.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #e0e1f4; background-color: transparent; padding: 1em 0 }
 .card.text-center, .card.mb-3 { background: #f4f4f7!important }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
@@ -90,7 +90,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
-{ color: inherit; background-color: #e0e4f0; border: 0 }
+{ color: inherit; background-color: #e0e1f4; border: 0 }
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
