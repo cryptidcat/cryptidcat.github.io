@@ -23,7 +23,7 @@ form td:nth-child(4) { width: 15% }
 form td:nth-child(5) { width: 7% }
 td.b { width: 35% }
 .mb-3, .my-3 { margin: 0 auto }
-.table td { align-items: center }
+.table td { align-items: center; vertical-align: middle }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 #main .card { background: none }
