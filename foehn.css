@@ -14,7 +14,7 @@
 .text-muted { color: inherit }
 .table td, .table th { vertical-align: middle }
 body { cursor: default }
-#header .navbar-main .nav-link .fa { color: inherit }
+#header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
 br, .navbar-status { display: none }
 form td:nth-child(2) { width: 10% }
@@ -27,6 +27,7 @@ td.b { width: 35% }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 #main .card { background: none }
+td.row { margin: 0 }
 
 /* */
 body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed; color: #595764 }
@@ -63,14 +64,15 @@ h1
 { font-style: italic }
 
 /* buttons, alerts */
+.form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 { color: inherit; background-color: #f4f7fe6e; border: 0 }
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
-{ background: #4cddde; color: #fff; border: 0; }
+{ background: #ae9957; color: #f4f4f7; border: 0; }
 
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ background: transparent!important }
+{ background: transparent!important; color: #ae9957 }
 
 
 
