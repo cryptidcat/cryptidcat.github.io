@@ -45,7 +45,7 @@ td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #dcdce0; background-color: transparent }
 
-.card.text-center, .card.mb-3 { background: #f4f4f7 }
+.card.text-center, .card.mb-3 { background: #f4f4f7!important }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 /* typo */
@@ -81,6 +81,9 @@ td.b { font-size: 85%; text-transform: uppercase; }
     border-bottom: 3px solid #dcdce0;
 }
 
+.card-header { font-size: 80%; text-transform: lowercase; }
+.text-danger { color: #fff!important }
+
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
@@ -93,12 +96,12 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
-.card-header {     font-size: 80%;
-    text-transform: lowercase; }
-
-.text-danger { color: #fff!important }
-
-
+/* progress bars */
+.bg-warning { background: #bdc4de }
+.bg-primary { background: #a0a5b9 }
+.bg-danger { background: #6f7082 }
+.bg-info { background: #5c575b }
+.bg-success { background: #ae9957 } /* survival */
 
 /* making the player page work */
 .text-success { color: inherit!important }
