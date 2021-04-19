@@ -44,6 +44,9 @@ td { background: #f4f4f7 }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #dcdce0; background-color: transparent }
 
+.card.text-center { background: #f4f4f7 }
+#summernote-form { padding: 1em; background: #f4f4f7 }
+
 /* typo */
 * { font-family: 'DM Mono', monospace }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
@@ -93,7 +96,6 @@ td.b { font-size: 85%; text-transform: uppercase; }
     text-transform: lowercase; }
 
 .text-danger { color: #fff!important }
-#summernote-form { padding: 1em; background: #f4f4f7 }
 
 
 
