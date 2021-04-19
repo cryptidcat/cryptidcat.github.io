@@ -58,7 +58,7 @@ td { background: #f4f4f7 }
 #header .navbar-main .nav-link
 { color: #5d585e; transition: .6s; filter: opacity(.7); border: 0!important }
 #header .navbar-main .nav-link:hover
-{ filter: opacity(1) }
+{ color: #5d585e; filter: opacity(1) }
 
 h1
 { font-style: italic }
