@@ -71,9 +71,10 @@ h1
 td.b { font-size: 85%; text-transform: uppercase; }
 .pt-1.pb-1, th.top {
     font-weight: 100;
-    font-size: 35px;
+    font-size: 25px!important;
     text-transform: lowercase;
     font-weight: bold;
+    border-bottom: 3px solid #dcdce0;
 }
 
 /* buttons, alerts */
