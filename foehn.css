@@ -88,6 +88,9 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
+.card-header {     font-size: 80%;
+    text-transform: lowercase; }
+
 .text-danger { color: #fff!important }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
