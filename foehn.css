@@ -37,9 +37,9 @@ body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg');
 
 /* tables */
 table, .table { border: 0 }
-tr, .table-striped tbody tr:nth-of-type(odd) { background: #f4f4f7 }
-.table .bottom, .table tfoot td { color: inherit; background-color: transparent }
 .table th { background: transparent }
+td, .table-striped tbody tr:nth-of-type(odd) { background: #f4f4f7 }
+.table .bottom, .table tfoot td { color: inherit; background-color: #f4f4f7 }
 
 /* typo */
 * { font-family: 'DM Mono', monospace }
