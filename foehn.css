@@ -30,7 +30,7 @@ td.b { width: 35% }
 td.row { margin: 0 }
 
 /* */
-body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed; color: #595764 }
+body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
 #main { padding: 3em; background: #fff4; border: 0 }
 @media (max-width: 990px) { #header
   { background: #dcdce8 } }
@@ -46,6 +46,8 @@ td { background: #f4f4f7 }
 /* typo */
 * { font-family: 'DM Mono', monospace }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
+
+body { color: #595764 }
 
 #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
@@ -70,10 +72,10 @@ h1
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
-{ transition: .6s; background: transparent; color: inherit; border: 1px solid; border-radius: 5px; font-weight: 100; font-style: italic }
+{ transition: .6s; background: #595764; color: #f4f4f7; border: 0; font-weight: 100; font-style: italic }
 .form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ background: transparent; color: #dcdce8 }
+{ background: transparent; color: #595764 }
 
 
 #summernote-form { padding: 1em; background: #f4f4f7 }
