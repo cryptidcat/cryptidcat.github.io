@@ -82,10 +82,10 @@ th.top {
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 { color: inherit; background-color: #f4f7fe6e; border: 0 }
 
-.form-row .card-header, .floatright a,
+.form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { transition: .6s; background: #595764; color: #f4f4f7; border: 0; font-weight: 100; font-style: italic }
-.form-row .card-header:hover, .floatright a:hover,
+.form-row .card-header:hover, 
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
