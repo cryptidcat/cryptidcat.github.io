@@ -52,7 +52,7 @@ form .table-striped td { border-top: 1px solid #e6e6ea!important  }
 #summernote-form { padding: 1em; background: #f4f4f7 }
 
 /* typo */
-* { font-family: 'DM Mono', monospace }
+* { font-family: tahoma, sans-serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { color: #595764 }
 .floatright a { font-size: 11px; color: inherit!important }
