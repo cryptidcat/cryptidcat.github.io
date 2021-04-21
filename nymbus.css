@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
 
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.  */
@@ -7,7 +7,6 @@
 #footer, #sidebar, .card.text-center .card-img-top, .table .subheader { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
-
 .table a, .alert-link { font-weight: inherit }
 .table .left { background-color: inherit }
 .text-muted { color: inherit }
@@ -38,7 +37,8 @@ body { background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg');
 #main { padding: 3em; background: #2e1a26cf; border: 0 }
 @media (max-width: 990px) { #header
   { background: transparent } }
-#header .navbar-main, #header .breadcrumb-nav { background: none }
+#header .navbar-main { background: none }
+#header .breadcrumb-nav { background: #1c101ae0 }
 
 /* tables */
 table, .table { border: 0 }
@@ -57,6 +57,8 @@ form .table-striped td { border-top: 1px solid #e6e6ea!important  }
 body { color: #595764 }
 .floatright a { font-size: 11px; color: inherit!important }
 
+h1 { font-family: 'Caveat' }
+
 #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
@@ -69,9 +71,6 @@ body { color: #595764 }
 { color: #5d585e; transition: .6s; filter: opacity(.5); border: 0!important }
 #header .navbar-main .nav-link:hover
 { color: #5d585e; filter: opacity(1) }
-
-h1
-{ text-align: right; letter-spacing: 0 }
 
 td.b { font-size: 85%; text-transform: uppercase; }
 .pt-1.pb-1, th.top, .table th {
