@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
       /*  hello! I'm cat, #35127 on wolvden.
-          this code is *not* free-to-use.
-          please consider commissioning me!   */
+          this code is *not* free-to-use.  */
 
 * { font-size: inherit; color: inherit; border: 0 }
 #footer, #sidebar, .card.text-center .card-img-top, .breadcrumb-item, .table .subheader { display: none }
@@ -35,7 +34,7 @@ td.row { margin: 0 }
 .featured-wolf a { border: 0!important }
 
 /* */
-body { background-image: url('https://images2.imgbox.com/85/fc/i96C8ZmU_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
+body { background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: auto; background-repeat: repeat; background-attachment: fixed }
 #main { padding: 3em; background: #dddcea9e; border: 0 }
 @media (max-width: 990px) { #header
   { background: #dcdce8 } }
