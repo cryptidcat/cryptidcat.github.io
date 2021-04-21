@@ -7,7 +7,7 @@
 #footer, #sidebar, .card.text-center .card-img-top, .table .subheader { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
-#header .breadcrumb-nav .breadcrumb { margin: 0; max-width: 100% }
+
 .table a, .alert-link { font-weight: inherit }
 .table .left { background-color: inherit }
 .text-muted { color: inherit }
