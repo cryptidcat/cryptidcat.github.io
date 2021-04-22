@@ -9,7 +9,7 @@
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link { font-weight: inherit }
 .table .left { background-color: inherit }
-.text-muted { color: inherit }
+.text-muted, .breadcrumb-item.active { color: inherit }
 /* .table td, .table th { vertical-align: middle } */
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
@@ -64,7 +64,7 @@ a, #main a, .table th a
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
 .alert-light .alert-link, .alert-dark .alert-link
 { color: #c59ca8; transition: .6s; text-decoration: none }
-a:hover, #main a:hover, .table th a:hover 
+a:hover, #main a:hover, .table th a:hover
 { color: #c59ca8; text-decoration: none; text-shadow: 0 0 3px }
 
 #header .navbar-main .nav-link
