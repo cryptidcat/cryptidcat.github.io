@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.  */
@@ -52,7 +53,7 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 #summernote-form { padding: 1em; background: #1d111b }
 
 /* typo */
-* { font-family: calibri, serif; }
+* { font-family: "Noto Sans", serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
