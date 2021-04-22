@@ -52,12 +52,12 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 #summernote-form { padding: 1em; background: #1c101ae0 }
 
 /* typo */
-* { font-family: tahoma, sans-serif; }
+* { font-family: calibri, serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { color: #595764 }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { font-family: 'Caveat' }
+h1 { font-family: 'Caveat'; font-size: 3em; text-align: center }
 
 #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
@@ -68,9 +68,9 @@ h1 { font-family: 'Caveat' }
 { color: #ae9957; text-decoration: none; border-color: #ae9957; }
 
 #header .navbar-main .nav-link
-{ color: #5d585e; transition: .6s; filter: opacity(.5); border: 0!important }
+{ color: #82707d; transition: .6s; filter: border: 0!important }
 #header .navbar-main .nav-link:hover
-{ color: #5d585e; filter: opacity(1) }
+{ text-shadow: 0 0 3px }
 
 td.b { font-size: 85%; text-transform: uppercase; }
 .pt-1.pb-1, th.top, .table th {
