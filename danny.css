@@ -43,7 +43,7 @@ body { background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg');
 /* tables */
 table, .table { border: 0 }
 .table th { background: transparent; border-bottom: 3px solid #2b1928 }
-.card-body.pt-1 { background: #e0e1f4; border: 0; margin-top: -1px }
+.card-body.pt-1 { border: 0; margin-top: -1px }
 td { background: #1c101ae0 }
 form .table-striped td { border-top: 1px solid #2b1928!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
@@ -54,10 +54,10 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 /* typo */
 * { font-family: calibri, serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-body { color: #595764 }
+body { color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { font-family: 'Caveat'; font-size: 3em; text-align: center }
+h1 { font-family: 'Caveat'; font-size: 5em; text-align: center }
 
 #header .navbar-main .nav-link, a, #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
@@ -83,7 +83,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
-{ color: inherit; background-color: #e0e1f4; border: 0 }
+{ color: inherit; background-color: #1e111b; border: 0 }
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
