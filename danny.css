@@ -94,7 +94,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { transition: .6s; background-position: 50% 50%; background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
-color: #82707d; border: 0; font-weight: 100; font-style: italic;
+color: #82707d; border: 0; font-weight: 100;
     background-color: #281825;
     background-blend-mode: darken; }
 .form-row .card-header:hover,
@@ -107,13 +107,15 @@ color: #82707d; border: 0; font-weight: 100; font-style: italic;
     color: inherit;
 }
 
+.card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
+
 /* progress bars */
 .bg-warning { background-color: #6f5762!important }
 .bg-primary { background-color: #5b4655!important }
 .bg-danger  { background-color: #463748!important }
 .bg-info    { background-color: #31283a!important }
 .bg-success { background-color: #846870!important } /* survival */
-.progress { background: #2b1928; border-radius: 0; height: 9px; margin: 0 0 1px }
+.progress { background: #2b1928!important; border-radius: 0; height: 9px; margin: 0 0 1px }
 
 /* making the player page work */
 .text-success { color: inherit!important }
