@@ -57,7 +57,12 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 body { color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { font-family: 'Caveat'; font-size: 5em; text-align: center }
+h1 { font-family: 'Caveat'; font-size: 5em; text-align: center; background: #6F5762;
+background: -webkit-linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
+background: -moz-linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
+background: linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; }
 
 a, #main a, .table th a
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
