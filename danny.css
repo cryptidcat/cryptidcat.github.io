@@ -42,14 +42,14 @@ body { background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg');
 
 /* tables */
 table, .table { border: 0 }
-.table th { background: transparent; border-bottom: 3px solid #e0e1f4 }
+.table th { background: transparent; border-bottom: 3px solid #2b1928 }
 .card-body.pt-1 { background: #e0e1f4; border: 0; margin-top: -1px }
-td { background: #f4f4f7;  }
-form .table-striped td { border-top: 1px solid #e6e6ea!important  }
+td { background: #1c101ae0 }
+form .table-striped td { border-top: 1px solid #2b1928!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #e0e1f4; background-color: transparent; padding: 1em 0 }
-.card.text-center, .card.mb-3 { background: #f4f4f7!important }
-#summernote-form { padding: 1em; background: #f4f4f7 }
+.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #2b1928; background-color: transparent; padding: 1em 0 }
+.card.text-center, .card.mb-3 { background: #2b1928!important }
+#summernote-form { padding: 1em; background: #1c101ae0 }
 
 /* typo */
 * { font-family: tahoma, sans-serif; }
