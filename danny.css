@@ -114,6 +114,8 @@ color: #82707d; border: 0; font-weight: 100;
 
 .card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
 
+#main td img { border: 1px solid; mix-blend-mode: luminosity }
+
 /* progress bars */
 .bg-warning { background-color: #6f5762!important }
 .bg-primary { background-color: #5b4655!important }
