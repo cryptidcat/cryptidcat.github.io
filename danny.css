@@ -8,7 +8,6 @@
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link { font-weight: inherit }
-.table .left { background-color: inherit }
 .text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before { color: inherit }
 /* .table td, .table th { vertical-align: middle } */
 body { cursor: default }
@@ -44,7 +43,8 @@ body { background-position: 50% 50%; background-image: url('https://images2.imgb
 table, .table { border: 0 }
 .table th { background: transparent; border-bottom: 3px solid #2b1928 }
 .card-body.pt-1 { border: 0; margin-top: -1px }
-td { background: #1d111b }
+td,
+.table .left { background: #1d111b }
 form .table-striped td { border-top: 1px solid #2b1928!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #2b1928; background-color: transparent; padding: 1em 0 }
