@@ -93,11 +93,13 @@ td.b { font-size: 85%; text-transform: uppercase; }
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
-{ transition: .6s; background-position: 50% 50%; background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; 
-color: #f4f4f7; border: 0; font-weight: 100; font-style: italic }
+{ transition: .6s; background-position: 50% 50%; background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
+color: #82707d; border: 0; font-weight: 100; font-style: italic;
+    background-color: #281825;
+    background-blend-mode: darken; }
 .form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ background: transparent; color: #595764 }
+{ color: #82707d; text-shadow: 0 0 3px }
 
 
 .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
