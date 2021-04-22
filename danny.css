@@ -67,9 +67,9 @@ a, #main a, .table th a
 a:hover, #main a:hover, .table th a:hover
 { color: #c59ca8; text-decoration: none; text-shadow: 0 0 3px }
 
-#header .navbar-main .nav-link
+.breadcrumb-item a, #header .navbar-main .nav-link
 { color: #82707d; transition: .6s; text-decoration: none }
-#header .navbar-main .nav-link:hover
+.breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
 { color: #82707d; text-decoration: none; text-shadow: 0 0 3px }
 
 
