@@ -9,7 +9,7 @@
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link { font-weight: inherit }
 .table .left { background-color: inherit }
-.text-muted, .breadcrumb-item.active { color: inherit }
+.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before { color: inherit }
 /* .table td, .table th { vertical-align: middle } */
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
@@ -48,7 +48,7 @@ td { background: #1c101ae0 }
 form .table-striped td { border-top: 1px solid #2b1928!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #2b1928; background-color: transparent; padding: 1em 0 }
-.card.text-center, .card.mb-3 { background: #2b1928!important }
+.card.text-center, .card.mb-3 { background: #1e111b!important }
 #summernote-form { padding: 1em; background: #1c101ae0 }
 
 /* typo */
@@ -89,7 +89,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 /* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
-{ color: inherit; background-color: #1e111b; border: 0 }
+{ color: inherit; background-color: #2b1928; border: 0 }
 
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
@@ -98,13 +98,19 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { background: transparent; color: #595764 }
 
+
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
+    background-color: #2b1928;
+    color: inherit;
+}
+
 /* progress bars */
-.bg-warning { background-color: #bdc4de!important }
-.bg-primary { background-color: #a0a5b9!important }
-.bg-danger  { background-color: #6f7082!important }
-.bg-info    { background-color: #5c575b!important }
-.bg-success { background-color: #ae9957!important } /* survival */
-.progress { border-radius: 0; height: 9px; margin: 0 0 1px }
+.bg-warning { background-color: #6f5762!important }
+.bg-primary { background-color: #5b4655!important }
+.bg-danger  { background-color: #463748!important }
+.bg-info    { background-color: #31283a!important }
+.bg-success { background-color: #846870!important } /* survival */
+.progress { background: #2b1928; border-radius: 0; height: 9px; margin: 0 0 1px }
 
 /* making the player page work */
 .text-success { color: inherit!important }
