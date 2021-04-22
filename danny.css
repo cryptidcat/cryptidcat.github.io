@@ -55,7 +55,7 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 /* typo */
 * { font-family: "Noto Sans", serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-body { color: #5c5a71 }
+body { font-size: .75rem; color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
 
 h1 { display: inline-block; padding: 0 1em; font-family: 'Caveat'; font-size: 5em; text-align: center; background: #6F5762;
