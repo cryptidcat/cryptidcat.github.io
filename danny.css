@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Nanum+Gothic:wght@400;700;800&display=swap');
 
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.  */
@@ -53,7 +53,7 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 #summernote-form { padding: 1em; background: #1d111b }
 
 /* typo */
-* { font-family: 'Nanum Gothic', serif; }
+* { font-family: 'Fira Sans', sans-serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { font-size: .75rem; color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
