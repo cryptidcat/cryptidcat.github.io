@@ -112,6 +112,8 @@ color: #82707d; border: 0; font-weight: 100;
     color: inherit;
 }
 
+.card-body.pt-1.pb-1 { background: #2b1928; }
+
 .card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
 
 #main td img { mix-blend-mode: luminosity }
