@@ -47,9 +47,9 @@ table, .table { border: 0 }
 td, .table .left, .dropdown-menu { background: #3a0e16 }
 form .table-striped td { border: 0!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #fff3; background-color: transparent; padding: 1em 0 }
-.card.text-center, .card.mb-3 { background: #1e111b!important }
-#summernote-form { padding: 1em; background: #1d111b }
+.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #57101f; background-color: transparent; padding: 1em 0 }
+.card.text-center, .card.mb-3 { background: #57101f!important }
+#summernote-form { padding: 1em; background: #57101f }
 
 /* typo */
 * { font-family: 'open sans', sans-serif; }
@@ -66,12 +66,12 @@ a, #main a, .table th a,
 .alert-light .alert-link, .alert-dark .alert-link
 { color: inherit; filter: opacity(.7) transition: .6s; text-decoration: none; font-family: georgia, serif; }
 a:hover, #main a:hover, .table th a:hover
-{ color: inherit; filter: opacity(1); }
+{ color: #E2A850; filter: opacity(1); }
 
 .breadcrumb-item a, #header .navbar-main .nav-link, #header .navbar-status a
 { color: inherit; filter: opacity(.7); transition: .6s; text-decoration: none; font-family: georgia, serif; }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover
-{ color: inherit; filter: opacity(1); }
+{ color: #E2A850; filter: opacity(1); }
 
 td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: right; }
 
