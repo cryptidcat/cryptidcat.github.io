@@ -41,10 +41,10 @@ background-repeat: repeat; background-attachment: fixed }
 
 /* tables */
 table, .table { border: 0 }
-.table th { background: transparent; border-bottom: 3px solid #2b1928 }
+.table th { background: transparent; border: 0 }
 .card-body.pt-1 { border: 0; margin-top: -1px }
 td,
-.table .left { background: #1d111b }
+.table .left { background: #3a0e16 }
 form .table-striped td { border-top: 1px solid #2b1928!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
 .table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #2b1928; background-color: transparent; padding: 1em 0 }
