@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.  */
@@ -9,7 +9,7 @@
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link { font-weight: inherit }
 .text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before { color: inherit }
-/* .table td, .table th { vertical-align: middle } */
+.table td, .table th { vertical-align: middle }
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
@@ -57,7 +57,7 @@ form .table-striped td { border-top: 1px solid #2b1928!important  }
 body { font-size: .75rem; color: #5c5a71 }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { display: inline-block; padding: 0 1em; font-family: 'Caveat'; font-size: 5em; text-align: center; background: #6F5762;
+h1 { display: inline-block; padding: 0 1em; font-family: 'Architects Daughter', serif; font-size: 5em; text-align: center; background: #6F5762;
 background: -webkit-linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
 background: -moz-linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
 background: linear-gradient(to right, #6F5762 0%, #5B4655 33%, #463748 65%, #31283A 100%);
