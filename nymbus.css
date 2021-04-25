@@ -76,7 +76,7 @@ a:hover, #main a:hover, .table th a:hover
 .form-row .card-header,
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
 { transition: .6s; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-attachment: fixed;
-border: 0; font-weight: bold; background-color: #3c0a13 }
+border: 0; font-weight: bold; background-color: #3c0a13; color: inherit }
 .form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
 { color: #E2A850; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-attachment: fixed;
