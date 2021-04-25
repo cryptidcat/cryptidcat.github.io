@@ -65,14 +65,14 @@ a, #main a, .table th a,
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
 .alert-light .alert-link, .alert-dark .alert-link
-{ color: inherit; transition: .6s; text-decoration: underline }
+{ color: inherit; transition: .6s; text-decoration: none; border-bottom: 1px solid }
 a:hover, #main a:hover, .table th a:hover
-{ color: inherit; text-decoration: none }
+{ color: inherit; border-color: transparent }
 
 .breadcrumb-item a, #header .navbar-main .nav-link, #header .navbar-status a,
-{ color: inherit; transition: .6s; text-decoration: none }
+{ color: inherit; transition: .6s; text-decoration: none; border-bottom: 1px solid transparent }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover
-{ color: inherit; text-decoration: none }
+{ color: inherit }
 
 td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: right; }
 
