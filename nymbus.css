@@ -34,10 +34,9 @@ td.row { margin: 0 } .mb-3 { margin: 0!important }
 /* */
 body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #57101f;
 background-repeat: repeat; background-attachment: fixed }
-#main { padding: 3em; background: #2e1a26cf; border: 0 }
-@media (max-width: 990px) { #header
-  { background: transparent } }
-#header .navbar-main { background: none }
+#main { padding: 0; background: transparent; border: 0 }
+@media (max-width: 990px) { #header { background: transparent } }
+#header .navbar-main { background: transparent }
 #header .navbar-status { color: inherit; height: auto; background: #1c101ae0 }
 
 /* tables */
