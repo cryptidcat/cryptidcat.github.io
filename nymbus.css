@@ -13,7 +13,7 @@
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
-br, .navbar-status { display: none }
+br { display: none }
 form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
 form td:nth-child(4) { width: 15% }
@@ -36,8 +36,8 @@ body { background-position: 50% 50%; background-image: url('https://images2.imgb
 #main { padding: 3em; background: #2e1a26cf; border: 0 }
 @media (max-width: 990px) { #header
   { background: transparent } }
-#header .navbar-main { background: none }
-#header .breadcrumb-nav { background: #1c101ae0 }
+#header .navbar-main { display: none }
+#header .navbar-status { color: inherit; height: auto; background: #1c101ae0 }
 
 /* tables */
 table, .table { border: 0 }
