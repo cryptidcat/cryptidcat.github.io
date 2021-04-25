@@ -67,12 +67,12 @@ a, #main a, .table th a,
 .alert-light .alert-link, .alert-dark .alert-link
 { color: inherit; transition: .6s; text-decoration: none; font-family: georgia, serif; }
 a:hover, #main a:hover, .table th a:hover
-{ color: inherit }
+{ color: inherit; filter: opacity(.7); }
 
 .breadcrumb-item a, #header .navbar-main .nav-link, #header .navbar-status a,
 { color: inherit; transition: .6s; text-decoration: none; font-family: georgia, serif; }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover
-{ color: inherit }
+{ color: inherit; filter: opacity(.7); }
 
 td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: right; }
 
