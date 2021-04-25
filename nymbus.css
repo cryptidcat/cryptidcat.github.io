@@ -10,7 +10,7 @@ br, #footer, #sidebar, #header .breadcrumb-nav,
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link, #header .navbar-status a { font-weight: inherit }
-.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control { color: inherit }
+.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control, .text-light { color: inherit }
 body { cursor: default }
 nav i, .nav-tabs { display: none!important }
 form td:nth-child(2) { width: 15% }
