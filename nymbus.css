@@ -64,7 +64,7 @@ a, #main a, .table th a,
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
 .alert-light .alert-link, .alert-dark .alert-link
-{ color: inherit; filter: opacity(.7) transition: .6s; text-decoration: none }
+{ color: inherit; filter: opacity(.7); transition: .6s; text-decoration: none }
 a:hover, #main a:hover, .table th a:hover
 { color: #E2A850; filter: opacity(1); }
 
@@ -72,6 +72,16 @@ a:hover, #main a:hover, .table th a:hover
 { color: inherit; filter: opacity(.7); transition: .6s; text-decoration: none }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover
 { color: #E2A850; filter: opacity(1); }
+
+.form-row .card-header,
+.btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
+{ transition: .6s; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-attachment: fixed;
+color: inherit; border: 0; font-weight: bold; background-color: #330f17 }
+.form-row .card-header:hover,
+.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
+{ color: #E2A850 }
+
+
 
 td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: right; }
 
@@ -87,20 +97,9 @@ td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: rig
 .card-header { font-size: 80%; text-transform: lowercase; }
 .text-danger { color: inherit!important }
 
-/* buttons, alerts */
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 { color: inherit; background-color: #330f17; border: 0 }
-
-.form-row .card-header,
-.btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark
-{ transition: .6s; background-position: 50% 50%; background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
-color: #82707d; border: 0; font-weight: 100;
-    background-color: #281825;
-    background-blend-mode: darken; }
-.form-row .card-header:hover,
-.btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ color: #82707d; text-shadow: 0 0 3px }
 
 
 .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
@@ -110,7 +109,6 @@ color: #82707d; border: 0; font-weight: 100;
 
 
 .card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
-
 
 /* progress bars */
 .bg-warning { background-color: #6f5762!important }
