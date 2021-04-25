@@ -32,7 +32,7 @@ td.row { margin: 0 }
 .featured-wolf a { border: 0!important }
 
 /* */
-body { background-position: 50% 50%; background-image: url('https://images2.imgbox.com/34/fa/ImVvscUq_o.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed }
+body { background-position: 50% 50%; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #57101f; background-repeat: repeat; background-attachment: fixed }
 #main { padding: 3em; background: #2e1a26cf; border: 0 }
 @media (max-width: 990px) { #header
   { background: transparent } }
