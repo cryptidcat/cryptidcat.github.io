@@ -9,10 +9,8 @@ br, #footer, #sidebar, #header .breadcrumb-nav,
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link, #header .navbar-status a { font-weight: inherit }
-.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before { color: inherit }
-.table td, .table th { vertical-align: middle }
+.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 body { cursor: default }
-#header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
 form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
@@ -20,7 +18,7 @@ form td:nth-child(4) { width: 15% }
 form td:nth-child(5) { width: 7% }
 td.b { width: 35% }
 .mb-3, .my-3 { margin: 0 auto }
-.table td { align-items: center; vertical-align: middle }
+.table td, .table th { align-items: center; vertical-align: middle }
 .striped td { padding: .3em }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
@@ -29,6 +27,8 @@ td.row { margin: 0 } .mb-3 { margin: 0!important }
 .note-toolbar .note-btn { background: inherit; color: inherit }
 .featured-wolf a { display: block }
 .featured-wolf a { border: 0!important }
+.user_current_sc:after { content: " sc" }
+.user_current_gc:after { content: "gc" }
 
 /* */
 body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #57101f;
