@@ -4,7 +4,8 @@
           this code is *not* free-to-use.  */
 
 * { font-size: inherit; color: inherit; border: 0 }
-#footer, #sidebar, .card.text-center .card-img-top, .table .subheader { display: none }
+br, #footer, #sidebar, #header .breadcrumb-nav,
+.card.text-center .card-img-top, .table .subheader { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by ᓚᘏᗢ #35127"; white-space: pre-wrap; font-size: 80%; display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link, #header .navbar-status a { font-weight: inherit }
@@ -13,7 +14,6 @@
 body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
-br { display: none }
 form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
 form td:nth-child(4) { width: 15% }
@@ -25,13 +25,10 @@ td.b { width: 35% }
 .featured-wolf b { display: block }
 .form-row .card.text-center { margin-top: 1rem }
 #main .card { background: none }
-td.row { margin: 0 }
-.mb-3 { margin: 0!important }
+td.row { margin: 0 } .mb-3 { margin: 0!important }
 .note-toolbar .note-btn { background: inherit; color: inherit }
 .featured-wolf a { display: block }
 .featured-wolf a { border: 0!important }
-
-#header .breadcrumb-nav { display: none }
 
 /* */
 body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #57101f;
