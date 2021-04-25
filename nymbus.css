@@ -61,7 +61,7 @@ body { font-size: .75rem; color: #5c5a71 }
 h1 { font-family: 'Architects Daughter', serif; font-size: 5em }
 .card-header { font-family: 'Architects Daughter' }
 
-a, #main a, .table th a, #header .navbar-status a
+a, #main a, .table th a, #header .navbar-status a,
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
 .alert-light .alert-link, .alert-dark .alert-link
