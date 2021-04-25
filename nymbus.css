@@ -37,7 +37,7 @@ background-repeat: repeat; background-attachment: fixed }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
 #header .navbar-main { background: transparent }
-#header .navbar-status { color: inherit; height: auto; background: #1c101ae0 }
+#header .navbar-status { color: inherit; height: auto; background: #3a0e16 }
 
 /* tables */
 table, .table { border: 0 }
@@ -45,16 +45,16 @@ table, .table { border: 0 }
 .card-body.pt-1 { border: 0; margin-top: -1px }
 td,
 .table .left { background: #3a0e16 }
-form .table-striped td { border-top: 1px solid #2b1928!important  }
+form .table-striped td { border: 0!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #2b1928; background-color: transparent; padding: 1em 0 }
+.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #fff3; background-color: transparent; padding: 1em 0 }
 .card.text-center, .card.mb-3 { background: #1e111b!important }
 #summernote-form { padding: 1em; background: #1d111b }
 
 /* typo */
 * { font-family: 'open sans', sans-serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-body { font-size: .75rem; color: #5c5a71 }
+body { font-size: .75rem; color: #90656d }
 .floatright a { font-size: 11px; color: inherit!important }
 
 h1 { font-family: 'Architects Daughter', serif; font-size: 5em }
