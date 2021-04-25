@@ -112,12 +112,12 @@ td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: rig
 .card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
 
 /* progress bars */
-.bg-warning { background-color: #6f5762!important }
-.bg-primary { background-color: #5b4655!important }
-.bg-danger  { background-color: #463748!important }
-.bg-info    { background-color: #31283a!important }
-.bg-success { background-color: #846870!important } /* survival */
-.progress { background: #330f17!important; border-radius: 0; height: 9px; margin: 0 0 1px }
+.bg-warning { background-color: #90656d24!important }
+.bg-primary { background-color: #90656d24!important }
+.bg-danger  { background-color: #90656d24!important }
+.bg-info    { background-color: #90656d24!important }
+.bg-success { background-color: #90656d24!important } /* survival */
+.progress { background: #90656d24!important; border-radius: 0; height: 9px; margin: 0 0 1px }
 
 /* making the player page work */
 .text-success { color: inherit!important }
