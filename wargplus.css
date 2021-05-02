@@ -1,5 +1,8 @@
 #main>table, .row.justify-content-md-center, br { display: none }
 #footer br { display: block!important }
 
-h1 { text-align: left }
-.small, small { display: none } 
+h1 { text-align: left!important }
+.small, small { display: none }
+
+.wargwrap { display: flex }
+.wargwrap a { flex: 1; margin: 10px; border: 1px solid }
