@@ -16,4 +16,6 @@ h1 { text-align: left!important }
     padding: 20px;
     font-weight: 100;
     border: 1px solid #252525;
+    background-attachment: fixed;
+    background-color: #404040;
 }
