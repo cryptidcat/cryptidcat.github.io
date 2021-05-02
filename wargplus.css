@@ -10,4 +10,9 @@ h1 { text-align: left!important }
     background-size: cover!important;
     background-position: 50% 50%!important;
     background-blend-mode: darken;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 80%;
+    padding: 20px;
+    font-weight: 100;
 }
