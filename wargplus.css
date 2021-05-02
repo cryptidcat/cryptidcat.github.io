@@ -5,4 +5,9 @@ h1 { text-align: left!important }
 .small, small { display: none }
 
 .wargwrap { display: flex }
-.wargwrap a { flex: 1; margin: 10px; border: 1px solid }
+.wargwrap a { flex: 1; margin: 10px;
+    background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
+    background-size: cover!important;
+    background-position: 50% 50%!important;
+    background-blend-mode: darken;
+}
