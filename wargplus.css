@@ -5,7 +5,9 @@ h1 { text-align: left!important }
 .small, small { display: none }
 
 .wargwrap { display: flex }
-.wargwrap a { flex: 1; margin: 10px;
+.wargwrap a {
+    flex: 1;
+    margin: 10px;
     background-image: url(https://images2.imgbox.com/7a/41/mvmBEhMr_o.jpg)!important;
     background-size: cover!important;
     background-position: 50% 50%!important;
@@ -15,8 +17,14 @@ h1 { text-align: left!important }
     font-size: 80%;
     padding: 20px;
     font-weight: 100;
-    border: 1px solid #252525;
+    border: 1px solid #3232329e;
     background-attachment: fixed;
-    background-color: #404040;
+    background-color: #232323;
     text-align: center;
 }
+.wargwrap a:hover { background-color: #6f1a1a }
+
+.float-right.mt-2 { margin: 0; padding: 0; float: none; }
+.btn.btn-danger { font-size: 0!important; z-index: 1; position: fixed; bottom: 0; left: 0; margin: 1rem; border: 0; vertical-align: middle; display: inline-block; padding: .5rem; background: #fff2; color: inherit; line-height: 1 }
+.btn.btn-danger:hover { font-size: 8px!important; font-style: italic; text-transform: uppercase; font-weight: bold; letter-spacing: 1px }
+.btn i { font-size: 10px; display: inline-block; }
