@@ -1,6 +1,6 @@
 
 .meow { position: fixed; bottom: 0; left: 0; right: 0; padding: 10px; background: #111; color: #fff; font-family: serif; z-index: 666 }
-.meow a { font-weight: bold; font-style: italic; color: inherit; text-decoration: underline }
+.meow a { font-weight: bold; font-style: italic; color: #fff; text-decoration: underline; background: none; border: 0; padding: 0 }
 .meow img { position: fixed; bottom: -8px; right: 0 }
 body { padding-bottom: 2em }
 @media (max-width: 990px) { .meow { position: relative } }
