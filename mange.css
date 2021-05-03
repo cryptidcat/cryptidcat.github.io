@@ -11,7 +11,7 @@ br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader { display: non
 .text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control, #header .navbar-main .nav-link { color: inherit }
 .text-light { color: inherit!important }
 body { cursor: default }
-nav i, .nav-tabs { display: none!important }
+nav i { display: none!important }
 form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
 form td:nth-child(4) { width: 15% }
@@ -51,7 +51,7 @@ form .table-striped td { border: 0!important  }
 
 /* typo */
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-body { font-size: .75rem; color: #4f333f }
+body { font-size: .75rem; color: #25171c }
 .floatright a { font-size: 11px; color: inherit!important }
 .table th { color: #a94134; text-shadow: 0 0 8px #3a262f80; }
 
@@ -76,9 +76,12 @@ a, #main a, .table th a,
 a:hover, #main a:hover, .table th a:hover
 { color: #df5c3e; text-shadow: 0 0 2px }
 
-.breadcrumb-item a, #header .navbar-main .nav-link, #header .navbar-status a, .floatright a
+
+.nav-tabs .nav-link, .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { border: 0; border-radius: 0 }
+
+.breadcrumb-item a, #header .navbar-main .nav-link, #header .navbar-status a, .floatright a, .nav-link
 { color: #ffdde36e!important; transition: .6s; text-decoration: none; background: none; }
-.breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover, .floatright:hover
+.breadcrumb-item a:hover, #header .navbar-main .nav-link:hover, #header .navbar-status a:hover, .floatright:hover, .nav-link:hover
 { color: #ffdde3!important; text-shadow: 0 0 2px; background: none; }
 
 .floatright a { font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,sans-serif!important }
@@ -105,17 +108,20 @@ a:hover, #main a:hover, .table th a:hover
     transition: .6s;
     border: 0;
     font-weight: bold;
-    background-color: #df5c3e;
+    background: #df5c3e;
     letter-spacing: 1px;
 }
 
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ color: #fed6be; border: 0; font-weight: bold; background-color: #873232 }
+{ color: #fed6be; border: 0!important; font-weight: bold; background: #873232 }
 
+.nav-link.active { background: none!important; cursor: default; border: 0; color: inherit; user-select: none; pointer-events: none }
+.nav-tabs { border: 0 }
 
 .pt-1.pb-1, th.top, .table th {
     font-weight: bold;
     background: linear-gradient(136deg, #523a47 0%, #803136 25%, #8d3430 50%, #a04036 75%, #de5b3d 100%);
+    background: #6c353d;
     font-family: 'Reenie Beanie';
     padding: 20px!important;
     font-size: 30px!important;
@@ -123,10 +129,10 @@ a:hover, #main a:hover, .table th a:hover
 .text-danger { color: inherit!important }
 
 .form-control, .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
-{ color: inherit; background-color: #fbc2a5; border: 0 }
+{ color: inherit; background-color: #fed6becc; border: 0 }
 
 .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
-    background-color: #fed6be;
+    background-color: #fed6becc;
     color: inherit;
 }
 
@@ -140,16 +146,16 @@ a:hover, #main a:hover, .table th a:hover
 h1 small { vertical-align: middle; font-size: 50% }
 .form-row .card-img-top { display: none }
 .bottom { padding: 1em!important }
-.card-body { background: #fed6be }
-#main>.table, #main>table, .table.table-striped { background: #fed6be; box-shadow: 0 0 40px #77292c }
+.card-body { background: #fed6becc }
+#main>.table, #main>table, .table.table-striped { background: #fed6becc; box-shadow: 0 0 40px #77292c }
 .table .left {
-    background-color: #fed6be;
+    background-color: #fed6becc;
 }
 #header .navbar-status { color: inherit; height: auto; background: linear-gradient(136deg, #523a47 0%, #803136 25%, #8d3430 50%, #a04036 75%, #de5b3d 100%); box-shadow: 0 0 40px #77292c }
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 20px 0 }
 
 .boxwrap { display: flex; margin: 0 -1em }
-.box { flex: 1; background: #fed6be; padding: 2em; margin: 1em; height: 350px; overflow: auto }
+.box { flex: 1; background: #fed6becc; padding: 2em; margin: 1em; height: 350px; overflow: auto }
 @media (max-width: 900px) { .boxwrap { display: block } }
 
 ::-webkit-scrollbar { width: 15px; background: #fab186 }
