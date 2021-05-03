@@ -132,7 +132,10 @@ a[href*="breed"]>div.card.text-center>img { display: block; content: url('https:
 
 .boxwrap { display: flex; margin: 0 -1em }
 .box { flex: 1; background: #fff; padding: 2em; margin: 1em; height: 350px; overflow: auto }
+@media (max-width: 900px) { .boxwrap { display: block } }
 
+::-webkit-scrollbar { width: 15px; background: #888 }
+::-webkit-scrollbar-thumb { background: #666; border-radius: 10px; padding: 5px; border: 5px solid #888 }
 
 /* progress bars */
 .bg-warning { background-color: #ddd!important }
