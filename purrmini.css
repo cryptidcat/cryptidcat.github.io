@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital@0;1&display=swap');
 
 .meow { position: fixed; bottom: 0; left: 0; right: 0; padding: 10px; background: #fff; color: #000; font-size: 12px; font-family: 'Gentium Book Basic', serif; z-index: 666; border-top: 1px solid }
-.meow a { font-weight: bold!important; font-style: italic!important; color: #000!important; text-decoration: underline!important; background: none!important; border: 0!important; padding: 0!important }
+.meow a { font-weight: 100!important; font-style: italic!important; color: #000!important; text-decoration: underline!important; background: none!important; border: 0!important; padding: 0!important }
 .meow a:hover { text-shadow: 0 0 3px #000!important; color: transparent!important }
 .meow img { position: fixed; bottom: -8px; right: 0 }
 body { padding-bottom: 2em }
