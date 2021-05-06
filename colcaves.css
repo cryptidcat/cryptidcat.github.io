@@ -1,0 +1,2 @@
+form table:hover tbody td { display: table-cell }
+form tbody td { display: none }
