@@ -168,3 +168,7 @@ h1 {
 
 
 form .table.table-striped tbody tr td a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
+
+
+.card.mb-3 { position: relative } .col-xl-3.col-sm-7.text-center { padding: 0 }
+.card.mb-3>div { position: absolute; right: 0; bottom: 0; padding: 10px!important }
