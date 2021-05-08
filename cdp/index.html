@@ -1,0 +1,396 @@
+<title>Wolvden (Custom) Decor Previewer</title>
+
+<script src="https://kit.fontawesome.com/f94e1f48e8.js" crossorigin="anonymous"></script>
+
+<section>
+<div><h1>(Custom) Decor Previewer</h1>
+<div id="preview">
+  <canvas id="decor1" width="640" height="500"></canvas>
+  <canvas id="decor2" width="640" height="500"></canvas>
+  <canvas id="decor3" width="640" height="500"></canvas>
+  <canvas id="decor4" width="640" height="500"></canvas>
+  <canvas id="decor5" width="640" height="500"></canvas>
+  <canvas id="wolf" width="640" height="500"></canvas>
+  <canvas id="decor6" width="640" height="500"></canvas>
+  <canvas id="decor7" width="640" height="500"></canvas>
+  <canvas id="decor8" width="640" height="500"></canvas>
+  <canvas id="decor9" width="640" height="500"></canvas>
+  <canvas id="decor10" width="640" height="500"></canvas>
+  <canvas id="decor11" width="640" height="500"></canvas>
+  <canvas id="decor12" width="640" height="500"></canvas>
+  <canvas id="decor13" width="640" height="500"></canvas>
+  <canvas id="decor14" width="640" height="500"></canvas>
+  <canvas id="decor15" width="640" height="500"></canvas>
+  <canvas id="decor16" width="640" height="500"></canvas>
+</div></div>
+<div id="form">
+  <label for="wolfID">Wolf ID</label>
+  <input id="wolfURL" placeholder="wolf ID" type="text" size="10" onclick="this.select()" onchange="preview()" onpaste="preview()" value="?">
+  <fieldset>
+  <legend>Stuff Behind the Wolf</legend>
+
+<select id="decor1URL" onchange="preview()">
+  <option value=>no background</option>
+  <option value=https://static.wolvden.com/images/backgrounds/all_AbandonedMine.png>Abandoned Mine</option>
+  <option value=https://static.wolvden.com/images/backgrounds/all_AbandonedMineshaft.png>Abandoned Mineshaft</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_AncientSwampTree.png>Ancient Swamp Tree</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_ArcticTundra.png>Arctic Tundra</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Arnica_Meadow.png>Arnica Meadow</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Blooming_Garlic.png>Blooming Garlic</option>
+  <option value=https://static.wolvden.com/images/backgrounds/special_bluemoon.png>Blue Moon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_BorealForest.png>Boreal Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_BurrowsAmongtheRoots.png>Burrows Among the Roots</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_Canyon.png>Canyon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Chattering_Parakeets.png>Chattering Parakeets</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Chilling_Blue_Jays.png>Chilling Blue Jays</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Cold_Cave.png>Cold Cave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_DarkMangroveForest.png>Dark Mangrove Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/default_Daytime.png>Day Time</option>
+  <option value=https://static.wolvden.com/images/backgrounds/conif_DeepForest.png>Deep Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Desolate_Cave.png>Desolate Cave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_DragonflyCreek.png>Dragonfly Creek</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_ElYunkueRainforest.png>El Yunque Rainforest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_EllesmereIsland.png>Ellesmere Island</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Eternal_Slumber.png>Eternal Slumber</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Falcons_Nest.png>Falcon's Nest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Fallen_Tree.png>Fallen Tree</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Fields_of_Tansy.png>Fields of Tansy</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_FlickeringForest.png>Flickering Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_FluorescentCave.png>Fluorescent Cave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_DF_FungusForest.png>Fungus Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grasslands_GoldenHills.png>Golden Hills</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_HaidaGwaii_GreatBearRainforest.png>Great Bear Rainforest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Green_Meadow.png>Green Meadow</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_HohRainforest.png>Hoh Rainforest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/all_HotSprings.png>Hot Springs</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_Hubbard_Glacier.png>Hubbard Glacier</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Hunting_Barn_Owl.png>Hunting Barn Owl</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_IceTunnel.png>Ice Tunnel</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_KissimeePrairie.png>Kissimmee Prairie</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_KlamathBasin.png>Klamath Basin</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_LacandonJungle.png>Lacandon Jungle</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Leftover_Bones.png>Leftover Bones</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_LongRangeMountains.png>Long Range Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Coniferous.png>Lunar Coniferous Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Deciduous.png>Lunar Deciduous Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Desert.png>Lunar Desert</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Glacier.png>Lunar Glacier</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Grasslands.png>Lunar Grasslands</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Mountains.png>Lunar Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Prairie.png>Lunar Prairie</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Rainforest.png>Lunar Rainforest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Riparian.png>Lunar Riparian Woodland</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Swamp.png>Lunar Swamp</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Taiga.png>Lunar Taiga</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_Tundra.png>Lunar Tundra</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_MendenhallGlacier.png>Mendenhall Glacier</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_seasonal_MistyTrail.png>Misty Trail</option>
+  <option value=https://static.wolvden.com/images/backgrounds/special_moonlitmines.png>Moonlit Mines</option>
+  <option value=https://static.wolvden.com/images/backgrounds/conif_MorningMistInTheWoods.png>Morning Mist in the Woods</option>
+  <option value=https://static.wolvden.com/images/backgrounds/default_Nighttime.png>Night Time</option>
+  <option value=https://static.wolvden.com/images/backgrounds/conif_OldCottage.png>Old Cottage</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_OldRailway.png>Old Railway</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Overgrown_Arches.png>Overgrown Arches</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Overgrown_Cave.png>Overgrown Cave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Overgrown_Den.png>Overgrown Den</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Path_Of_Boulders.png>Path of Boulders</option>
+  <option value=https://static.wolvden.com/images/backgrounds/all_RavenCliff.png>Raven Cliff</option>
+  <option value=https://static.wolvden.com/images/backgrounds/conif_RedwoodShade.png>Redwood Shade</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Roaming_Chickens.png>Roaming Chickens</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Seaside_Gull_Flock.png>Seaside Gull Flock</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_SentimentalIcyShore.png>Sentimental Icy Shore</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_SW_SereneSwamp.png>Serene Swamp</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_RW_ShiningWaterfall.png>Shining Waterfall</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_ShortgrassPrairie.png>Shortgrass Prairie</option>
+  <option value=https://static.wolvden.com/images/backgrounds/Lunar_GL_SleepingGiant.png>Sleeping Giant</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Sunlit_Cave.png>Sunlit Cave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Swan_Lake.png>Swan Lake</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_TheMojave.png>The Mojave</option>
+  <option value=https://static.wolvden.com/images/backgrounds/special_threehowlingwolves.png>Three Howling Wolves</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_TimberlineOfDenali.png>Timberline of Denali</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_WhiteMountains.png>White Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/_crafted_Winterfat_Trail.png>Winterfat Trail</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_Yosemite.png>Yosemite Valley</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_Canada_Alberta_BowRiver.png>[Canada] Alberta - Bow River</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_Canada_Labrador_TorngatMountains.png>[Canada] Labrador - Torngat Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_Canada_Manitoba_LaplandRosebay.png>[Canada] Manitoba - Lapland Rosebay</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_Canada_NewBrunswick_HopewellRocks.png>[Canada] New Brunswick - Hopewell Rocks</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_Canada_NewFoundland_GrosMorne.png>[Canada] Newfoundland - Gros Morne</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_Canada_NovaScotia_CapeBreton.png>[Canada] Nova Scotia - Cape Breton</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_Canada_Nunavut_Auyuittuq.png>[Canada] Nunavut - Auyuittuq National Park</option>
+  <option value=https://static.wolvden.com/images/backgrounds/conif_Canada_Ontario_AlqonquinPark.png>[Canada] Ontario - Algonquin Park</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_Canada_Quebec_FrozenLakes.png>[Canada] Quebec - Frozen Lakes</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_Canada_Saskatchewan_SummerAspenForest.png>[Canada] Saskatchewan - Summer Aspen Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/glacier_Canada_YukonsIcyShores.png>[Canada] Yukon - Icy Shores</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_MA_Guatemala_SierraMadre.png>[Middle America] Guatemala - Sierra Madre</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_Panama_ChagresRiver.png>[Middle America] Panama - Chagres River</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_Alabama_LittleRiverCanyon.png>[USA] Alabama - Little River Canyon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/tundra_USA_Alaska_AleutianIslands.png>[USA] Alaska - Aleutian Islands</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_USA_Arizona_TheButtes.png>[USA] Arizona - The Buttes</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_Arkansas_OzarkNationalForest.png>[USA] Arkansas - Ozark National Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_California_CoachellaValley.png>[USA] California - Coachella Valley</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_USA_Colorado_ElkMountains.png>[USA] Colorado - Elk Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grasslands_USA_Connecticut_Fields.png>[USA] Connecticut - Fields</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_USA_Delaware_BombayHook.png>[USA] Delaware - Bombay Hook</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_USA_Georgia_ProvidenceMountains.png>[USA] Georgia - Providence Canyon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/rainforest_USA_Hawaii_WildlifeRefuge.png>[USA] Hawaii - Wildlife Refuge</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_USA_Idaho_CityOfRocks.png>[USA] Idaho - City of Rocks</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grassland_USA_Illinois_Farmlands.png>[USA] Illinois - Farmlands</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_USA_Indiana_Cornfields.png>[USA] Indiana - Cornfields</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_USA_Kansas_Twisters.png>[USA] Kansas - Twisters</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_Kentucky_RedRiver.png>[USA] Kentucky - Red River</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_USA_Louisiana_AtchafalayaSwamp.png>[USA] Louisiana - Atchafalaya Swamp</option>
+  <option value=https://static.wolvden.com/images/backgrounds/coniferous_USA_Maine_AcadiaNationalForest.png>[USA] Maine - Acadia National Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grassland_USA_Maryland_CalvertCliffs.png>[USA] Maryland - Calvert Cliffs</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grassland_USA_Massachusetts_QuabbinReservoir.png>[USA] Massachusetts - Quabbin Reservoir</option>
+  <option value=https://static.wolvden.com/images/backgrounds/coniferous_USA_Michigan_PicturedRocks.png>[USA] Michigan - Pictured Rocks</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_Minnesota_BoundaryWaters.png>[USA] Minnesota - Boundary Waters</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_USA_Mississippi_GreenvilleCypressPreserve.png>[USA] Mississippi - Greenville Cypress Preserve</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_Missouri_TheOzarks.png>[USA] Missouri - The Ozarks</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_USA_Nebraska_ChadronStatePark.png>[USA] Nebraska - Chadron State Park</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_USA_Nevada_RedRockCanyon.png>[USA] Nevada - Red Rock Canyon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_NewHampshire_Waterfall.png>[USA] New Hampshire - Waterfall</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_NewJersey_ThePallisades.png>[USA] New Jersey - The Palisades</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_NewMexico_RioGrande.png>[USA] New Mexico - Rio Grande</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_NorthCarolina_BlueRidgeMountains.png>[USA] North Carolina - Blue Ridge Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_USA_Oklahoma_BlackMesa.png>[USA] Oklahoma - Black Mesa</option>
+  <option value=https://static.wolvden.com/images/backgrounds/taiga_States_Oregon_OregonCoast.png>[USA] Oregon - Oregon Coast</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grassland_USA_Pennsylvania_AmishCountry.png>[USA] Pennsylvania - Amish Country</option>
+  <option value=https://static.wolvden.com/images/backgrounds/grassland_USA_RhodeIsland_OceanfrontBeach.png>[USA] Rhode Island - Oceanfront Beach</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_SouthCarolina_OakForest.png>[USA] South Carolina - The Oak Tree Forest</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_USA_SouthDakota_Badlands.png>[USA] South Dakota - Badlands</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_USA_Tennessee_GreatSmokyMountains.png>[USA] Tennessee - Great Smoky Mountains</option>
+  <option value=https://static.wolvden.com/images/backgrounds/prairie_Texas_Chisos.png>[USA] Texas - Chisos</option>
+  <option value=https://static.wolvden.com/images/backgrounds/desert_USA_Utah_BryceCanyon.png>[USA] Utah - Bryce Canyon</option>
+  <option value=https://static.wolvden.com/images/backgrounds/riparian_USA_Vermont_QuecheeGorge.png>[USA] Vermont - Quechee Gorge</option>
+  <option value=https://static.wolvden.com/images/backgrounds/swamp_USA_Virginia_GreatDismalSwamp.png>[USA] Virginia - Great Dismal Swamp</option>
+  <option value=https://static.wolvden.com/images/backgrounds/decid_USA_WestVirginia_Beartown.png>[USA] West Virginia - Beartown</option>
+  <option value=https://static.wolvden.com/images/backgrounds/mountains_USA_Wyoming_GrandTeton.png>[USA] Wyoming - Grand Teton</option>
+</select>
+
+<input id="decor2URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor3URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor4URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor5URL" onchange="preview()" value="" placeholder="item url"/>
+  </fieldset>
+  <fieldset>
+  <legend>Stuff In Front of the Wolf</legend>
+<input id="decor7URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor8URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor9URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor10URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor11URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor12URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor13URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor14URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor15URL" onchange="preview()" value="" placeholder="item url"/>
+<input id="decor16URL" onchange="preview()" value="" placeholder="item url"/>
+  </fieldset>
+  <nav>
+    <a title="thread" target="blank" href="https://www.wolvden.com/chatter/topic/369952#369952"><i class="fas fa-pen-alt"></i></a>
+    <a title="wolvden item urls" target="blank" href="https://docs.google.com/spreadsheets/d/1Jodj04uagEdCUz6qupAKbQfhagfl0mmENVTHhArgfGU/edit?usp=sharing"><i class="fas fa-image-polaroid"></i></a>
+    <a title="coded by cat" target="blank" href="https://www.wolvden.com/profile/35127"><i class="fas fa-cat"></i></a>
+  </nav>
+<button type="button" onclick="preview()" style="display: none">preview</button>
+</div>
+</section>
+
+
+
+<style>
+body {  background: url(https://images2.imgbox.com/7f/1e/BHJBaL4D_o.png) fixed #fff;
+  font-family: calibri, sans-serif; font-size: 13px; color: #666  }
+* { box-sizing: border-box }
+
+section { text-align: center; background: #fff; padding: 2em; border: 1px solid #ccc; border-radius: 10px; display: flex; align-items: center }
+
+a { background: #aaa; color: #fff; padding: 5px; border-radius: 50%; width: 20px; height: 20px; display: inline-block; border: 1px solid }
+a:hover { background: #fff; color: #aaa }
+
+#form { padding: 0 0 0 2em }
+
+button { background: #000; color: #fff; padding: .6em; border: 0; border-radius: 20px }
+button:hover { background: transparent; color: #000 }
+input, select { padding: 5px; }
+
+select, input { border: 0; background: #ddd; margin: 1px }
+fieldset select, fieldset input { width: 100%; display: block }
+
+fieldset input { display: block }
+fieldset { border: 1px solid #ddd; margin: 1em 0 0 }
+legend { padding: 0 5px }
+label, legend { text-transform: lowercase; text-align: left; font-style: italic }
+
+nav { margin: 15px 0 0 }
+nav a { font-size: 16px; margin: 0 2px; width: 35px; height: 35px; padding: 7px }
+
+* { outline: 0 } html { cursor: default; height: 100% }
+body { margin: 0; display: flex; align-items: center; align-self: center; height: 100% }
+section { margin: 0 auto }
+#preview { position: relative; width: 640px; height: 500px  }
+#preview>canvas { position: absolute; top: 0; right: 0; bottom: 0; left: 0 }
+input, select, button, a { transition: .6s }
+input, select { font-family: inherit; font-size: inherit; color: inherit; outline: 0 }
+button { font-family: inherit; font-size: inherit; cursor: pointer }
+optgroup, select option { border: 0; color: inherit; font-style: normal; font-family: inherit }
+p { margin-bottom: 0 }
+.credit { position: fixed; left: 0; top: 0; padding: 1em }
+h1 { margin: 0 0 1em; text-align: left; font-weight: 500 }
+
+@media(max-width: 900px) {
+  body, section { display: block }
+  section { margin: 2% }
+  #preview, canvas { margin: 0 auto 1em; max-width: 100% }
+  #form { padding: 0 }
+
+}
+</style>
+
+<script>
+function preview() {
+    decor1URL = document.getElementById('decor1URL').value;
+    decor2URL = document.getElementById('decor2URL').value;
+    decor3URL = document.getElementById('decor3URL').value;
+    decor4URL = document.getElementById('decor4URL').value;
+    decor5URL = document.getElementById('decor5URL').value;
+    wolfURL = document.getElementById('wolfURL').value;
+    decor7URL = document.getElementById('decor7URL').value;
+    decor8URL = document.getElementById('decor8URL').value;
+    decor9URL = document.getElementById('decor9URL').value;
+    decor10URL = document.getElementById('decor10URL').value;
+    decor11URL = document.getElementById('decor11URL').value;
+    decor12URL = document.getElementById('decor12URL').value;
+    decor13URL = document.getElementById('decor13URL').value;
+    decor14URL = document.getElementById('decor14URL').value;
+    decor15URL = document.getElementById('decor15URL').value;
+    decor16URL = document.getElementById('decor16URL').value;
+    var newwolf = "https://www.wolvden.com/equipper-wolf-image?wolf="+wolfURL;
+
+   	var layer6 = document.getElementById('wolf');
+    var context6 = layer6.getContext('2d');
+    context6.clearRect ( 0 , 0 , 640 , 500 );
+    var imageObj = new Image();
+    imageObj.onload = function() {context6.drawImage(imageObj, 0, 0);};
+    imageObj.src = newwolf;
+
+    var layer1 = document.getElementById('decor1');
+    var context1 = layer1.getContext('2d');
+    context1.clearRect ( 0 , 0 , 640 , 500 );
+    context1.globalCompositeOperation = "source-over";
+    var imageObj1 = new Image();
+    imageObj1.onload = function() {context1.drawImage(imageObj1, 0, 0);};
+    imageObj1.src = decor1URL;
+
+    var layer2 = document.getElementById('decor2');
+    var context2 = layer2.getContext('2d');
+    context2.clearRect ( 0 , 0 , 640 , 500 );
+    context2.globalCompositeOperation = "source-over";
+    var imageObj2 = new Image();
+    imageObj2.onload = function() {context2.drawImage(imageObj2, 0, 0);};
+    imageObj2.src = decor2URL;
+
+    var layer3 = document.getElementById('decor3');
+    var context3 = layer3.getContext('2d');
+    context3.clearRect ( 0 , 0 , 640 , 500 );
+    context3.globalCompositeOperation = "source-over";
+    var imageObj3 = new Image();
+    imageObj3.onload = function() {context3.drawImage(imageObj3, 0, 0);};
+    imageObj3.src = decor3URL;
+
+    var layer4 = document.getElementById('decor4');
+    var context4 = layer4.getContext('2d');
+    context4.clearRect ( 0 , 0 , 640 , 500 );
+    context4.globalCompositeOperation = "source-over";
+    var imageObj4 = new Image();
+    imageObj4.onload = function() {context4.drawImage(imageObj4, 0, 0);};
+    imageObj4.src = decor4URL;
+
+    var layer5 = document.getElementById('decor5');
+    var context5 = layer5.getContext('2d');
+    context5.clearRect ( 0 , 0 , 640 , 500 );
+    context5.globalCompositeOperation = "source-over";
+    var imageObj5 = new Image();
+    imageObj5.onload = function() {context5.drawImage(imageObj5, 0, 0);};
+    imageObj5.src = decor5URL;
+
+    var layer7 = document.getElementById('decor7');
+    var context7 = layer7.getContext('2d');
+    context7.clearRect ( 0 , 0 , 640 , 500 );
+    context7.globalCompositeOperation = "source-over";
+    var imageObj7 = new Image();
+    imageObj7.onload = function() {context7.drawImage(imageObj7, 0, 0);};
+    imageObj7.src = decor7URL;
+
+    var layer8 = document.getElementById('decor8');
+    var context8 = layer8.getContext('2d');
+    context8.clearRect ( 0 , 0 , 640 , 500 );
+    context8.globalCompositeOperation = "source-over";
+    var imageObj8 = new Image();
+    imageObj8.onload = function() {context8.drawImage(imageObj8, 0, 0);};
+    imageObj8.src = decor8URL;
+
+    var layer9 = document.getElementById('decor9');
+    var context9 = layer9.getContext('2d');
+    context9.clearRect ( 0 , 0 , 640 , 500 );
+    context9.globalCompositeOperation = "source-over";
+    var imageObj9 = new Image();
+    imageObj9.onload = function() {context9.drawImage(imageObj9, 0, 0);};
+    imageObj9.src = decor9URL;
+
+    var layer10 = document.getElementById('decor10');
+    var context10 = layer10.getContext('2d');
+    context10.clearRect ( 0 , 0 , 640 , 500 );
+    context10.globalCompositeOperation = "source-over";
+    var imageObj10 = new Image();
+    imageObj10.onload = function() {context10.drawImage(imageObj10, 0, 0);};
+    imageObj10.src = decor10URL;
+
+    var layer11 = document.getElementById('decor11');
+    var context11 = layer11.getContext('2d');
+    context11.clearRect ( 0 , 0 , 640 , 500 );
+    context11.globalCompositeOperation = "source-over";
+    var imageObj11 = new Image();
+    imageObj11.onload = function() {context11.drawImage(imageObj11, 0, 0);};
+    imageObj11.src = decor11URL;
+
+    var layer12 = document.getElementById('decor12');
+    var context12 = layer12.getContext('2d');
+    context12.clearRect ( 0 , 0 , 640 , 500 );
+    context12.globalCompositeOperation = "source-over";
+    var imageObj12 = new Image();
+    imageObj12.onload = function() {context12.drawImage(imageObj12, 0, 0);};
+    imageObj12.src = decor12URL;
+
+    var layer13 = document.getElementById('decor13');
+    var context13 = layer13.getContext('2d');
+    context13.clearRect ( 0 , 0 , 640 , 500 );
+    context13.globalCompositeOperation = "source-over";
+    var imageObj13 = new Image();
+    imageObj13.onload = function() {context13.drawImage(imageObj13, 0, 0);};
+    imageObj13.src = decor13URL;
+
+    var layer14 = document.getElementById('decor14');
+    var context14 = layer14.getContext('2d');
+    context14.clearRect ( 0 , 0 , 640 , 500 );
+    context14.globalCompositeOperation = "source-over";
+    var imageObj14 = new Image();
+    imageObj14.onload = function() {context14.drawImage(imageObj14, 0, 0);};
+    imageObj14.src = decor14URL;
+
+    var layer15 = document.getElementById('decor15');
+    var context15 = layer15.getContext('2d');
+    context15.clearRect ( 0 , 0 , 640 , 500 );
+    context15.globalCompositeOperation = "source-over";
+    var imageObj15 = new Image();
+    imageObj15.onload = function() {context15.drawImage(imageObj15, 0, 0);};
+    imageObj15.src = decor15URL;
+
+    var layer16 = document.getElementById('decor16');
+    var context16 = layer16.getContext('2d');
+    context16.clearRect ( 0 , 0 , 640 , 500 );
+    context16.globalCompositeOperation = "source-over";
+    var imageObj16 = new Image();
+    imageObj16.onload = function() {context16.drawImage(imageObj16, 0, 0);};
+    imageObj16.src = decor16URL;
+}
+</script>
