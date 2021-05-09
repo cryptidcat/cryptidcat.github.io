@@ -17,6 +17,7 @@ td.row { margin: 0 } .mb-3, .my-3 { margin: 0 auto } .form-row .card.text-center
 .featured-wolf a { display: block } .featured-wolf a { border: 0!important } img[alt*="Headshot"]  { margin-top: 20px }
 #main.col-lg-9 { max-width: 100%; flex: 1 } .form-row { align-items: center }
 
+
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
 #header .navbar-main { background: transparent }
