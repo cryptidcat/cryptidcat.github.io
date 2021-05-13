@@ -12,6 +12,7 @@ br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-
 #main>table.table.table-striped td:nth-child(3), form td:nth-child(3) { width: 25% }
 #main>table.table.table-striped td:nth-child(4), form td:nth-child(4) { width: 15% }
 #main>table.table.table-striped td:nth-child(5), form td:nth-child(5) { width: 7% }
+.border-none td { width: auto!important }
 td.b { width: 35% }
 .table td, .table th { align-items: center; vertical-align: middle } #main .card, .card-body.pt-1.pb-1 { background: none }
 .striped td { padding: .3em } .featured-wolf b, .table br { display: block!important } .user_current_sc:after { content: " sc" } .user_current_gc:after { content: "gc" }
@@ -68,7 +69,8 @@ h1 { font-size: 6em; font-family: 'Petit Formal Script', cursive; color: #324c5b
     padding: 0; font-size: 1.2em;
     line-height: 1; font-weight: bold;
 }
-td:nth-of-type(3) {text-transform: lowercase;}
+td:nth-of-type(3) {text-transform: lowercase}
+td:nth-of-type(3)::first-letter {text-transform: uppercase!important}
 
 .box { background: #ffffff }
 tr, hr { border-top: 1px solid #eeeeef }
