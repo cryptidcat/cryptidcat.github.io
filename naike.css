@@ -129,7 +129,6 @@ td:nth-of-type(3)::first-letter {text-transform: uppercase!important}
 select.form-control, .tooltip-inner { border: 1px solid #e2ecf7 }
 .dropdown-divider { border-top: 1px solid #e2ecf7 }
 tr, hr { border-top: 1px solid #e2ecf7 }
-
 .tooltip-inner { color:inherit; background: var(--background) }
 .tooltip { font-family: inherit }
 
