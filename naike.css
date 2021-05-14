@@ -134,8 +134,8 @@ tr, hr { border-top: 1px solid #e2ecf7 }
 
 /* boxes */
 .boxwrap { display: flex; margin: 0 -1em }
-.box { flex: 1; padding: 2em; margin: 1em; height: 350px; overflow: auto }
-@media (max-width: 900px) { .boxwrap { display: block } .box { height: auto; max-height: 350px } }
+.box { flex: 1; padding: 2em; margin: 1em; max-height: 350px; overflow: auto }
+@media (max-width: 900px) { .boxwrap { display: block } }
 
 /* scrollbar */
 ::-webkit-scrollbar { width: 15px; background: #e2ecf7 }
