@@ -53,7 +53,7 @@ h3.mb-0 { margin: 0!important }
 body { font-family: 'ABeeZee', sans-serif; font-size: .85rem; color: #574f58 }
 .table th, .pt-1.pb-1, th.top { color: inherit; background: #100509a6; font-weight: 100; padding: 20px!important; font-size: 15px!important; text-transform: lowercase }
 .floatright a { font-size: 11px; color: inherit!important; background: none!important }
-h1 { font-size: 4em; font-family: var(--font); filter: opacity(0.5); line-height: 1.5; text-align: left }
+h1 { pointer-events: none; font-size: 4em; font-family: var(--font); filter: opacity(0.5); line-height: 1.5; text-align: left }
 .box h2 {
     text-align: right;
     font-size: 1em;
