@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+      /*  hello! I'm cat, #35127 on wolvden.
+          this code is *not* free-to-use.  */
+
+* { font-size: inherit; color: inherit; border: 0; outline: 0 } body { cursor: default }
+br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-row .card-img-top, .nav-tabs { display: none!important }
+#main::after { content: "css by \14DA\160F\15E2 #35127"; margin-top: 1em; white-space: pre-wrap;  display: block; text-align: right; line-height: 1; }
+.table a, .alert-link, #header .navbar-status a { font-weight: inherit } .text-light, .text-success, .text-danger, a.text-dark, a.text-dark:focus, a.text-dark:hover, .text-dark { color: inherit!important }
+.text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control, #header .navbar-main .nav-link { color: inherit!important }
+#main>table.table.table-striped td:nth-child(2), form td:nth-child(2) { width: 15% }
+#main>table.table.table-striped td:nth-child(3), form td:nth-child(3) { width: 25% }
+#main>table.table.table-striped td:nth-child(4), form td:nth-child(4) { width: 15% }
+#main>table.table.table-striped td:nth-child(5), form td:nth-child(5) { width: 7% }
+td.b { width: 35% }
+.border-none td { width: auto!important } .box a { white-space: nowrap }
+.table td, .table th { align-items: center; vertical-align: middle } #main .card, .card-body.pt-1.pb-1 { background: none }
+.striped td { padding: .3em } .featured-wolf b, .table br { display: block!important } .user_current_sc:after { content: " sc" } .user_current_gc:after { content: "gc" }
+td.row { margin: 0 } .mb-3, .my-3 { margin: 0 auto } .form-row .card.text-center { margin-top: 1rem } .mb-3, .my-3 { margin-bottom: 0!important }
+.note-toolbar .note-btn { background: inherit; color: inherit } .bottom { padding: 1em!important }
+.dropdown-menu, .btn { font-size: inherit } .small, small { font-size: 100% } h1 small { vertical-align: middle; font-size: 50% }
+.dropdown-toggle { background: none!important }
+.featured-wolf a { display: block } .featured-wolf a { border: 0!important }
+#main.col-lg-9 { max-width: 100%; flex: 1 } .form-row { align-items: center }
+.form-control { height: auto } .font-weight-bold { font-weight: 100!important; text-transform: lowercase }
+.featured-wolf form { display: none } .card.mb-3 { position: relative } .card-body.pt-1.pb-1 { position: absolute; bottom: -1em; right: 0; left: 0 }
+
+#main { padding: 0; background: transparent; border: 0 }
+@media (max-width: 990px) { #header { background: transparent } }
+#header .navbar-main { background: transparent }
+.card-header b { font-weight: 100; text-transform: lowercase }
+table, .table { border: 0 } #main>.table, form>table, form>.table, .table.mt-3, .table-striped { border-radius: 15px; overflow: hidden } .table th { background: transparent }
+.card-body.pt-1 { border: 0; margin-top: -1px } form .table-striped td { border: 0!important }
+.table-striped tbody tr:nth-of-type(odd) { background: transparent }
+.table .bottom, .table tfoot td { color: inherit; background: #ffffffe0 }
+
+#header { font-weight: bold }
+:root { --background: #fff; --font: 'Lobster'; --border: #f3eee8 }
+
+th { font-family: var(--font) }
+
+.container>div { padding: 4em; background: #fcf2e9ad }
+#header .navbar-main { background: transparent }
+.note-editor.note-airframe .note-editing-area .note-codable, .note-editor.note-frame .note-editing-area .note-codable { background: var(--background); color: inherit }
+body { background-position: 0% 50%; background-size: cover; background-image: url('https://images2.imgbox.com/e4/ca/W24IgXT0_o.jpg'); background-color: var(--background); background-attachment: fixed; }
+#summernote-form { padding: 1em; background: var(--background) }
+.table td, .table .left { background: var(--background) }
+.card-body { background: var(--background) }
+.striped td, #summernote-form td { background: transparent!important }
+.note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable { background-color: var(--background); color: inherit }
+#header .navbar-status { background-image: linear-gradient(to right, #cdb8b5, #eacec0, #e8d8c9); color: #fff; text-transform: lowercase; }
+.form-control, .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
+{ color: inherit; background-color: #f7e7dd; border: 0; border-radius: 15px; font-size: inherit }
+h3.mb-0 { margin: 0!important }
+
+#header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
+body { font-family: 'Asap', sans-serif; font-size: .75rem; color: #9f9189 }
+.table th, .pt-1.pb-1, th.top {
+    color: #f7e7dd;
+    background-image: linear-gradient(to right, #cdb8b5, #eacec0, #e8d8c9);
+    padding: 20px!important;
+    font-size: 2em!important;
+    text-transform: lowercase;
+    font-weight: 100;
+}
+.floatright a { font-size: 11px; color: inherit!important; background: none!important }
+.dropdown-menu, option { background-image: linear-gradient(to right, #cdb8b5, #eacec0, #e8d8c9); border: 0; }
+h1 {
+    font-size: 7em;
+    font-family: var(--font);
+    line-height: 1!important;
+    text-align: left;
+    color: #e4c9be;
+}
+.box h2 {
+    text-align: right;
+    font-size: 1.5em;
+    font-family: var(--font);
+    padding: .5em;
+    margin: 0 0 .25em!important;
+    background: #e4c9be;
+    color: #fff;
+}
+.box h3 {
+    font-family: var(--font);
+    margin: 0!important;
+    padding: 0;
+    font-size: 1.5em;
+    line-height: 1;
+    font-weight: 100;
+    color: #e4c9be;
+}
+.box {
+    background: #ffffff;
+    border-radius: 15px
+}
+.left.b, .right.text-right { width: 33%; text-transform: lowercase }
+
+.card-header {
+    background-color: #cdb8b5;
+    color: #fff;
+}
+.card.mb-3 a { border: 0!important }
+
+.alert, .card-body, .col, .b, .left.b, .form-control, .custom-control-label, label, h2, td:nth-of-type(3) { text-transform: lowercase }
+td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
+
+.table th a { color: #fff!important }
+#main a, .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link, .alert-success .alert-link,
+.alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
+{ background: transparent;  color: #5c6d78; transition: .6s; border: 0 }
+#main a:hover, .table th a:hover
+{ background: transparent; color: #cdb8b5!important; border-color: transparent; text-decoration: none }
+
+.form-row a, .card.mb-3 a, .featured-wolf a { background: none!important }
+.featured-wolf br { display: none!important }
+
+.breadcrumb-item a, #header .navbar-main .nav-link
+{ color: #dbc2ba!important; transition: .6s; text-decoration: none }
+.breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
+{ color: #88a2be!important; background: none }
+
+#header .navbar-status a, .nav-link
+{ color: #fff!important; transition: .6s; text-decoration: none; background: none }
+#header .navbar-status a:hover, .nav-link:hover
+{ color: #88a2be!important }
+
+@media (min-width: 992px) { .navbar-expand-lg .navbar-nav, .navbar-expand-lg .navbar-collapse { justify-content: flex-end } }
+.mr-auto, .mx-auto { margin-right: 0!important }
+
+.btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
+.form-row .card-header,
+.card-body.text-center.font-weight-bold.p-2,
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
+{ transition: .6s; background-image: linear-gradient(to right, #cdb8b5, #cdb8b5); color: #fff; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 15px }
+
+.btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
+.form-row .card-header:active,
+.btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
+.form-row .card-header:hover,
+.card-body.text-center.font-weight-bold.p-2:hover, button:active, button:hover
+{ background: transparent; background-image: linear-gradient(to right, #cdb8b5, #5c6d78); color: #fff; border-color: inherit; outline: 0!important; box-shadow: none!important }
+
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 50% }
+.col-xl-3.col-sm-7.text-center { padding: 1em }
+select.form-control, .tooltip-inner { border: 0px solid var(--border) }
+.dropdown-divider { border-top: 1px solid var(--border) }
+tr, hr { border-bottom: 1px solid var(--border) }
+.right.text-right { background: #fff; border-left: 1px solid var(--border); text-align: center!important }
+.bs-tooltop-auto[x-placement^=bottom] .arrow:before, .bs-tooltip-bottom .arrow:before { border-bottom-color: var(--border) }
+.note-toolbar .note-btn { border-color: var(--border) }
+
+.text-right img { filter: grayscale(0.6) hue-rotate(220deg); }
+
+.tooltip-inner { color:inherit; background: var(--background) }
+.tooltip { font-family: inherit }
+
+/* boxes */
+.boxwrap { display: flex; margin: 0 -1em }
+.box { flex: 1; padding: 2em; margin: 1em; max-height: 300px; overflow: auto }
+@media (max-width: 900px) { .boxwrap { display: block } }
+
+.boxwrap ul, .boxwrap ol { padding: 0 0 0 1.5em }
+ol:last-of-type, ul:last-of-type { margin: 0 }
+.boxwrap .btn-info { padding: .5em; display: block; margin: .5em 0 0; text-align: center }
+
+/* scrollbar */
+::-webkit-scrollbar { width: 15px; background: var(--border) }
+::-webkit-scrollbar-thumb { background: #cdb8b5; padding: 5px; border: 5px solid var(--border) }
+
+/* progress bars */
+.bg-success,
+.bg-warning,
+.bg-primary,
+.bg-danger,
+.bg-info    {  background-image: linear-gradient(to right, #cdb8b5, #eacec0, #e8d8c9) }
+.progress   { background: var(--border)85!important; border-radius: 0; height: 5px!important; margin: 0 0 2px }
+
+/* making the player page work */
+.form-row .col-12.col-md-6.mb-2 br { display: block }
+#summernote-form td:nth-child(2) { width: 80% }
+.left.b.v-middle { width: 20% }
