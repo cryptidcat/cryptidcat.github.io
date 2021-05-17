@@ -70,7 +70,7 @@ body {
     font-family: 'Roboto', sans-serif; font-size: .75rem; color: #53525a }
 
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 50% }
-.text-right img { filter: grayscale(1) brightness(.5) }
+/* .text-right img { filter: grayscale(1) brightness(.5) } */ 
 
 #header .navbar-main { background: transparent }
 #header .navbar-status { color: inherit; background-color: #23232ba3 }
