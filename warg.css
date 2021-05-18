@@ -175,7 +175,10 @@ td.b { width: 35% }
     color: inherit;
 }
 .card.bg-transparent.mb-0 { height: auto!important }
-
+.bg-dark {
+    background-color: transparent!important;
+    margin: .5em 0
+}
 
 
 form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: #999; margin: 0 5px; width: 10px; display: inline-block; font-size: 100%;  }
