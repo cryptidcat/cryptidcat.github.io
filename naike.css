@@ -9,10 +9,17 @@ br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-
 #main::after { content: "css by \14DA\160F\15E2 #35127"; margin-top: 1em; white-space: pre-wrap;  display: block; text-align: right; line-height: 1; }
 .table a, .alert-link, #header .navbar-status a { font-weight: inherit } .text-light, .text-success, .text-danger, a.text-dark, a.text-dark:focus, a.text-dark:hover, .text-dark { color: inherit!important }
 .text-muted, .breadcrumb-item.active, .breadcrumb-item+.breadcrumb-item:before, #header .navbar-main .nav-link .fa, .form-control, #header .navbar-main .nav-link { color: inherit!important }
+/*
 #main>table.table.table-striped td:nth-child(2), form td:nth-child(2) { width: 15% }
 #main>table.table.table-striped td:nth-child(3), form td:nth-child(3) { width: 25% }
 #main>table.table.table-striped td:nth-child(4), form td:nth-child(4) { width: 15% }
 #main>table.table.table-striped td:nth-child(5), form td:nth-child(5) { width: 7% }
+*/
+.border-bottom {
+    width: 150px;
+    padding: 2em;
+}
+
 td.b { width: 35% }
 .border-none td { width: auto!important } .box a { white-space: nowrap }
 .table td, .table th { align-items: center; vertical-align: middle } #main .card, .card-body.pt-1.pb-1 { background: none }
