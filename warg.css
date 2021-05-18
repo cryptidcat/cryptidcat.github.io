@@ -88,7 +88,7 @@ td.right.text-right { text-align: center!important; vertical-align: middle!impor
 }
 
 .form-row .card, .pb-1, .py-1 { background-attachment: fixed!important }
-.form-row .card { border: 1px solid #eee3!important }
+.form-row .card { border: 1px solid #1d1d1d!important }
 
 .pb-1, .py-1 { padding: 20px!important }
 
@@ -169,7 +169,6 @@ a img.border-bottom { border: 1px solid #333; box-sizing: border-box; display: b
 form td:nth-child(1) { width: 10% }
 form td:nth-child(3) { width: 20% } form td:nth-child(4) { width: 25% } form td:nth-child(5) { width: 15% } form td:nth-child(6) { width: 7% }
 td.b { width: 35% }
-
 .p-0 { padding: 1em!important }
 .bg-light, .btn-light {
     background: #0f0f0f!important;
