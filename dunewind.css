@@ -195,7 +195,7 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 
 
 .row a img { border-radius: 50%!important }
-.card-body.bg-light.p-0.text-center { padding: 1em; background: #eee4; border: 1px solid #fff4; }
+.card-body.p-0 { padding: 1em; background: #eee4; border: 1px solid #fff4; }
 .border-bottom { width: 150px; padding: 2em  }
 .bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
 .rounded-bottom, .rounded-left { padding: 10px; display: block }
@@ -204,7 +204,10 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 a img.border-bottom { border: 0!important; }
 .p-0 { padding: .5em!important; min-width: 11em }
 
-.card-body .p-0 { card bit incl pups }
+
+
+
+
 
 .progress {
     background: #56606d!important;
