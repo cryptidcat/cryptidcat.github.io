@@ -196,13 +196,13 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 td { width: auto!important }
 .row a img { border-radius: 50%!important }
 .card-body.p-0 { padding: 1em; background: #eee4; border: 1px solid #fff4; }
-.border-bottom { min-width: 70px }
+.border-bottom { width: 90px; padding: 1em!important }
 .bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
 .rounded-bottom, .rounded-left { padding: 10px; display: block }
 .d-block.text-wrap.pl-2.pr-2 { font-size: 80%; text-align: left }
 .bg-dark, .bg-light { background: transparent!important }
 a img.border-bottom { border: 0!important; }
-.p-0 { padding: .5em!important; min-width: 11em }
+.p-0 { padding: .5em!important; min-width: 103px }
 
 
 
