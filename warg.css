@@ -166,7 +166,7 @@ h1 {
 }
 
 
-a img.border-bottom, img.rounded-bottom { border: 1px solid #333; box-sizing: border-box; display: block }
+a img.border-bottom, img.rounded-bottom { border: 1px solid #333!important; box-sizing: border-box; display: block }
 td.b { width: 35% }
 .p-0 {
     padding: 1em!important;
