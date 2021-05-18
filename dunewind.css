@@ -227,7 +227,7 @@ td { vertical-align: middle!important}
 
 form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 25% } form td:nth-child(4) { width: 13% }
 
-
+/* 
 
 .pup td:nth-child(3),
 .pup td:nth-child(4),
@@ -243,13 +243,7 @@ tr.pup {
 .pup td { display: inline-block; padding: 0 .5em }
 .pup small { white-space: nowrap }
 .pup td:nth-child(2) { width: auto!important; padding-left: 0 }
-/*
-.pup:before {
-    content: "+";
-    color: #fff6;
-    font-size: 150%;
-    display: inline-block;
-    vertical-align: middle;
-}
+
 */
+
 .ml-3, .mx-3 { margin-left: 0!important }
