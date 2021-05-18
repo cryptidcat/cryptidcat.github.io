@@ -228,9 +228,10 @@ a img.border-bottom { border: 0!important; }
 
 td { vertical-align: middle!important}
 
-form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 25% } form td:nth-child(4) { width: 13% }
 
 /*
+
+form td:nth-child(2) { width: 15% } form td:nth-child(3) { width: 25% } form td:nth-child(4) { width: 13% }
 
 .pup td:nth-child(3),
 .pup td:nth-child(4),
