@@ -168,7 +168,10 @@ h1 {
 
 a img.border-bottom, img.rounded-bottom { border: 1px solid #333; box-sizing: border-box; display: block }
 td.b { width: 35% }
-.p-0 { padding: 1em!important }
+.p-0 {
+    padding: 1em!important;
+    width: 9em;
+}
 .bg-light, .btn-light {
     background: #0f0f0f!important;
     color: inherit;
