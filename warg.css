@@ -177,7 +177,7 @@ td.b { width: 35% }
     color: inherit;
 }
 .card.bg-transparent.mb-0 { height: auto!important }
-.bg-dark {
+.bg-dark, .bg-light {
     background-color: transparent!important;
 }
 
