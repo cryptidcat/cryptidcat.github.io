@@ -192,7 +192,7 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
     letter-spacing: 2px !important;
     color: #fff6 !important; }
 
-.row a img { border-radius: 50% }
+.row a img { border-radius: 50%!important }
 
 
 .progress {
