@@ -32,8 +32,9 @@ th.pt-1.pb-1::before { content: "Lich "; font-size: 40px!important }
 #main { flex: 1; max-width: 100%; background: none; margin-bottom: -1px }
 .container>.row { display: block!important }
 
+img { filter: grayscale(1); }
 a img { filter:grayscale(1); transition: 1s }
-.card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0) }
+.card a:hover img, .featured-wolf a:hover img, a img:hover { filter: grayscale(0)!important }
 
 #footer {     font-size: 80%;
     padding-top: 20px; }
