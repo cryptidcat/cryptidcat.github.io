@@ -19,6 +19,7 @@ br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-
 .bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
 .rounded-bottom, .rounded-left { padding: 10px; display: block }
 .d-block.text-wrap.pl-2.pr-2 { font-size: 80%; text-align: left }
+.bg-dark { background: transparent!important }
 
 td.b { width: 35% }
 .border-none td { width: auto!important } .box a { white-space: nowrap }
