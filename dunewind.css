@@ -227,7 +227,7 @@ a img.border-bottom { border: 0!important; }
 .d-md-none { display: inline-block!important; margin-left: 5px }
 
 td { vertical-align: middle!important}
-
+tr {border-top: 1px solid #eee3;}
 
 /*
 
