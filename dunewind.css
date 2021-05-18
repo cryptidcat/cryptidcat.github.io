@@ -196,7 +196,7 @@ div.card-body.pt-1.pb-1 { padding: 10px!important }
 
 .row a img { border-radius: 50%!important }
 .card-body.p-0 { padding: 1em; background: #eee4; border: 1px solid #fff4; }
-.border-bottom { width: 150px; padding: 2em!important }
+.border-bottom { width: 150px; padding: 1em 0!important }
 .bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
 .rounded-bottom, .rounded-left { padding: 10px; display: block }
 .d-block.text-wrap.pl-2.pr-2 { font-size: 80%; text-align: left }
