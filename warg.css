@@ -170,9 +170,12 @@ form td:nth-child(1) { width: 10% }
 form td:nth-child(3) { width: 20% } form td:nth-child(4) { width: 25% } form td:nth-child(5) { width: 15% } form td:nth-child(6) { width: 7% }
 td.b { width: 35% }
 
-.p-0 { padding: 1em }
-
-
+.p-0 { padding: 1em!important }
+.bg-light, .btn-light {
+    background: #0f0f0f!important;
+    color: inherit;
+}
+.card.bg-transparent.mb-0 { height: auto!important }
 
 
 
