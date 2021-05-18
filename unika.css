@@ -234,3 +234,15 @@ h1 {
 .shy { position: fixed; bottom: 0; left: 0; padding: 5px; z-index: 666 }
 .credit { opacity: 0; transition: .5s }
 .shy:hover .credit { opacity: 1 }
+
+
+.border-bottom { width: 90px; padding: 1em!important }
+.bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
+.rounded-bottom, .rounded-left { padding: 10px; display: inline-block; border-radius: 25% 0!important }
+.d-block.text-wrap.pl-2.pr-2 { font-size: 80%; text-align: left }
+.bg-dark, .bg-light { background: transparent!important }
+a img.border-bottom { border: 0!important; }
+.p-0 { padding: .5em!important; min-width: 100px }
+form table a img { border-radius: 25% 0!important }
+
+.card {height:100%!important}
