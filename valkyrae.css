@@ -67,10 +67,19 @@ body {
     background-attachment: fixed;
     background-image: url('https://cdn.discordapp.com/attachments/841874118131187735/843367329131790336/wp8135227.jpg');
     background-color: var(--background);
-    font-family: 'Roboto', sans-serif; font-size: .75rem; color: #53525a }
+    font-family: var(--font); font-size: .75rem; color: #53525a }
 
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 50% }
-/* .text-right img { filter: grayscale(1) brightness(.5) } */ 
+/* .text-right img { filter: grayscale(1) brightness(.5) } */
+
+.border-bottom { width: 90px; padding: 1em!important }
+.bg-light, .btn-light { background: transparent!important; color: inherit; padding: .5em!important }
+.rounded-bottom, .rounded-left { padding: 10px; display: inline-block; border-radius: 25% 0!important }
+.d-block.text-wrap.pl-2.pr-2 { font-size: 80%; text-align: left }
+.bg-dark, .bg-light { background: transparent!important }
+a img.border-bottom { border: 0!important; }
+.p-0 { padding: .5em!important; min-width: 100px }
+.card {height:100%!important}
 
 #header .navbar-main { background: transparent }
 #header .navbar-status { color: inherit; background-color: #23232ba3 }
