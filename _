@@ -1,0 +1,5 @@
+
+a[href*="dynasty"]>div.card.text-center>img { display: block; content: url('https://images2.imgbox.com/29/f4/M6Xrh3UP_o.jpg'); filter: grayscale(0)  }
+div.card.text-center>img { display: block; content: url('https://images2.imgbox.com/ad/0d/GhYfBVK5_o.jpg'); filter: grayscale(1) }
+a[href*="overview"]>div.card.text-center>img { display: block; content: url('https://images2.imgbox.com/9a/a6/xu8x6OJD_o.jpg'); filter: grayscale(0)  }
+a[href*="breed"]>div.card.text-center>img { display: block; content: url('https://images2.imgbox.com/7f/37/JqqEsdkY_o.jpg'); filter: grayscale(0) }
