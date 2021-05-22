@@ -97,7 +97,7 @@ body {
 .bg-warning,
 .bg-primary,
 .bg-danger,
-.bg-info    {  background: #111e2f!important }
+.bg-info    {  background: #9f51d5!important }
 .progress   { background: #111e2f!important; border-radius: 0; height: 5px!important; margin: 0 0 2px }
 
 .form-row .card-img-top { display: none!important; }
@@ -174,7 +174,7 @@ h1 {
 #header .navbar-status a
 { color: #fff!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
 #header .navbar-status a:hover
-{ color: #9f51d5!important; text-shadow: 0 0 5px } 
+{ color: #9f51d5!important; text-shadow: 0 0 5px }
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
