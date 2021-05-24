@@ -204,3 +204,4 @@ form .table.table-striped tbody tr td div>div a:before { content: "ᛉ"; color: 
 .marrow { transform: scaleX(-1); }
 .bones { display: flex; align-items: center; margin: -2em -1em }
 .bones>div { margin: 1em }
+.mb-3, .my-3 { margin: 0!important }
