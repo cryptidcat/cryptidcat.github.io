@@ -50,7 +50,7 @@ form .table-striped td { border: 0!important  }
 
 /* typo */
 * { font-family: courier new, monospace; }
-#header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
+#header .navbar-main .nav-link { font-size: .9rem }
 body { font-size: .75rem; color: #666 }
 .floatright a { font-size: 11px; color: inherit!important }
 
@@ -116,7 +116,7 @@ td.left.b, td.b { text-transform: capitalize; }
 }
 
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left {
-    border-radius: 20px; padding: 0!important
+    border-radius: 20px!important; padding: 0!important
 }
 
 .card-header b { text-transform: uppercase; font-size: 90%; font-weight: bold }
