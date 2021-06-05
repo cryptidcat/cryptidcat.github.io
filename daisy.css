@@ -65,7 +65,7 @@ a, #main a, .table th a,
 .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link,
 .alert-success .alert-link, .alert-warning .alert-link, .alert-danger .alert-link,
 .alert-light .alert-link, .alert-dark .alert-link
-{ color: #000; filter: transition: .6s; text-decoration: none }
+{ color: #000; transition: .6s; text-decoration: none }
 a:hover, #main a:hover, .table th a:hover
 { color: #000; text-decoration: underline; }
 
@@ -86,7 +86,8 @@ a:hover, #main a:hover, .table th a:hover
 
 
 .card-img-top,
-#main img { filter: grayscale(1); }
+td img { filter: grayscale(1); }
+td:hover td img { filter: grayscale(0); }
 
 td.left.b, td.b { text-transform: capitalize; }
 
