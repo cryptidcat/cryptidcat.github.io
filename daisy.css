@@ -151,3 +151,13 @@ a[href*="breed"]>div.card.text-center>img { display: block; content: url('https:
 #summernote-form td:nth-child(2) { width: 80% }
 .left.b.v-middle { width: 20% }
 .card-body.text-center.font-weight-bold.p-2 { background: #fff }
+
+
+.border-bottom, img.float-left.mr-2 { width: 100px }
+.bg-light, .btn-light { background: transparent!important; color: inherit; padding: .25em!important }
+.rounded-bottom, .rounded-left { padding: 5px; display: inline-block }
+.d-block.text-wrap.pl-2.pr-2 { padding-top: .5em }
+.bg-dark, .bg-light { background: transparent!important }
+#main .p-0 { padding: .5em!important; min-width: 100px }
+td .card {height:100%!important}
+.form-row { align-items: stretch!important }
