@@ -11,11 +11,13 @@ br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader { display: non
 .text-light { color: inherit!important }
 body { cursor: default }
 nav i, .nav-tabs { display: none!important }
+/*
 form td:nth-child(2) { width: 15% }
 form td:nth-child(3) { width: 25% }
 form td:nth-child(4) { width: 15% }
 form td:nth-child(5) { width: 7% }
 td.b { width: 35% }
+*/ 
 .mb-3, .my-3 { margin: 0 auto }
 .table td, .table th { align-items: center; vertical-align: middle }
 .striped td { padding: .3em }
@@ -120,7 +122,7 @@ td.left.b, td.b { text-transform: capitalize; }
     pointer-events: none;
 }
 
-.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left {
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, .border-bottom {
     border-radius: 20px!important; padding: 0!important
 }
 
@@ -167,3 +169,4 @@ a[href*="breed"]>div.card.text-center>img { display: block; content: url('https:
 td .card {height:100%!important}
 .form-row { align-items: stretch!important }
 .badge-info { background: #333 }
+.border-bottom { border: 0!important }
