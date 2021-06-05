@@ -89,6 +89,10 @@ a:hover, #main a:hover, .table th a:hover
 td img { filter: grayscale(1); }
 td:hover td img { filter: grayscale(0); }
 
+
+a img { filter: grayscale(1); transition: .6s; }
+.card:hover a img { filter: grayscale(0)!important }
+
 td.left.b, td.b { text-transform: capitalize; }
 
 .pt-1.pb-1, th.top, .table th {
