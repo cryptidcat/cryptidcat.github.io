@@ -78,7 +78,6 @@ body {
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  {
   border-radius: 50%!important; border: 0 double var(--border)!important }
 
-
 #header .navbar-main { background: transparent }
 #header .navbar-status {
     color: inherit;
