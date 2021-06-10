@@ -117,9 +117,8 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .bg-dark, .bg-light { background: transparent!important }
 #main .p-0 { padding: .5em!important; min-width: 100px }
 .p-2 { padding: 0!important }
-td .card {height:100%!important}
+td .card { height:100%!important}
 .form-row { align-items: stretch!important }
-
-
-.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  {
-  border: 0 double var(--border)!important }
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  { border: 0 solid!important }
+.text-light { color: inherit!important }
+.form-row { justify-content: center } /* if you want your cards centered in your dens */
