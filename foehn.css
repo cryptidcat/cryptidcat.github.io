@@ -119,3 +119,7 @@ td.b { font-size: 85%; text-transform: uppercase; }
 .p-2 { padding: 0!important }
 td .card {height:100%!important}
 .form-row { align-items: stretch!important }
+
+
+.card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  {
+  border: 0 double var(--border)!important }
