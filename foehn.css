@@ -17,10 +17,6 @@ body { cursor: default }
 #header .navbar-main .nav-link .fa, .form-control { color: inherit }
 nav i, .nav-tabs { display: none!important }
 br, .navbar-status { display: none }
-form td:nth-child(2) { width: 15% }
-form td:nth-child(3) { width: 25% }
-form td:nth-child(4) { width: 15% }
-form td:nth-child(5) { width: 7% }
 td.b { width: 35% }
 .mb-3, .my-3 { margin: 0 auto }
 .table td { align-items: center; vertical-align: middle }
