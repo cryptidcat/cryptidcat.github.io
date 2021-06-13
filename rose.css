@@ -121,8 +121,6 @@ h1 {
     right: 0;
     font-size: 4rem;
     line-height: 1!important;
-    color: inherit;
-    color: var(--background);
     text-shadow: 2px 2px 3px #381d1a;
     text-transform: lowercase;
     text-align: right;
