@@ -20,7 +20,7 @@ td.row { margin: 0 } .mb-3, .my-3 { margin: 0 auto } .form-row .card.text-center
 #main.col-lg-9 { max-width: 100%; flex: 1 } .form-row { align-items: center }
 .form-control { height: auto } .font-weight-bold { font-weight: 100!important; text-transform: lowercase }
 .featured-wolf form { display: none } .card.mb-3 { position: relative }
-.card-body.pt-1.pb-1 { position: absolute; bottom: 0; left: 0; padding: 0!important }
+.card-body.pt-1.pb-1 { position: absolute; bottom: 0; left: 0; padding: 10px!important }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
 #header .navbar-main { background: transparent }
@@ -185,7 +185,7 @@ h4, h5, h6 { font-size: 1.5rem }
 
 #main a, .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link, .alert-success .alert-link,
 .alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
-{ background: transparent;  color: #946978; text-decoration: none; transition: .6s; border: 0; padding: .2em }
+{ background: transparent;  color: #946978; text-decoration: none; transition: .6s; border: 0 }
 #main a:hover, .table th a:hover
 { background: transparent; color: #ab8c79!important; border-color: transparent; text-decoration: none }
 
