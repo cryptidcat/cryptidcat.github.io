@@ -76,7 +76,7 @@ body {
     font-family: 'Mate', serif; font-size: .75rem; color: #777 }
 
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2, .rounded-bottom, .rounded-left, form table a img, .border-bottom, img.float-left.mr-2  {
-  border-radius: 0!important; border: 0 double var(--border)!important }
+  border-radius: 10px!important; border: 0 double var(--border)!important }
 
 #header .navbar-main { background: transparent }
 #header .navbar-status {
