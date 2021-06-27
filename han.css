@@ -266,8 +266,8 @@ a.nav-link.active { background: var(--background)!important; border-color: var(-
 
 
 
-.card-img-top, td>a>img, .featured-wolf img, .card-body img { filter: sepia(0) brightness(1) saturate(1); transition: .6s; }
-.card-img-top:hover, tr:hover td>a>img, .featured-wolf:hover img, .card-body:hover img { filter: sepia(.7) brightness(.7) saturate(1.5); }
+.card-img-top, td>a>img, .featured-wolf img, .card-body img { filter: sepia(.7) brightness(.7) saturate(1.5); transition: .6s; }
+.card-img-top:hover, tr:hover td>a>img, .featured-wolf:hover img, .card-body:hover img { filter: sepia(0) brightness(1) saturate(1); }
 
 .card-body { transition: .6s }
 .card-body:hover { background: transparent!important }
