@@ -52,7 +52,7 @@ tr, hr { border-bottom: 1px solid var(--border) }
 :root {
   --background: #21231bf2;
   --font: 'Nanum Pen Script', cursive;
-  --border: #1f2525
+  --border: #1f2525; 
 }
 
 .container>div { padding: 7%; background: #21231bf2 }
