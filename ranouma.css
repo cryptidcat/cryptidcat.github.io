@@ -88,9 +88,7 @@ body {
 .bg-info    {  background: #1a1c15!important }
 .progress   { background: #0c0d08!important; border-radius: 0; height: 5px!important; margin: 0 0 2px }
 
-.form-row .card-img-top { display: none!important; }
-
-
+.form-row .card-img-top { display: none!important }
 .badge-info { color: !inherit!important; background: #1a1c15!important }
 
 /* typography */
@@ -101,7 +99,7 @@ h1 {
     font-size: 7em;
     font-family: var(--font);
     line-height: 1!important;
-    color: inherit;
+    color: #0c0d087d;
 }
 
 .table th, .pt-1.pb-1, th.top {
