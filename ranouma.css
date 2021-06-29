@@ -52,7 +52,7 @@ tr, hr { border-bottom: 1px solid var(--border) }
 :root {
   --background: #21231bf2;
   --font: 'Nanum Pen Script', cursive;
-  --border: #1f2525;
+  --border: #1a1c15;
 }
 
 .container>div { padding: 7%; background: #21231bf2 }
@@ -78,17 +78,20 @@ body {
 
 /* scrollbar */
 ::-webkit-scrollbar { width: 15px; background: #0c0d08 }
-::-webkit-scrollbar-thumb { background: #1f2525; padding: 5px; border: 5px solid #0c0d08 }
+::-webkit-scrollbar-thumb { background: #1a1c15; padding: 5px; border: 5px solid #0c0d08 }
 
 /* progress bars */
 .bg-success,
 .bg-warning,
 .bg-primary,
 .bg-danger,
-.bg-info    {  background: #1f2525!important }
+.bg-info    {  background: #1a1c15!important }
 .progress   { background: #0c0d08!important; border-radius: 0; height: 5px!important; margin: 0 0 2px }
 
 .form-row .card-img-top { display: none!important; }
+
+
+.badge-info { color: !inherit!important; background: #1a1c15!important }
 
 /* typography */
 .alert, .card-body, .col, .b, .left.b, .form-control, .custom-control-label, label, h2, td:nth-of-type(3) { text-transform: lowercase }
