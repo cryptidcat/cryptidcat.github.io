@@ -52,7 +52,7 @@ tr, hr { border-bottom: 1px solid var(--border) }
 :root {
   --background: #21231bf2;
   --font: 'Nanum Pen Script', cursive;
-  --border: #1f2525; 
+  --border: #1f2525;
 }
 
 .container>div { padding: 7%; background: #21231bf2 }
@@ -63,7 +63,7 @@ body {
     background-attachment: fixed;
     background-image: url('https://i.imgur.com/uZgQxlT.jpeg');
     background-color: var(--background);
-    font-family: 'Nanum Gothic Coding', monospace; font-size: .75rem; color: #576766 }
+    font-family: 'Nanum Gothic Coding', monospace; font-size: .75rem; color: #828075 }
 
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 20px }
 .text-right img { filter: grayscale(1) brightness(.5) }
@@ -144,7 +144,7 @@ h1 {
 .table th a { color: inherit!important }
 #main a, .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link, .alert-success .alert-link,
 .alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
-{ background: transparent;  color: #726a75; transition: .6s; border: 0 }
+{ background: transparent;  color: #7f5448; transition: .6s; border: 0 }
 #main a:hover, .table th a:hover
 { background: transparent; color: #fff!important; border-color: transparent; text-decoration: none }
 
@@ -152,19 +152,19 @@ h1 {
 .featured-wolf br { display: none!important }
 
 .breadcrumb-item a, #header .navbar-main .nav-link
-{ color: #726a75!important; transition: .6s; text-decoration: none }
+{ color: #7f5448!important; transition: .6s; text-decoration: none }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
 { color: #fff!important; background: none }
 
 #header .navbar-status a, .nav-link
-{ color: #726a75!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
+{ color: #7f5448!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
 #header .navbar-status a:hover, .nav-link:hover
 { color: #fff!important }
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
-{ font-family: var(--font); transition: .6s; background: transparent; color: #726a75; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
+{ font-family: var(--font); transition: .6s; background: transparent; color: #7f5448; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
 
 .btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
 .btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
