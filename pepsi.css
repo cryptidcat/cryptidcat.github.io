@@ -65,6 +65,8 @@ tr, hr { border-bottom: 1px solid var(--border) }
 }
 
 .container>div { padding: 3rem; background: #000000c7; border: 0 }
+div.float-right.mt-2 { position: absolute; top: -2rem; left: -2rem; font-size: 0  }
+div.float-right.mt-2 i { font-size: 10px }
 
 body {
     background-position: top center;
