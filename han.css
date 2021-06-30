@@ -271,3 +271,8 @@ a.nav-link.active { background: var(--background)!important; border-color: var(-
 
 .card-body { transition: .6s }
 .card-body:hover { background: transparent!important }
+
+
+
+div.float-right.mt-2 { position: absolute; top: -2rem; left: -2rem; font-size: 0  }
+div.float-right.mt-2 i { font-size: 10px }
