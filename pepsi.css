@@ -72,7 +72,8 @@ body {
     background-position: top center;
     background-size: auto;
     background-attachment: fixed;
-    background-image: url('https://i.imgur.com/8wfqX10.gif');
+  /*  background-image: url('https://i.imgur.com/8wfqX10.gif'); */
+    background-image: url('https://i.imgur.com/eo0ePdG.png');
     background-color: #000;
     background-repeat: repeat;
     font-family: 'Josefin Slab', serif; font-size: .95rem; color: #777 }
