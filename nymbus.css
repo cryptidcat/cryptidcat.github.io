@@ -79,8 +79,8 @@ a:hover, #main a:hover, .table th a:hover
 border: 0; font-weight: bold; background-color: #222; color: inherit }
 .form-row .card-header:hover,
 .btn-danger:hover, .btn-primary:hover, .btn-warning:hover, .btn-success:hover
-{ color: #fff; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-attachment: fixed;
-border: 0; font-weight: bold; background-color: #222 }
+{ color: #222; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-attachment: fixed;
+border: 0; font-weight: bold; background-color: #fff3 }
 
 td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: right; }
 
