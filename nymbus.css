@@ -33,31 +33,31 @@ td.row { margin: 0 }
 .user_current_gc:after { content: "gc" }
 
 /* */
-body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #57101f;
+body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #000;
 background-repeat: repeat; background-attachment: fixed }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
 #header .navbar-main { background: transparent }
-#header .navbar-status { color: inherit; height: auto; background: #3a0e16 }
+#header .navbar-status { color: inherit; height: auto; background: #191919 }
 
 /* tables */
 table, .table { border: 0 }
 .table th { background: transparent; border: 0 }
 .card-body.pt-1 { border: 0; margin-top: -1px }
-td, .table .left, .dropdown-menu { background: #3a0e16 }
+td, .table .left, .dropdown-menu { background: #191919 }
 form .table-striped td { border: 0!important  }
 .table-striped tbody tr:nth-of-type(odd) { background: transparent }
-.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #330f17; background-color: transparent; padding: 1em 0 }
-.card.text-center, .card.mb-3 { background: #330f17!important }
-#summernote-form { padding: 1em; background: #330f17 }
+.table .bottom, .table tfoot td { color: inherit; border-top: 3px solid #131313; background-color: transparent; padding: 1em 0 }
+.card.text-center, .card.mb-3 { background: #131313!important }
+#summernote-form { padding: 1em; background: #131313 }
 
 /* typo */
 * { font-family: 'open sans', sans-serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
-body { font-size: .75rem; color: #90656d }
+body { font-size: .75rem; color: #ccc }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { font-family: 'Architects Daughter', serif; font-size: 5em; color: #E2A850 }
+h1 { font-family: 'Architects Daughter', serif; font-size: 5em; color: #666 }
 .card-header { font-family: 'Architects Daughter' }
 
 a, #main a, .table th a,
@@ -100,11 +100,11 @@ td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: rig
 
 .form-control,
 .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
-{ color: inherit; background-color: #330f17; border: 0 }
+{ color: inherit; background-color: #131313; border: 0 }
 
 
 .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable {
-    background-color: #330f17;
+    background-color: #131313;
     color: inherit;
 }
 
