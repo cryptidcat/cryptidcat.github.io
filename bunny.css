@@ -205,6 +205,7 @@ h4, h5, h6 { font-size: 1.5rem }
 #header .navbar-status a:hover
 { color: #46a9c1!important; text-shadow: 0 0 2px }
 
+
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
