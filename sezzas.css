@@ -200,6 +200,7 @@ h4, h5, h6 { font-size: 1.5rem }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
 { color: #274155!important; background: none }
 
+
 #header .navbar-status a
 { color: #fff!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
 #header .navbar-status a:hover
