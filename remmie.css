@@ -181,7 +181,7 @@ h4, h5, h6 { font-size: 1.5rem }
     border-radius: 0;
     font-size: inherit;
     border: 0px solid;
-    background: var(--background)!important;
+    background: #f7e8ae!important;
     border-color: var(--border)!important }
 
 .table th a { color: inherit!important }
