@@ -35,6 +35,7 @@ img[alt*="Headshot"]  { margin-top: 20px }
 
 
 #sidebar { background: transparent!important; padding-left: 0!important }
+  .w-50 div { border: 0!important }
 
 /* */
 body { background-size: cover;
