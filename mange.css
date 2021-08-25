@@ -151,7 +151,7 @@ h1 small { vertical-align: middle; font-size: 50% }
 .card-body { background: #fed6becc }
 #main>.table, #main>table, .table.table-striped { background: #fed6becc; box-shadow: 0 0 40px #77292c }
 .table .left {
-    background-color: none!important;
+    background-color: transparent!important;
 }
 #header .navbar-status { color: inherit; height: auto; background: linear-gradient(136deg, #523a47 0%, #803136 25%, #8d3430 50%, #a04036 75%, #de5b3d 100%); box-shadow: 0 0 40px #77292c }
 .card>a img, .featured-wolf img, .user-tag, .float-left.mr-2 { border-radius: 20px 0 }
