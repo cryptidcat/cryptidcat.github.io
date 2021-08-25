@@ -34,9 +34,9 @@ td.row { margin: 0 }
 img[alt*="Headshot"]  { margin-top: 20px }
 
 /* */
-body { background-position: top; background-size: cover;
+body { background-size: cover;
   /* background-image: url('https://images2.imgbox.com/31/17/mgVsqR6m_o.jpg'); */
-background-image: url('https://images2.imgbox.com/c1/0d/Iyz3h5NZ_o.jpg'); background-color: #4f333f; background-attachment: fixed;
+background-image: url('https://images2.imgbox.com/c1/0d/Iyz3h5NZ_o.jpg'); background-color: #4f333f; background-position: 50% 50%;
 background-repeat: repeat; background-attachment: fixed }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
