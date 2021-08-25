@@ -35,7 +35,7 @@ img[alt*="Headshot"]  { margin-top: 20px }
 
 
 #sidebar { background: transparent!important; padding-left: 0!important }
-  #sidebar .card, .w-50 div { border: 0!important }
+  #sidebar .card, .w-50 div { border: 0!important; background: transparent!important }
 
 .s-chat-sidebar #label_currentChannel, #fra_chatContainer #txtChatInput {
     background-color: #fbc2a5;
