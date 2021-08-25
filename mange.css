@@ -222,6 +222,42 @@ th.pt-1.pb-1::after { content: ", sage of the sun"; font-size: 30px!important }
 
 
 /* help me */
+
+
+th.pt-1.pb-1 { font-size: 0!important }
+th.pt-1.pb-1 a { font-size: .75rem!important; font-style: inherit }
+th.pt-1.pb-1 a:after { font-style: italic; text-transform: lowercase; font-size: .75rem!important; content: " of bone by blood, the daughter, the gloomaven"; flex: 1; width: 50%; }
+
+.featured-wolf img { width: 200px; }
+
+.featured-wolf { display: none; }
+
+.col-xl-3.col-sm-7.text-center { position: relative; align-self: center }
+.col-xl-3.col-sm-7.text-center .card.mb-3 { max-width: 100%!important }
+.card-img-top { width: auto!important }
+/* .card.mb-3 { position: relative } */
+.card-body.pt-1.pb-1 { position: absolute; left: 0; bottom: 0 }
+.card { position: inherit }
+.order-xl-9 {
+    display: flex;
+    align-items: center;
+}
+
+.card.mb-3 { display: block }
+
+@media (min-width: 576px) {
+.col-sm-7 {
+    flex: 1;
+    max-width: 100%
+} }
+
+@media (min-width: 1200px)
+{.col-xl-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}}
+
 img[alt="Wolf Headshot"] {
   display: block;
   box-sizing: border-box;
