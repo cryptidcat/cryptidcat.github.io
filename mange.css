@@ -37,7 +37,20 @@ img[alt*="Headshot"]  { margin-top: 20px }
 #sidebar { background: transparent!important; padding-left: 0!important }
   #sidebar .card, .w-50 div { border: 0!important }
 
-
+.s-chat-sidebar #label_currentChannel, #fra_chatContainer #txtChatInput {
+    background-color: #fbc2a5;
+    border-color: #6c353d69;
+    color: inherit;
+}
+#chatMessageContainer {
+border-color: #6c353d69; }
+.s-chat-message:nth-child(odd) {
+    background: #d5b5a2;
+}
+.s-chat-message:nth-child(2n) {
+    background: #fbc2a5;
+}
+#chatMessagePinned.s-chat-message__pinned { background: transparent!important; color: inherit!important }
 /* */
 body { background-size: cover;
   /* background-image: url('https://images2.imgbox.com/31/17/mgVsqR6m_o.jpg'); */
