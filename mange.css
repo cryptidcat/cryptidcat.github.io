@@ -55,6 +55,7 @@ border-color: #6c353d69; }
     border: 1px solid #6c353d69!important;
     box-shadow: 1px 1px 2px #6c353d69!important;
 }
+#fra_chatContainer .channelMenu .channelSwitcher { color: inherit!important }
 
 #chatMessagePinned.s-chat-message__pinned { border: 0!important; background: transparent!important; color: inherit!important }
 /* */
