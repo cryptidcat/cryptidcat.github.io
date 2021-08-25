@@ -64,6 +64,8 @@ border-color: #6c353d69; }
     font-weight: 100;
 }
 
+.card-body.p-0.py-3 { padding: 1rem!important }
+
 #chatMessagePinned.s-chat-message__pinned a { color:inherit!important }
 /* */
 body { background-size: cover;
