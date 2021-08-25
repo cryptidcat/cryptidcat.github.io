@@ -178,8 +178,8 @@ h1 small { vertical-align: middle; font-size: 50% }
 .box { flex: 1; background: #fed6becc; padding: 2em; margin: 1em; height: 350px; overflow: auto }
 @media (max-width: 900px) { .boxwrap { display: block } }
 
-::-webkit-scrollbar { width: 15px; background: #fab186 }
-::-webkit-scrollbar-thumb { background: #cc583f; padding: 5px; border: 5px solid #fab186 }
+::-webkit-scrollbar,#chatMessageList::-webkit-scrollbar { width: 15px; background: #fab186 }
+::-webkit-scrollbar-thumb, #chatMessageList::-webkit-scrollbar-thumb { background: #cc583f; padding: 5px; border: 5px solid #fab186 }
 
 .form-row small { font-size: inherit!important }
 .container { min-wdith: 90%; max-width: 90%; }
