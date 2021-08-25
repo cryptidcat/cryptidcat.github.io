@@ -57,7 +57,14 @@ border-color: #6c353d69; }
 }
 #fra_chatContainer .channelMenu .channelSwitcher { color: inherit!important }
 
-#chatMessagePinned.s-chat-message__pinned { border: 0!important; background: transparent!important; color: inherit!important }
+#chatMessagePinned.s-chat-message__pinned {
+    border: 0!important;
+    background: #6c353d!important;
+    color: #e87e43;
+    font-weight: 100;
+}
+
+#chatMessagePinned.s-chat-message__pinned a { color:inherit!important }
 /* */
 body { background-size: cover;
   /* background-image: url('https://images2.imgbox.com/31/17/mgVsqR6m_o.jpg'); */
