@@ -33,6 +33,9 @@ td.row { margin: 0 }
 .mb-3, .my-3 { margin-bottom: 0!important }
 img[alt*="Headshot"]  { margin-top: 20px }
 
+
+#sidebar { background: transparent!important; padding-left: 0!important }
+
 /* */
 body { background-size: cover;
   /* background-image: url('https://images2.imgbox.com/31/17/mgVsqR6m_o.jpg'); */
