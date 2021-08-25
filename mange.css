@@ -4,7 +4,7 @@
           this code is *not* free-to-use.  */
 
 * { font-size: inherit; color: inherit; border: 0; outline: 0 }
-br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader { display: none }
+br, #footer, #header .breadcrumb-nav, .table .subheader { display: none }
 #main.col-lg-9 { max-width: 100%; flex: 1 }
 #main::after { content: "css by \14DA\160F\15E2 #35127"; margin-top: 1em; white-space: pre-wrap;  display: block; text-align: right; margin-bottom: 1em; line-height: 1; }
 .table a, .alert-link, #header .navbar-status a { font-weight: inherit }
@@ -55,7 +55,7 @@ form .table-striped td { border: 0!important  }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { font-size: .75rem; color: #25171c }
 .floatright a { font-size: 11px; color: inherit!important }
-.table th { color: #a94134; text-shadow: 0 0 8px #3a262f80; }
+.table th { color: #e87e43; text-shadow: 0 0 8px #3a262f80; }
 
 h1 {
     font-size: 10em;
