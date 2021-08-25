@@ -256,7 +256,7 @@ th.pt-1.pb-1::after { content: ", sage of the sun"; font-size: 30px!important }
     max-width: 50%;
 }}
 
-img[alt="Wolf Headshot"] {
+#main img[alt="Wolf Headshot"] {
   display: block;
   box-sizing: border-box;
   background-image: url("https://img.wolvden.com/f/4b/0f/90/4b0f906cf0779e10eb430e8d9fa3494675ab599f.2852801.1629854358.png");
@@ -272,9 +272,7 @@ img[alt="Wolf Headshot"] {
 .pl-3, .px-3 { padding: 0!important }
 
 
-img[alt="Wolf Headshot"]:hover { background-position: 30% 30% }
-
-.card a img[alt="Wolf Headshot"] { border-radius: 0!important }
+#main .card a img[alt="Wolf Headshot"] { border-radius: 0!important }
 
 .mt-3.mb-0:hover .card a img, .border-bottom { filter: grayscale(0) }
 .col-xl-6.col-sm-12.order-xl-9.order-12 table { width: auto!important; margin: 0 auto }
