@@ -209,7 +209,7 @@ th.top .floatright { font-family: 'roboto', sans-serif; font-size: 1rem; font-we
 #header .navbar-status a
 { color: #62401a!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
 #header .navbar-status a:hover
-{ color: #383316!important }
+{ color: #383316!important } 
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
