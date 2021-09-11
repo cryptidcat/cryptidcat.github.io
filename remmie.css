@@ -125,12 +125,8 @@ td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
 h1, h2, h3, h4, h5, h6 { font-family: var(--font) }
 
 h1 {
-    position: absolute;
     pointer-events: none;
-    top: 0;
-    right: 0;
     font-size: 4rem;
-    line-height: .5!important;
     text-align: center!important;
     color: #627d36; font-family: var(--font)
 }
