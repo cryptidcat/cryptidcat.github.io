@@ -20,7 +20,7 @@ td.row { margin: 0 } .mb-3, .my-3 { margin: 0 auto } .form-row .card.text-center
 .dropdown-toggle { background: none!important }
 .featured-wolf a { display: block } .featured-wolf a { border: 0!important }
 #main.col-lg-9 { max-width: 100%; flex: 1 } .form-row { align-items: center }
-.form-control { height: auto } .font-weight-bold { font-weight: 100!important; text-transform: lowercase }
+.form-control { height: auto } .font-weight-bold { font-weight: 100!important }
 .featured-wolf form { display: none } .card.mb-3 { position: relative }
 .card-body.pt-1.pb-1 { position: absolute; bottom: 0; left: 0; padding: 10px!important }
 #main { padding: 0; background: transparent; border: 0 }
@@ -46,7 +46,7 @@ tr, hr { border-bottom: 1px solid var(--border) }
 .bs-tooltop-auto[x-placement^=bottom] .arrow:before, .bs-tooltip-bottom .arrow:before { border-bottom-color: var(--border) }
 .note-toolbar .note-btn { border-color: var(--border) }
 .tooltip-inner { color: inherit; background: var(--border) } .tooltip { font-family: inherit }
-#header .navbar-main .nav-link { font-size: inherit; text-transform: lowercase }
+#header .navbar-main .nav-link { font-size: inherit }
 .floatright a { font-size: 70%!important; color: inherit!important; background: none!important }
 .floatright a i { display: none }
 .nav-tabs { border: 0 }
@@ -119,7 +119,6 @@ body {
 .form-row .card-img-top { display: none!important; }
 
 /* typography */
-.alert, .card-body, .col, .b, .left.b, .form-control, .custom-control-label, label, td:nth-of-type(3) { text-transform: lowercase }
 td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--font) }
@@ -152,7 +151,7 @@ h2 {
     line-height: 1.2;
     font-weight: 100;
     color: #627d36;
-    text-transform: lowercase; font-style: italic;
+    font-style: italic;
 }
 
 h3 {
@@ -208,14 +207,14 @@ h4, h5, h6 { font-size: 1.5rem }
 { color: #fff5!important; background: none }
 
 #header .navbar-status a
-{ color: #627d36!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
+{ color: #627d36!important; transition: .6s; text-decoration: none; background: none }
 #header .navbar-status a:hover
 { color: #fff!important }
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
-{ font-family: var(--font); transition: .6s; background: #627d36; color: #fff; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
+{ font-family: var(--font); transition: .6s; background: #627d36; color: #fff; box-shadow: none!important; border: 0; border-radius: 0 }
 
 .btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
 .btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
