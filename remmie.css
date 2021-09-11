@@ -111,9 +111,9 @@ body {
 
 /* progress bars */
 .bg-success,
-.bg-warning    {  border-radius: 0!important; background: var(--border)!important }
-.bg-primary    {  border-radius: 0!important; background: #e1c86c!important }
-.bg-danger    {  border-radius: 0!important; background: #ceb554!important }
+.bg-warning    {  border-radius: 0!important; background: #e5cd72important }
+.bg-primary    {  border-radius: 0!important; background: #d7bf60!important }
+.bg-danger    {  border-radius: 0!important; background: #cab04e!important }
 .bg-info    {  border-radius: 0!important; background: #bca23c!important }
 .progress   { border-radius: 0!important; background: none!important; border-radius: 0; height: 10px!important; margin: 0 0 5px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border) }
 
