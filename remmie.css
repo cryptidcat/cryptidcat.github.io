@@ -122,7 +122,6 @@ body {
 /* typography */
 td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
 
-h1, h2, h3, h4, h5, h6 { font-family: var(--font) }
 
 h1 {
     pointer-events: none;
@@ -214,7 +213,7 @@ h4, h5, h6 { font-size: 1.5rem }
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
-{ font-family: var(--font); transition: .6s; background: #627d36; color: #fff; box-shadow: none!important; border: 0; border-radius: 0 }
+{ transition: .6s; background: #627d36; color: #fff; box-shadow: none!important; border: 0; border-radius: 0 }
 
 .btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
 .btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
