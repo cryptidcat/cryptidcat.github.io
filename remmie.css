@@ -111,7 +111,7 @@ body {
 
 /* progress bars */
 .bg-success,
-.bg-warning    {  border-radius: 0!important; background: #e5cd72important }
+.bg-warning    {  border-radius: 0!important; background: #e5cd72!important }
 .bg-primary    {  border-radius: 0!important; background: #d7bf60!important }
 .bg-danger    {  border-radius: 0!important; background: #cab04e!important }
 .bg-info    {  border-radius: 0!important; background: #bca23c!important }
