@@ -171,7 +171,8 @@ h4, h5, h6 { font-size: 1.5rem }
 
 
 
-.form-control, .alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark, .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable, .custom-control-label:before
+
+.alert-info, .alert-primary, .alert-secondary, .alert-success, .alert-warning, .alert-danger, .alert-light, .alert-dark
 {
     color: inherit!important;
     border-radius: 0;
@@ -179,6 +180,16 @@ h4, h5, h6 { font-size: 1.5rem }
     border: 0px solid;
     background: #f7e8ae!important;
     border-color: var(--border)!important }
+
+
+    .form-control, .note-editor.note-airframe .note-editing-area .note-editable, .note-editor.note-frame .note-editing-area .note-editable, .custom-control-label:before
+    {
+        color: inherit!important;
+        border-radius: 0;
+        font-size: inherit;
+        border: 0px solid;
+        background: #fff!important;
+        border-color: var(--border)!important }
 
 .table th a { color: inherit!important }
 
