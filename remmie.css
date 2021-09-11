@@ -111,10 +111,10 @@ body {
 
 /* progress bars */
 .bg-success,
-.bg-warning    {  border-radius: 0!important; background: #e5cd72!important }
-.bg-primary    {  border-radius: 0!important; background: #d7bf60!important }
-.bg-danger    {  border-radius: 0!important; background: #cab04e!important }
-.bg-info    {  border-radius: 0!important; background: #bca23c!important }
+.bg-warning    {  border-radius: 0!important; background: #a1a55a!important }
+.bg-primary    {  border-radius: 0!important; background: #767f47!important }
+.bg-danger    {  border-radius: 0!important; background: #505a35!important }
+.bg-info    {  border-radius: 0!important; background: #2f3722!important }
 .progress   { border-radius: 0!important; background: none!important; border-radius: 0; height: 10px!important; margin: 0 0 5px; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border) }
 
 .form-row .card-img-top { display: none!important; }
