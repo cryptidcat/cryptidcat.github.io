@@ -3,6 +3,8 @@
       /*  hello! I'm cat, #35127 on wolvden.
           this code is *not* free-to-use.  */
 
+           #header { font-size: 115%!important }
+
 * { font-size: inherit; color: inherit; border: 0; outline: 0 } body { cursor: default }
 br, #footer, #sidebar, #header .breadcrumb-nav, .table .subheader, nav i, .form-row .card-img-top, .cat, .candles, .catcon { display: none!important }
 #main::after { content: "css by \14DA\160F\15E2 #35127"; margin-top: 1em; white-space: pre-wrap;  display: block; text-align: right; line-height: 1; }
