@@ -144,7 +144,7 @@ h1 {
     padding: 0 1rem;
     text-shadow: 0 0 15px #82888854;
 }
-
+@media(max-width:750px) { h1 { font-size: 4vw } } 
 @media(max-width:1080px) { h1 { position: relative } }
 
 .table th  /*, .pt-1.pb-1, th.top */ {
