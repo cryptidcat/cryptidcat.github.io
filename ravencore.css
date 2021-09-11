@@ -249,8 +249,8 @@ td .card {height:100%!important}
 .card-header { font-family: inherit; font-style: italic }
 .note-toolbar.card-header .btn { font-size: 12px!important; padding: .25em }
 .navbar .btn { font-size: inherit!important }
-.badge { font-size: inherit; background: var(--border); color: inherit; font-weight: 100;
-  margin-top: -1rem;
+.badge { font-size: inherit; background: var(--border); color: inherit; font-weight: 100 }
+.card-body .badge {  margin-top: -1rem;
   position: absolute;
   top: 10.5rem;
   right: .7rem; }
