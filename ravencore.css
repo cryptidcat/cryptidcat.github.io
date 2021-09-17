@@ -266,10 +266,10 @@ td.row { border-bottom: 3px double var(--border) }
 
 
 
-td>a>img, .col-xl-3 img, .mb-2 img, .featured-wolf img { filter: grayscale(1); transition: .6s; }
+td>a>img, .col-xl-3 img, .mb-2 img, .featured-wolf img { filter: grayscale(.7); transition: .6s; }
 tr:hover td>a>img { filter: grayscale(0); }
 
 .card-body { transition: .6s }
-.card-body img { filter: grayscale(1); transition: .6s; }
+.card-body img { filter: grayscale(.7); transition: .6s; }
 .card-body:hover img, .col-xl-3:hover img, .mb-2:hover img, .featured-wolf:hover img { filter: grayscale(0); }
 .card-body:hover { background: transparent!important }
