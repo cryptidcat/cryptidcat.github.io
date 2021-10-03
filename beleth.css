@@ -244,7 +244,6 @@ th.top .floatright { font-family: 'EB Garamond', serif; font-size: 50%; font-wei
 .boxrow ul, .boxrow ol { padding: 0 0 0 1.5em }
 ol:last-of-type, ul:last-of-type { margin: 0 }
 .boxrow .btn-info { padding: .5em; display: block; margin: .5em 0 0; text-align: center }
-
 .border-bottom, img.float-left.mr-2 { width: 100px }
 .bg-light, .btn-light { background: transparent!important; color: inherit; padding: .25em!important }
 .rounded-bottom, .rounded-left, .pl-3, .px-3 { padding: 0!important; display: inline-block }
@@ -268,11 +267,7 @@ a.nav-link.active { background: var(--background)!important; border-color: var(-
 .card-body { transition: .6s } .card-body:hover { background: transparent!important }
 /* td div>img, .text-right img { filter: grayscale(1); width: 13px; } */
 hr.flowers { filter: invert(1) }
-
-
 #main>.table.mt-3 tr { border-bottom: 1px solid var(--border) }
 td.row { border-bottom: 0 double var(--border) }
-
-
 
 input.form-control, input.form-control:focus, select.form-control, select.form-control:focus, textarea.form-control, textarea.form-control:focus { background: #000!important; border: 1px solid var(--border) }
