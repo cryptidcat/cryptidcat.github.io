@@ -113,8 +113,8 @@ font-family: 'EB Garamond', serif;
 .bg-warning,
 .bg-primary,
 .bg-danger,
-.bg-info    {  border-radius: 0!important; background: #42331ba6!important }
-.progress   { border-radius: 0!important; background: none!important; border-radius: 0; height: 7px!important; margin: 0 0 3px; border: 0 solid var(--border) }
+.bg-info    {  border-radius: 0!important; background: #ffffff14!important }
+.progress   { border-radius: 0!important; background: none!important; border-radius: 0; height: 7px!important; margin: 0 0 3px; border: 1px solid var(--border) }
 
 .form-row .card-img-top { display: none!important; }
 
