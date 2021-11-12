@@ -255,7 +255,7 @@ td .card {height:100%!important}
 .navbar .btn { font-size: inherit!important }
 .badge { font-size: inherit; background: var(--border); color: inherit; font-weight: 100 }
 .card-body .badge {
-  position: absolute;
+  position: absolute; display: none;
   top: 9rem;
   right: 3rem; }
 form>button { display: flex!important; align-items: center; margin: 0 auto; }
