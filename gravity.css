@@ -312,4 +312,4 @@ ul.nav { display: none }
 .pagenav a { text-align: left; font-style: italic; display: block; margin: .5rem; padding: 1rem!important; background: #33363980!important }
 .pagenav a:hover { background: transparent!important }
 
-textarea { text-transform: none }
+textarea, input { text-transform: none!important }
