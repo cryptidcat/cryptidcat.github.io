@@ -70,8 +70,8 @@ body {
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url('https://i.ibb.co/bvm1PCL/6168561369-7dc4e83ef2-o.png');
-    background-color: #e5e1e5ab;
+/*  background-image: url('https://i.ibb.co/bvm1PCL/6168561369-7dc4e83ef2-o.png'); */
+    background-color: #000;
     background-repeat: no-repeat;
     font-family: 'Lato', sans-serif; font-size: .7rem; color: #7d7679 }
 
@@ -235,3 +235,14 @@ td .card {height:100%!important}
 .card-header { font-family: var(--font) }
 .note-toolbar.card-header .btn { font-size: 12px!important; padding: .25em }
 .navbar .btn { font-size: inherit!important }
+
+
+
+.table.table-striped.border-none.mt-3.mb-0 { display: none }
+.table.table-striped td.p-0 { width: 200px }
+img.border-bottom { width: 170px }
+
+.form-row>.col, .form-row>[class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
