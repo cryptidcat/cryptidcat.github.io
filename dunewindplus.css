@@ -17,6 +17,7 @@ table.table.mt-3 tbody:nth-last-child(1):after {
     padding: 1rem;
     text-align: justify;
     border-top: 1px solid #eeea;
+  white-space: pre-wrap;
 }
 
 .mt-3 { background: none!important }
