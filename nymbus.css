@@ -34,7 +34,7 @@ td.row { margin: 0 }
 
 /* */
 body { background-position: 50% 50%; background-size: auto;
-  /* background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); */ background-color: #516892;
+  /* background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); */ background-image: none; background-color: #516892;
 background-repeat: repeat; background-attachment: fixed }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
@@ -58,7 +58,7 @@ form .table-striped td { border: 0!important  }
 body { font-size: .75rem; color: #ccc }
 .floatright a { font-size: 11px; color: inherit!important }
 
-h1 { font-family: 'Architects Daughter', serif; font-size: 5em; color: #666 }
+h1 { font-family: 'Architects Daughter', serif; font-size: 5em; color: #fff }
 .card-header { font-family: 'Architects Daughter' }
 
 a, #main a, .table th a,
@@ -89,9 +89,9 @@ td.left.b, td.b { text-transform: lowercase; font-style: italic; text-align: rig
     font-size: 20px!important;
     text-transform: lowercase;
     font-weight: bold;
-    color: #ffffff2e;
+    color: #ffffff7d;
     text-shadow: 1px 1px 3px #0000005c;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .card-header { font-size: 80%; text-transform: lowercase; }
