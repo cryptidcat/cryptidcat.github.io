@@ -33,7 +33,8 @@ td.row { margin: 0 }
 .user_current_gc:after { content: "gc" }
 
 /* */
-body { background-position: 50% 50%; background-size: auto; background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); background-color: #000;
+body { background-position: 50% 50%; background-size: auto;
+  /* background-image: url('https://images2.imgbox.com/7d/fe/Oopsv9kw_o.png'); */ background-color: #516892;
 background-repeat: repeat; background-attachment: fixed }
 #main { padding: 0; background: transparent; border: 0 }
 @media (max-width: 990px) { #header { background: transparent } }
@@ -52,7 +53,7 @@ form .table-striped td { border: 0!important  }
 #summernote-form { padding: 1em; background: #131313 }
 
 /* typo */
-* { font-family: 'open sans', sans-serif; }
+* { font-family: 'Architects Daughter', 'open sans', sans-serif; }
 #header .navbar-main .nav-link { font-size: .9rem; text-transform: lowercase }
 body { font-size: .75rem; color: #ccc }
 .floatright a { font-size: 11px; color: inherit!important }
