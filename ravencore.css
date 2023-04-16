@@ -63,9 +63,9 @@ tr tr { border-bottom: 1px solid var(--border) }
 
 /* base */
 :root {
-  --background: #1b1a1ec2;
-  --font: 'Cinzel', serif;
-  --border: #2c2b2f
+    --background: #16181ed6;
+    --font: 'Cinzel', serif;
+    --border: #202a34;
 }
 
 .container>div {
@@ -86,7 +86,7 @@ body {
     background-color: #1b1a1e;
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: .9rem; color: #707475 }
+    font-size: .9rem; color: #495258 }
 
 #header .navbar-main { background: transparent }
 #header .navbar-status {
@@ -130,7 +130,6 @@ body {
 td:nth-of-type(3)::first-letter { text-transform: uppercase!important }
 
 h1, h2, h3, h4, h5, h6 { font-family: var(--font) }
-
 h1 {
     position: absolute;
     pointer-events: none;
@@ -139,10 +138,10 @@ h1 {
     font-size: 5rem;
     line-height: .5!important;
     text-align: right;
-    color: #2f464c;
+    color: #5f4b48;
     font-family: var(--font);
     padding: 0 1rem;
-    text-shadow: 2px 3px 10px #1f4762;
+    text-shadow: 2px 2px 20px #181a21;
 }
 @media(max-width:750px) { h1 { font-size: 8vw } }
 @media(max-width:1080px) { h1 { position: relative } }
@@ -166,7 +165,7 @@ h2 {
     padding: 0;
     font-size: 2rem;
     line-height: 1.2;
-    color: #353239;
+    color: #433532;
     text-transform: lowercase;
     font-family: var(--font);
     font-weight: bold;
@@ -202,7 +201,7 @@ th.top .floatright { font-family: 'Josefin sans'; font-size: 50%; font-weight: b
 
 #main a, .btn-link, .alert-info .alert-link, .alert-primary .alert-link, .alert-secondary .alert-link, .alert-success .alert-link,
 .alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
-{ background: transparent;  color: #404c40; text-decoration: none; transition: .6s; border: 0; padding: 0 }
+{ background: transparent;  color: #5f5c71; text-decoration: none; transition: .6s; border: 0; padding: 0 }
 #main a:hover, .btn-link:hover, .table th a:hover
 { background: transparent; color: #fff!important; border-color: transparent; text-decoration: none }
 
@@ -222,7 +221,7 @@ th.top .floatright { font-family: 'Josefin sans'; font-size: 50%; font-weight: b
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle
-{ transition: .6s; background: transparent; color: #404c40; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
+{ transition: .6s; background: transparent; color: #5f5c71; text-transform: lowercase; box-shadow: none!important; border: 0; border-radius: 0 }
 
 .btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
 .btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
