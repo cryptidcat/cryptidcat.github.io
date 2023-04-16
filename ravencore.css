@@ -92,7 +92,7 @@ body {
 #header .navbar-status {
     color: inherit;
     border-radius: 0 0 0 0;
-    background-color: #151417db;
+    background-color: #19212aad;
     border-top: 0 solid var(--border);
     border-right: 0 solid var(--border);
     border-left: 0 solid var(--border);
@@ -139,10 +139,10 @@ h1 {
     font-size: 5rem;
     line-height: .5!important;
     text-align: right;
-    color: #707475;
+    color: #2f464c;
     font-family: var(--font);
     padding: 0 1rem;
-    text-shadow: 0 0 15px #82888854;
+    text-shadow: 2px 3px 10px #1f4762;
 }
 @media(max-width:750px) { h1 { font-size: 8vw } }
 @media(max-width:1080px) { h1 { position: relative } }
