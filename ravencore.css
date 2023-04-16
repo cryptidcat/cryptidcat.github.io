@@ -203,7 +203,7 @@ th.top .floatright { font-family: 'Josefin sans'; font-size: 50%; font-weight: b
 .alert-warning .alert-link, .alert-danger .alert-link, .alert-light .alert-link, .alert-dark .alert-link
 { background: transparent;  color: #5f5c71; text-decoration: none; transition: .6s; border: 0; padding: 0 }
 #main a:hover, .btn-link:hover, .table th a:hover
-{ background: transparent; color: #fff!important; border-color: transparent; text-decoration: none }
+{ background: transparent; color: #c2a8a8!important; border-color: transparent; text-decoration: none }
 
 .form-row a, .card.mb-3 a, .featured-wolf a { background: none!important }
 .featured-wolf br { display: none!important }
@@ -211,12 +211,12 @@ th.top .floatright { font-family: 'Josefin sans'; font-size: 50%; font-weight: b
 .breadcrumb-item a, #header .navbar-main .nav-link
 { color: #fff5!important; transition: .6s; text-decoration: none }
 .breadcrumb-item a:hover, #header .navbar-main .nav-link:hover
-{ color: #fff!important; background: none }
+{ color: #c2a8a8!important; background: none }
 
 #header .navbar-status a
 { color: #fff5!important; transition: .6s; text-decoration: none; background: none; text-transform: lowercase }
 #header .navbar-status a:hover
-{ color: #fff!important }
+{ color: #c2a8a8!important }
 
 .btn-info, .btn-primary, .btn-secondary, .btn-success, .btn-warning, .btn-danger, .btn-light, .btn-dark,
 .card-body.text-center.font-weight-bold.p-2,
@@ -226,7 +226,7 @@ th.top .floatright { font-family: 'Josefin sans'; font-size: 50%; font-weight: b
 .btn-info:active, .btn-primary:active, .btn-secondary:active, .btn-success:active, .btn-warning:active, .btn-danger:active, .btn-light:active, .btn-dark:active,
 .btn-info:hover, .btn-primary:hover, .btn-secondary:hover, .btn-success:hover, .btn-warning:hover, .btn-danger:hover, .btn-light:hover, .btn-dark:hover,
 .card-body.text-center.font-weight-bold.p-2:hover, button:active, button:hover
-{ background: transparent; color: #fff!important; border-color: inherit; outline: 0!important; box-shadow: none!important }
+{ background: transparent; color: #c2a8a8!important; border-color: inherit; outline: 0!important; box-shadow: none!important }
 
 /* fixes */
 .form-row .col-12.col-md-6.mb-2 br { display: block }
