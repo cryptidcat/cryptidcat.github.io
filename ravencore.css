@@ -63,7 +63,7 @@ tr tr { border-bottom: 1px solid var(--border) }
 
 /* base */
 :root {
-  --background: #1b1a1ec2;
+  --background: #1b1a1ec2;https://i.imgur.com/dJQcSYH.jpeg
   --font: 'Cinzel', serif;
   --border: #2c2b2f
 }
@@ -82,7 +82,7 @@ body {
     background-position: 50% 50%;
     background-size: cover;
     background-attachment: fixed;
-    background-image: url('https://i.imgur.com/N9ru2o7.jpg');
+    background-image: url('https://i.imgur.com/dJQcSYH.jpeg');
     background-color: #1b1a1e;
     background-repeat: no-repeat;
     font-family: 'Josefin Sans', sans-serif;
